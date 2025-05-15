@@ -11,7 +11,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "IMAT Prep - Medical College Entrance Exam Preparation",
-  description: "Practice with mock IMAT exams to prepare for your medical college entrance test in Italy",
+  description:
+    "Practice with mock IMAT exams to prepare for your medical college entrance test in Italy",
+  colorScheme: "light",
 };
 
 export default function RootLayout({
@@ -21,6 +23,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="color-scheme" content="light" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+        />
+      </head>
       <body className={inter.className}>
         <ClerkProvider
           appearance={clerkAppearance}
