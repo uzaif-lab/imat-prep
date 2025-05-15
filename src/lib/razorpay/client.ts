@@ -1,18 +1,27 @@
 import Razorpay from 'razorpay';
 
-const keyId = process.env.RAZORPAY_KEY_ID || 'rzp_test_xYoPxFSDH3Wd5w';
-const keySecret = process.env.RAZORPAY_KEY_SECRET || 'cZuJbtf3KHbevCH0mWyEO6XX';
+const keyId = process.env.RAZORPAY_KEY_ID;
+const keySecret = process.env.RAZORPAY_KEY_SECRET;
+
+// Verify environment variables are set
+if (!keyId || !keySecret) {
+  console.error('Missing Razorpay environment variables. Please check your .env file.');
+}
 
 // Initialize Razorpay client
 const razorpay = new Razorpay({
-  key_id: keyId,
-  key_secret: keySecret,
+  key_id: keyId || '',
+  key_secret: keySecret || '',
 });
 
 export const RAZORPAY_KEY_ID = keyId;
 
 export async function createOrder(amount: number, receipt: string, currency = 'EUR') {
   try {
+    if (!keyId || !keySecret) {
+      return { success: false, error: 'Razorpay credentials are not configured properly.' };
+    }
+    
     // Amount should be in the smallest currency unit (paise for INR, cents for EUR)
     // 49 EUR = 4900 cents, 4499 INR = 449900 paise
     const amountInSmallestUnit = Math.round(amount * 100); // Both INR and EUR use 100 as the smallest unit conversion
@@ -39,6 +48,10 @@ export async function createOrder(amount: number, receipt: string, currency = 'E
 
 export async function verifyPayment(orderId: string, paymentId: string, signature: string) {
   try {
+    if (!keySecret) {
+      return { success: false, error: 'Razorpay secret key is not configured properly.' };
+    }
+    
     // Create the payload string that should have been signed
     const payload = `${orderId}|${paymentId}`;
     
