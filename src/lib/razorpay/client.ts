@@ -1,12 +1,13 @@
 import Razorpay from 'razorpay';
 import crypto from 'crypto';
 
-const keyId = process.env.RAZORPAY_KEY_ID;
+// Use environment variables
+const keyId = process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID;
 const keySecret = process.env.RAZORPAY_KEY_SECRET;
 
-// Verify environment variables are set
+// Validate environment variables
 if (!keyId || !keySecret) {
-  console.error('Missing Razorpay environment variables. Please check your .env file.');
+  console.warn('Missing Razorpay environment variables. Make sure they are set in your Vercel environment.');
 }
 
 // Initialize Razorpay client
@@ -15,12 +16,14 @@ const razorpay = new Razorpay({
   key_secret: keySecret || '',
 });
 
-export const RAZORPAY_KEY_ID = keyId;
+// Make key ID available for client-side code
+// Add fallback to empty string to avoid undefined errors
+export const RAZORPAY_KEY_ID = keyId || '';
 
 export async function createOrder(amount: number, receipt: string, currency = 'EUR') {
   try {
     if (!keyId || !keySecret) {
-      return { success: false, error: 'Razorpay credentials are not configured properly.' };
+      return { success: false, error: 'Razorpay credentials are not configured properly. Please check your environment variables.' };
     }
     
     // Amount should be in the smallest currency unit (paise for INR, cents for EUR)
@@ -50,7 +53,7 @@ export async function createOrder(amount: number, receipt: string, currency = 'E
 export async function verifyPayment(orderId: string, paymentId: string, signature: string) {
   try {
     if (!keySecret) {
-      return { success: false, error: 'Razorpay secret key is not configured properly.' };
+      return { success: false, error: 'Razorpay secret key is not configured properly. Please check your environment variables.' };
     }
     
     // Create the payload string that should have been signed

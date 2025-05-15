@@ -115,6 +115,13 @@ export default function PremiumPage() {
         );
       }
 
+      // Check if Razorpay key is configured
+      if (!RAZORPAY_KEY_ID) {
+        throw new Error(
+          "Razorpay key is not configured. Please check environment variables."
+        );
+      }
+
       setDebugInfo((prev) => prev + "\nCreating order...");
 
       // 1. Create order on the server
