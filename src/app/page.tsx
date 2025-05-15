@@ -1,103 +1,141 @@
-import Image from "next/image";
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <main className="flex min-h-screen flex-col items-center justify-center">
+      <div className="relative w-full h-screen">
+        {/* Hero section with background */}
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-indigo-600 opacity-90" />
+        
+        <div className="absolute inset-0 flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight mb-6">
+            Prepare for IMAT with Confidence
+          </h1>
+          <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl">
+            Practice with mock tests based on real IMAT exams. No account needed - start right away!
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Link 
+              href="/mock-tests" 
+              className="px-8 py-3 text-base font-medium text-blue-700 bg-white hover:bg-gray-100 rounded-md shadow-md"
+            >
+              Start Mock Tests Now
+            </Link>
+          </div>
         </div>
+      </div>
+
+      {/* Features section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white w-full">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Features designed for IMAT success</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Realistic Mock Tests</h3>
+              <p className="text-gray-600">Practice with tests that follow the exact IMAT format with appropriate question distribution.</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Track Your Progress</h3>
+              <p className="text-gray-600">Monitor your improvement over time with detailed analytics, performance metrics, and personalized insights.</p>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">New Tests Every Week</h3>
+              <p className="text-gray-600">Fresh content added every Saturday to help you practice with diverse questions and stay ahead of the competition.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* IMAT Overview section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50 w-full">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Understanding the IMAT Exam</h2>
+          
+          <div className="bg-white p-6 rounded-lg shadow-md mb-8">
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">Exam Structure</h3>
+            <p className="text-gray-600 mb-4">
+              The IMAT comprises 60 multiple-choice questions to be completed within 100 minutes. Each question offers five options, with only one correct answer.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+              <div>
+                <h4 className="font-medium text-gray-900 mb-2">Question Distribution:</h4>
+                <ul className="list-disc pl-5 text-gray-600 space-y-1">
+                  <li>Reading Skills and Knowledge: 4 questions</li>
+                  <li>Logical Reasoning and Problem-Solving: 5 questions</li>
+                  <li>Biology: 23 questions</li>
+                  <li>Chemistry: 15 questions</li>
+                  <li>Physics and Mathematics: 13 questions</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-medium text-gray-900 mb-2">Scoring System:</h4>
+                <ul className="list-disc pl-5 text-gray-600 space-y-1">
+                  <li>Correct answer: +1.5 points</li>
+                  <li>Incorrect answer: -0.4 points</li>
+                  <li>Unanswered question: 0 points</li>
+                  <li>Maximum possible score: 90 points</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div className="bg-white p-6 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">Why Our Mock Tests Stand Out</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <h4 className="font-medium text-gray-900 mb-2">Expertly Crafted Questions</h4>
+                <p className="text-gray-600">Every question is carefully developed by professionals with expertise in IMAT exam patterns. Our content is unique - you won't find repeated or recycled questions from other platforms.</p>
+              </div>
+              <div>
+                <h4 className="font-medium text-gray-900 mb-2">Specialized Focus</h4>
+                <p className="text-gray-600">Unlike general platforms, we focus exclusively on IMAT preparation. Our specialized approach ensures you're practicing with the most relevant and accurate mock tests available.</p>
+              </div>
+              <div>
+                <h4 className="font-medium text-gray-900 mb-2">Quality Over Quantity</h4>
+                <p className="text-gray-600">Each question undergoes rigorous review to ensure accuracy, relevance, and appropriate difficulty. We prioritize high-quality content that truly prepares you for the actual exam.</p>
+              </div>
+              <div>
+                <h4 className="font-medium text-gray-900 mb-2">Real Exam Simulation</h4>
+                <p className="text-gray-600">Our tests mimic the exact format, timing, and pressure of the real IMAT examination, giving you the most authentic practice experience possible.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-blue-600 w-full">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-white mb-6">Ready to practice for your IMAT exam?</h2>
+          <p className="text-xl text-blue-100 mb-8">
+            Start taking mock tests immediately - no registration required!
+          </p>
+          <Link 
+            href="/mock-tests" 
+            className="inline-block px-8 py-3 text-base font-medium text-blue-600 bg-white hover:bg-gray-100 rounded-md shadow-md"
+          >
+            Start Mock Tests Now
+          </Link>
+        </div>
+      </section>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
   );
 }

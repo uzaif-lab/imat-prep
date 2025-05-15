@@ -1,0 +1,84 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+// User model
+model User {
+  id            String    @id @default(auto()) @map("_id") @db.ObjectId
+  name          String?
+  email         String    @unique
+  password      String
+  image         String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  testAttempts  TestAttempt[]
+}
+
+// Question model
+model Question {
+  id             String    @id @default(auto()) @map("_id") @db.ObjectId
+  category       String    // biology, chemistry, physics_math, logical_reasoning, reading
+  text           String
+  optionA        String
+  optionB        String
+  optionC        String
+  optionD        String
+  optionE        String
+  correctOption  String
+  explanation    String?
+  difficulty     Int       // 1-5
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+  responses      Response[]
+}
+
+// Mock Test model
+model MockTest {
+  id            String    @id @default(auto()) @map("_id") @db.ObjectId
+  title         String
+  description   String?
+  testAttempts  TestAttempt[]
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+
+// Test Attempt model
+model TestAttempt {
+  id            String    @id @default(auto()) @map("_id") @db.ObjectId
+  userId        String    @db.ObjectId
+  user          User      @relation(fields: [userId], references: [id])
+  mockTestId    String    @db.ObjectId
+  mockTest      MockTest  @relation(fields: [mockTestId], references: [id])
+  startTime     DateTime  @default(now())
+  endTime       DateTime?
+  totalScore    Float?
+  completed     Boolean   @default(false)
+  responses     Response[]
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+
+// Response model
+model Response {
+  id            String    @id @default(auto()) @map("_id") @db.ObjectId
+  testAttemptId String    @db.ObjectId
+  testAttempt   TestAttempt @relation(fields: [testAttemptId], references: [id])
+  questionId    String    @db.ObjectId
+  question      Question  @relation(fields: [questionId], references: [id])
+  selectedOption String?
+  isCorrect     Boolean?
+  pointsEarned  Float?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
