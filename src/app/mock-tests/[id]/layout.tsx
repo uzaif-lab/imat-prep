@@ -1,15 +1,19 @@
 "use client";
 
 import React from "react";
-import SubscriptionGuard from "@/components/SubscriptionGuard";
+import { TestGuardClient } from "@/components/TestGuardClient";
 
-// Next.js 15 layout component with correct typing
+// Using a proper Next.js 15 layout
 export default function TestLayout({
   children,
   params,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-  params: Readonly<{ id: string }>;
-}>) {
-  return <SubscriptionGuard testId={params.id}>{children}</SubscriptionGuard>;
+  params: { id: string };
+}) {
+  return (
+    <div>
+      <TestGuardClient testId={params.id}>{children}</TestGuardClient>
+    </div>
+  );
 }

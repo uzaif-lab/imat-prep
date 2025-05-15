@@ -31,7 +31,7 @@ const COUNTRY_OPTIONS = [
 ];
 
 export default function PremiumPage() {
-  const { userId, isSignedIn, isLoaded } = useAuth();
+  const { isSignedIn, isLoaded } = useAuth();
   const { hasSubscription, isLoading: isLoadingSubscription } =
     useSubscription();
   const router = useRouter();
