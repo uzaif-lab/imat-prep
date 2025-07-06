@@ -29,7 +29,7 @@ A preparation platform for the International Medical Admissions Test (IMAT), des
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/yourusername/imat-prep.git
+   git clone https://github.com/uzaif-lab/imat-prep.git
    cd imat-prep
    ```
 
