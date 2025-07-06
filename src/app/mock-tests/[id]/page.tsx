@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { jsPDF } from "jspdf";
 import autoTable from "jspdf-autotable";
+import { additionalMockTests } from "../additional-tests";
 
 // Mock test data with actual questions
 const mockTests = {
@@ -4530,7 +4531,7 @@ const mockTests = {
       // Reading Comprehension (10 questions)
       {
         id: "q1_7",
-        text: `Read the following passage and answer the question below:\n\nThe human genome project was a collaborative research effort aimed at sequencing and mapping all human genes, collectively known as the genome. The project began in 1990 and was initially headed by James Watson. The project was completed in 2003, two years ahead of schedule, and identified approximately 20,500 human genes. The project\'s significance extends beyond gene mapping, having enabled the development of new medical applications, including more accurate diagnostic tests, improved understanding of disease mechanisms, and even targeted therapies based on individual genetic profiles.\n\nAccording to the passage, which of the following statements is correct?`,
+        text: `Read the following passage and answer the question below:\n\nThe human genome project was a collaborative research effort aimed at sequencing and mapping all human genes, collectively known as the genome. The project began in 1990 and was initially headed by James Watson. The project was completed in 2003, two years ahead of schedule, and identified approximately 20,500 human genes. The project's significance extends beyond gene mapping, having enabled the development of new medical applications, including more accurate diagnostic tests, improved understanding of disease mechanisms, and even targeted therapies based on individual genetic profiles.\n\nAccording to the passage, which of the following statements is correct?`,
         category: "reading",
         options: [
           {
@@ -4947,8 +4948,9 @@ export default function MockTest() {
 
   // Load test data
   useEffect(() => {
-    if (testId && mockTests[testId]) {
-      const testData = mockTests[testId];
+    const combinedTest = mockTests[testId] ?? additionalMockTests[testId];
+    if (testId && combinedTest) {
+      const testData = combinedTest;
       const validationError = validateTest(testData);
 
       if (validationError) {
