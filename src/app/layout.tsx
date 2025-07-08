@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import { Analytics } from "@vercel/analytics/next";
+import { ClerkProvider } from "@clerk/nextjs";
 import { clerkAppearance } from "./clerk";
 
 const inter = Inter({
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   title: "IMAT Prep - Medical College Entrance Exam Preparation",
   description:
     "Practice with mock IMAT exams to prepare for your medical college entrance test in Italy",
-  colorScheme: "light",
+  // viewport handles color scheme now
 };
 
 export default function RootLayout({
