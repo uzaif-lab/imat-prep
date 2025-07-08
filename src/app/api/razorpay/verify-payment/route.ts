@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { verifyPayment } from '@/lib/razorpay/client';
-import { updatePaymentRecord, updateUserSubscription } from '@/lib/supabase/client';
 import { getAuth } from '@clerk/nextjs/server';
 
 export async function POST(req: NextRequest) {
@@ -35,8 +34,7 @@ export async function POST(req: NextRequest) {
     if (!success) {
       console.error('Payment verification failed:', error);
       
-      // Update payment record to failed status
-      await updatePaymentRecord(orderId, paymentId, 'failed');
+      // Previously updated payment record; now skipped.
       
       return NextResponse.json(
         { success: false, message: 'Payment verification failed' },
@@ -44,11 +42,7 @@ export async function POST(req: NextRequest) {
       );
     }
     
-    // Update payment record to success
-    await updatePaymentRecord(orderId, paymentId, 'paid');
-    
-    // Update user subscription status to premium
-    await updateUserSubscription(userId, 'premium');
+    // Payment verified. No database updates required.
     
     // Return success response
     return NextResponse.json({

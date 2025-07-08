@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createOrder } from '@/lib/razorpay/client';
-import { createPaymentRecord } from '@/lib/supabase/client';
 import { getAuth } from '@clerk/nextjs/server';
 
 export async function POST(req: NextRequest) {
@@ -41,9 +40,6 @@ export async function POST(req: NextRequest) {
         { status: 500 }
       );
     }
-    
-    // Record the payment in Supabase
-    await createPaymentRecord(userId, order.id, amount, currency);
     
     // Return the order details needed for client-side payment
     return NextResponse.json({
