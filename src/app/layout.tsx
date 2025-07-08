@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
-import { ClerkProvider } from "@clerk/nextjs";
+import { Analytics } from "@vercel/analytics/next";
 import { clerkAppearance } from "./clerk";
 
 const inter = Inter({
@@ -42,6 +42,7 @@ export default function RootLayout({
         >
           <Navbar />
           {children}
+          <Analytics />
           <footer className="w-full py-4 text-center text-sm text-gray-500 border-t border-gray-200 mt-10">
             Developer – Mohd Uzaif Khan ({" "}
             <a href="mailto:uzaifkhan7867@gmail.com" className="underline">
