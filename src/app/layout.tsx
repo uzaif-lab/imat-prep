@@ -42,6 +42,13 @@ export default function RootLayout({
         >
           <Navbar />
           {children}
+          <footer className="w-full py-4 text-center text-sm text-gray-500 border-t border-gray-200 mt-10">
+            Developer – Mohd Uzaif Khan ({" "}
+            <a href="mailto:uzaifkhan7867@gmail.com" className="underline">
+              uzaifkhan7867@gmail.com
+            </a>{" "}
+            )
+          </footer>
         </ClerkProvider>
       </body>
     </html>
