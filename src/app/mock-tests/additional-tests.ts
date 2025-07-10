@@ -370,39 +370,615 @@ export const additionalMockTests = {
         ],
         correctOption: "C"
       },
-      // ... biology questions up to q32_9 ...
-
-      // Chemistry (15)
+      // -----------------------------
+      // Biology (continued)
+      // -----------------------------
       {
-        id: "q33_9",
-        category: "chemistry",
-        text: "Which gas is produced at the anode during the electrolysis of molten sodium chloride?",
+        id: "q13_9",
+        category: "biology",
+        text: "Which component of the plasma membrane is most directly responsible for regulating its fluidity at physiological temperature?",
         options: [
-          { id: "A", text: "Chlorine" },
-          { id: "B", text: "Hydrogen" },
-          { id: "C", text: "Oxygen" },
-          { id: "D", text: "Sodium vapour" },
-          { id: "E", text: "Ozone" }
+          { id: "A", text: "Cholesterol" },
+          { id: "B", text: "Glycoproteins" },
+          { id: "C", text: "Saturated phospholipid tails" },
+          { id: "D", text: "Integral membrane proteins" },
+          { id: "E", text: "Peripheral membrane proteins" }
         ],
         correctOption: "A"
       },
-      // ... chemistry questions up to q47_9 ...
-
-      // Physics & Math (13)
       {
-        id: "q48_9",
-        category: "physics_math",
-        text: "Light of wavelength 500 nm is incident on a double-slit producing first-order maxima at 3.0 mm on a screen 1.2 m away. What is the slit separation?",
+        id: "q14_9",
+        category: "biology",
+        text: "During eukaryotic translation, which ribosomal site first receives the incoming aminoacyl-tRNA after initiation is complete?",
         options: [
-          { id: "A", text: "0.10 mm" },
-          { id: "B", text: "0.20 mm" },
-          { id: "C", text: "0.25 mm" },
-          { id: "D", text: "0.30 mm" },
-          { id: "E", text: "0.50 mm" }
+          { id: "A", text: "P-site" },
+          { id: "B", text: "A-site" },
+          { id: "C", text: "E-site" },
+          { id: "D", text: "Exit tunnel" },
+          { id: "E", text: "Shine–Dalgarno site" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q15_9",
+        category: "biology",
+        text: "Maximal activity of cyclin-dependent kinase 1 (CDK1) bound to cyclin B occurs during which phase of the cell cycle?",
+        options: [
+          { id: "A", text: "G1" },
+          { id: "B", text: "S" },
+          { id: "C", text: "G2" },
+          { id: "D", text: "M" },
+          { id: "E", text: "G0" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q16_9",
+        category: "biology",
+        text: "Which plant hormone is primarily responsible for phototropism by promoting cell elongation on the shaded side of shoots?",
+        options: [
+          { id: "A", text: "Cytokinin" },
+          { id: "B", text: "Abscisic acid" },
+          { id: "C", text: "Auxin" },
+          { id: "D", text: "Gibberellin" },
+          { id: "E", text: "Ethylene" }
         ],
         correctOption: "C"
       },
-      // ... physics & math questions up to q60_9 ...
+      {
+        id: "q17_9",
+        category: "biology",
+        text: "For a trait showing incomplete dominance, the F1 generation consists of heterozygotes. What phenotypic ratio is expected among F2 offspring from two heterozygous parents?",
+        options: [
+          { id: "A", text: "1 : 1" },
+          { id: "B", text: "1 : 2 : 1" },
+          { id: "C", text: "3 : 1" },
+          { id: "D", text: "2 : 1" },
+          { id: "E", text: "9 : 3 : 3 : 1" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q18_9",
+        category: "biology",
+        text: "Which of the following events occurs during prophase I of meiosis but not during mitosis?",
+        options: [
+          { id: "A", text: "Breakdown of the nuclear envelope" },
+          { id: "B", text: "Condensation of chromatin" },
+          { id: "C", text: "Crossing-over between homologous chromosomes" },
+          { id: "D", text: "Formation of the spindle apparatus" },
+          { id: "E", text: "Alignment of chromosomes at the equator" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q19_9",
+        category: "biology",
+        text: "Human mitochondrial DNA is best described as a __________.",
+        options: [
+          { id: "A", text: "single linear double-stranded molecule of about 165 kb" },
+          { id: "B", text: "circular double-stranded molecule of about 16.5 kb" },
+          { id: "C", text: "circular single-stranded molecule of about 1.6 kb" },
+          { id: "D", text: "series of plasmids totalling 155 kb" },
+          { id: "E", text: "linear single-stranded molecule replicated only in sperm" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q20_9",
+        category: "biology",
+        text: "Which immunoglobulin class is produced first during the primary immune response?",
+        options: [
+          { id: "A", text: "IgA" },
+          { id: "B", text: "IgE" },
+          { id: "C", text: "IgG" },
+          { id: "D", text: "IgM" },
+          { id: "E", text: "IgD" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q21_9",
+        category: "biology",
+        text: "Which organelle contains oxidase and catalase enzymes and is involved in β-oxidation of very-long-chain fatty acids?",
+        options: [
+          { id: "A", text: "Lysosome" },
+          { id: "B", text: "Peroxisome" },
+          { id: "C", text: "Rough endoplasmic reticulum" },
+          { id: "D", text: "Golgi apparatus" },
+          { id: "E", text: "Proteasome" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q22_9",
+        category: "biology",
+        text: "Parasympathetic secretomotor fibres to the lacrimal gland travel with which cranial nerve?",
+        options: [
+          { id: "A", text: "Oculomotor (III)" },
+          { id: "B", text: "Trochlear (IV)" },
+          { id: "C", text: "Trigeminal (V)" },
+          { id: "D", text: "Facial (VII)" },
+          { id: "E", text: "Glossopharyngeal (IX)" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q23_9",
+        category: "biology",
+        text: "When the membrane potential of a neuron changes from −70 mV to −80 mV, the cell is said to be _______.",
+        options: [
+          { id: "A", text: "depolarised" },
+          { id: "B", text: "hyperpolarised" },
+          { id: "C", text: "in absolute refractory period" },
+          { id: "D", text: "at threshold" },
+          { id: "E", text: "undergoing an action potential" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q24_9",
+        category: "biology",
+        text: "The Bohr effect refers to the observation that:",
+        options: [
+          { id: "A", text: "lower pH decreases haemoglobin’s affinity for oxygen" },
+          { id: "B", text: "2,3-BPG increases haemoglobin’s affinity for oxygen" },
+          { id: "C", text: "carbon monoxide binds reversibly to haemoglobin" },
+          { id: "D", text: "oxidation of Fe2+ to Fe3+ forms methaemoglobin" },
+          { id: "E", text: "myoglobin displays cooperative oxygen binding" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q25_9",
+        category: "biology",
+        text: "Which structure in the nephron is the primary site of blood plasma filtration?",
+        options: [
+          { id: "A", text: "Bowman’s capsule" },
+          { id: "B", text: "Proximal convoluted tubule" },
+          { id: "C", text: "Loop of Henle" },
+          { id: "D", text: "Distal convoluted tubule" },
+          { id: "E", text: "Collecting duct" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q26_9",
+        category: "biology",
+        text: "Which neurotransmitter is released by pre-ganglionic sympathetic neurons?",
+        options: [
+          { id: "A", text: "Acetylcholine" },
+          { id: "B", text: "Noradrenaline" },
+          { id: "C", text: "Dopamine" },
+          { id: "D", text: "Adrenaline" },
+          { id: "E", text: "Serotonin" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q27_9",
+        category: "biology",
+        text: "Which type of RNA carries individual amino acids to the ribosome during protein synthesis?",
+        options: [
+          { id: "A", text: "rRNA" },
+          { id: "B", text: "mRNA" },
+          { id: "C", text: "tRNA" },
+          { id: "D", text: "snRNA" },
+          { id: "E", text: "miRNA" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q28_9",
+        category: "biology",
+        text: "Which enzyme catalyses the formation of the peptide bond between adjacent amino acids during translation?",
+        options: [
+          { id: "A", text: "RNA polymerase" },
+          { id: "B", text: "Peptidyl transferase" },
+          { id: "C", text: "DNA ligase" },
+          { id: "D", text: "Aminoacyl-tRNA synthetase" },
+          { id: "E", text: "Reverse transcriptase" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q29_9",
+        category: "biology",
+        text: "Which cell junction provides strong mechanical attachment between adjacent epithelial cells by linking their intermediate filaments?",
+        options: [
+          { id: "A", text: "Tight junction" },
+          { id: "B", text: "Gap junction" },
+          { id: "C", text: "Desmosome" },
+          { id: "D", text: "Hemidesmosome" },
+          { id: "E", text: "Adherens junction" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q30_9",
+        category: "biology",
+        text: "A semipermeable membrane separates 0.10 M sucrose from 0.10 M NaCl. Assuming ideal behaviour, to which side will water flow initially?",
+        options: [
+          { id: "A", text: "Into the sucrose solution" },
+          { id: "B", text: "Into the NaCl solution" },
+          { id: "C", text: "No net movement" },
+          { id: "D", text: "Flows equally both ways" },
+          { id: "E", text: "Cannot be predicted" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q31_9",
+        category: "biology",
+        text: "In the Hardy–Weinberg equation p² + 2pq + q² = 1, the term 2pq represents the frequency of _______.",
+        options: [
+          { id: "A", text: "homozygous dominant individuals" },
+          { id: "B", text: "heterozygous individuals" },
+          { id: "C", text: "homozygous recessive individuals" },
+          { id: "D", text: "mutated alleles" },
+          { id: "E", text: "total alleles in the population" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q32_9",
+        category: "biology",
+        text: "Which of the following pairs of hormones have opposite effects on blood glucose concentration?",
+        options: [
+          { id: "A", text: "Insulin and glucagon" },
+          { id: "B", text: "Cortisol and adrenaline" },
+          { id: "C", text: "Thyroxine and calcitonin" },
+          { id: "D", text: "Aldosterone and atrial natriuretic peptide" },
+          { id: "E", text: "Growth hormone and somatomedin" }
+        ],
+        correctOption: "A"
+      },
+
+      // -----------------------------
+      // Chemistry (14 remaining questions)
+      // -----------------------------
+      {
+        id: "q34_9",
+        category: "chemistry",
+        text: "As the periodic table progresses from xenon (Z = 54) to caesium (Z = 55), which subshell begins to fill?",
+        options: [
+          { id: "A", text: "5d" },
+          { id: "B", text: "5f" },
+          { id: "C", text: "6s" },
+          { id: "D", text: "6p" },
+          { id: "E", text: "6d" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q35_9",
+        category: "chemistry",
+        text: "How many grams of NaOH are required to exactly neutralise 25.0 mL of 0.100 M H₂SO₄?",
+        options: [
+          { id: "A", text: "0.10 g" },
+          { id: "B", text: "0.20 g" },
+          { id: "C", text: "0.40 g" },
+          { id: "D", text: "0.80 g" },
+          { id: "E", text: "2.00 g" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q36_9",
+        category: "chemistry",
+        text: "A gas occupies 4.0 L at 27 °C and 1 atm. What volume will it occupy at 127 °C and the same pressure (assume ideal behaviour)?",
+        options: [
+          { id: "A", text: "3.0 L" },
+          { id: "B", text: "4.0 L" },
+          { id: "C", text: "5.3 L" },
+          { id: "D", text: "6.0 L" },
+          { id: "E", text: "7.3 L" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q37_9",
+        category: "chemistry",
+        text: "The central carbon atoms in ethyne (C₂H₂) are _______ hybridised.",
+        options: [
+          { id: "A", text: "sp" },
+          { id: "B", text: "sp²" },
+          { id: "C", text: "sp³" },
+          { id: "D", text: "sp³d" },
+          { id: "E", text: "sp³d²" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q38_9",
+        category: "chemistry",
+        text: "Which of the following diatomic molecules is paramagnetic?",
+        options: [
+          { id: "A", text: "N₂" },
+          { id: "B", text: "O₂" },
+          { id: "C", text: "CO" },
+          { id: "D", text: "F₂" },
+          { id: "E", text: "Cl₂" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q39_9",
+        category: "chemistry",
+        text: "Which statement correctly describes the effect of a catalyst on a chemical reaction?",
+        options: [
+          { id: "A", text: "It increases the activation energy." },
+          { id: "B", text: "It decreases the activation energy and increases the reaction rate." },
+          { id: "C", text: "It alters the equilibrium constant." },
+          { id: "D", text: "It is permanently consumed in the reaction." },
+          { id: "E", text: "It changes the Gibbs free energy of products." }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q40_9",
+        category: "chemistry",
+        text: "What is the pH of a 0.010 M solution of hydrochloric acid?",
+        options: [
+          { id: "A", text: "1" },
+          { id: "B", text: "2" },
+          { id: "C", text: "4" },
+          { id: "D", text: "7" },
+          { id: "E", text: "12" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q41_9",
+        category: "chemistry",
+        text: "Given ΔH°f values (kJ mol⁻¹): CO₂(g) = −393.5, H₂O(l) = −285.8, C₂H₅OH(l) = −277.0, calculate the standard enthalpy change for the combustion of ethanol: C₂H₅OH(l) + 3 O₂(g) → 2 CO₂(g) + 3 H₂O(l).",
+        options: [
+          { id: "A", text: "−1644 kJ" },
+          { id: "B", text: "−1367 kJ" },
+          { id: "C", text: "−890 kJ" },
+          { id: "D", text: "−277 kJ" },
+          { id: "E", text: "+1367 kJ" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q42_9",
+        category: "chemistry",
+        text: "Which functional group cannot act as a hydrogen-bond donor?",
+        options: [
+          { id: "A", text: "Alcohol" },
+          { id: "B", text: "Amide" },
+          { id: "C", text: "Carboxylic acid" },
+          { id: "D", text: "Tertiary amine" },
+          { id: "E", text: "Primary amine" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q43_9",
+        category: "chemistry",
+        text: "A solution turns methyl orange yellow and bromothymol blue blue. Which pH value is most consistent with these observations?",
+        options: [
+          { id: "A", text: "3.5" },
+          { id: "B", text: "5.0" },
+          { id: "C", text: "6.5" },
+          { id: "D", text: "7.0" },
+          { id: "E", text: "8.0" }
+        ],
+        correctOption: "E"
+      },
+      {
+        id: "q44_9",
+        category: "chemistry",
+        text: "Which pair of compounds are structural (constitutional) isomers?",
+        options: [
+          { id: "A", text: "n-Butane and isobutane" },
+          { id: "B", text: "cis-2-Butene and trans-2-butene" },
+          { id: "C", text: "Glucose and fructose" },
+          { id: "D", text: "Benzene and cyclohexane" },
+          { id: "E", text: "Chloroethane and bromoethane" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q45_9",
+        category: "chemistry",
+        text: "Which oxide exhibits amphoteric behaviour, reacting with both acids and bases?",
+        options: [
+          { id: "A", text: "SO₃" },
+          { id: "B", text: "CO₂" },
+          { id: "C", text: "ZnO" },
+          { id: "D", text: "Na₂O" },
+          { id: "E", text: "SiO₂" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q46_9",
+        category: "chemistry",
+        text: "For a reaction with Kc = 2.5 × 10⁻³ at 298 K, which statement is correct?",
+        options: [
+          { id: "A", text: "Products are favoured at equilibrium." },
+          { id: "B", text: "Reactants are favoured at equilibrium." },
+          { id: "C", text: "The reaction is spontaneous." },
+          { id: "D", text: "ΔG° is approximately zero." },
+          { id: "E", text: "A catalyst will change the value of Kc." }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q47_9",
+        category: "chemistry",
+        text: "Which ion forms a deep-blue complex with aqueous ammonia due to the formation of [Cu(NH₃)₄]²⁺?",
+        options: [
+          { id: "A", text: "Fe²⁺" },
+          { id: "B", text: "Zn²⁺" },
+          { id: "C", text: "Cu²⁺" },
+          { id: "D", text: "Al³⁺" },
+          { id: "E", text: "Ni²⁺" }
+        ],
+        correctOption: "C"
+      },
+
+      // -----------------------------
+      // Physics & Mathematics (remaining questions)
+      // -----------------------------
+      {
+        id: "q49_9",
+        category: "physics_math",
+        text: "A projectile is launched at 20 m s⁻¹ at 30° to the horizontal. Neglecting air resistance, what is its range? (g = 9.8 m s⁻²)",
+        options: [
+          { id: "A", text: "20 m" },
+          { id: "B", text: "25 m" },
+          { id: "C", text: "35 m" },
+          { id: "D", text: "45 m" },
+          { id: "E", text: "60 m" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q50_9",
+        category: "physics_math",
+        text: "An object executes simple harmonic motion with amplitude 0.10 m and period 2 s. What is its maximum speed?",
+        options: [
+          { id: "A", text: "0.16 m s⁻¹" },
+          { id: "B", text: "0.31 m s⁻¹" },
+          { id: "C", text: "0.63 m s⁻¹" },
+          { id: "D", text: "1.57 m s⁻¹" },
+          { id: "E", text: "3.14 m s⁻¹" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q51_9",
+        category: "physics_math",
+        text: "Kirchhoff’s first law states that the algebraic sum of currents at a junction is zero because of conservation of _____.",
+        options: [
+          { id: "A", text: "energy" },
+          { id: "B", text: "charge" },
+          { id: "C", text: "momentum" },
+          { id: "D", text: "voltage" },
+          { id: "E", text: "power" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q52_9",
+        category: "physics_math",
+        text: "A 2 µF capacitor is charged to 100 V. How much energy is stored in it?",
+        options: [
+          { id: "A", text: "0.001 J" },
+          { id: "B", text: "0.01 J" },
+          { id: "C", text: "0.1 J" },
+          { id: "D", text: "1.0 J" },
+          { id: "E", text: "10 J" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q53_9",
+        category: "physics_math",
+        text: "A 5 kΩ resistor has 10 V across it. What current flows through the resistor?",
+        options: [
+          { id: "A", text: "0.2 mA" },
+          { id: "B", text: "2 mA" },
+          { id: "C", text: "5 mA" },
+          { id: "D", text: "50 mA" },
+          { id: "E", text: "2 A" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q54_9",
+        category: "physics_math",
+        text: "A radioisotope has a half-life of 3 h. What fraction of the original nuclei remains after 9 h?",
+        options: [
+          { id: "A", text: "1/2" },
+          { id: "B", text: "1/4" },
+          { id: "C", text: "1/6" },
+          { id: "D", text: "1/8" },
+          { id: "E", text: "1/16" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q55_9",
+        category: "physics_math",
+        text: "Which physical quantity has the SI unit Weber (Wb)?",
+        options: [
+          { id: "A", text: "Electric flux" },
+          { id: "B", text: "Magnetic flux" },
+          { id: "C", text: "Electric field strength" },
+          { id: "D", text: "Magnetic field strength" },
+          { id: "E", text: "Inductance" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q56_9",
+        category: "physics_math",
+        text: "A car covers the first half of a journey at 60 km h⁻¹ and the second half at 90 km h⁻¹. What is the average speed for the whole journey?",
+        options: [
+          { id: "A", text: "70 km h⁻¹" },
+          { id: "B", text: "72 km h⁻¹" },
+          { id: "C", text: "75 km h⁻¹" },
+          { id: "D", text: "78 km h⁻¹" },
+          { id: "E", text: "80 km h⁻¹" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q57_9",
+        category: "physics_math",
+        text: "Evaluate the integral ∫₀^{π/2} sin x dx.",
+        options: [
+          { id: "A", text: "0" },
+          { id: "B", text: "1" },
+          { id: "C", text: "2" },
+          { id: "D", text: "π/2" },
+          { id: "E", text: "π" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q58_9",
+        category: "physics_math",
+        text: "The derivative of f(x) = e^{3x} with respect to x is:",
+        options: [
+          { id: "A", text: "e^{3x}" },
+          { id: "B", text: "3e^{3x}" },
+          { id: "C", text: "e^{x}/3" },
+          { id: "D", text: "(1/3)e^{3x}" },
+          { id: "E", text: "6e^{3x}" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q59_9",
+        category: "physics_math",
+        text: "A vector of magnitude 10 units makes equal angles with the three coordinate axes. What is the value of each component?",
+        options: [
+          { id: "A", text: "5.77" },
+          { id: "B", text: "3.33" },
+          { id: "C", text: "7.07" },
+          { id: "D", text: "8.66" },
+          { id: "E", text: "10.0" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q60_9",
+        category: "physics_math",
+        text: "An ideal Carnot engine operates between 500 K and 300 K. What is its maximum theoretical efficiency?",
+        options: [
+          { id: "A", text: "20%" },
+          { id: "B", text: "40%" },
+          { id: "C", text: "60%" },
+          { id: "D", text: "Work output equals heat input" },
+          { id: "E", text: "The engine violates the second law" }
+        ],
+        correctOption: "B"
+      },
     ]
   }
 }
