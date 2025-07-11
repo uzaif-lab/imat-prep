@@ -275,7 +275,7 @@ export const additionalMockTests = {
           { id: "D", text: "30%" },
           { id: "E", text: "40%" }
         ],
-        correctOption: "C" // Inclusion-exclusion: total passing = 60+70-40=90, so fail=10
+        correctOption: "B" // Inclusion-exclusion: total passing = 60+70-40=90, so fail both = 100-90 = 10%
       },
       {
         id: "q6_9",
