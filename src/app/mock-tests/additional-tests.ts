@@ -638,6 +638,19 @@ export const additionalMockTests = {
       // Chemistry (14 remaining questions)
       // -----------------------------
       {
+        id: "q33_9",
+        category: "chemistry",
+        text: "Which gas is produced at the anode during the electrolysis of molten sodium chloride?",
+        options: [
+          { id: "A", text: "Chlorine" },
+          { id: "B", text: "Hydrogen" },
+          { id: "C", text: "Oxygen" },
+          { id: "D", text: "Sodium vapour" },
+          { id: "E", text: "Ozone" }
+        ],
+        correctOption: "A"
+      },
+      {
         id: "q34_9",
         category: "chemistry",
         text: "As the periodic table progresses from xenon (Z = 54) to caesium (Z = 55), which subshell begins to fill?",
@@ -824,6 +837,19 @@ export const additionalMockTests = {
       // Physics & Mathematics (remaining questions)
       // -----------------------------
       {
+        id: "q48_9",
+        category: "physics_math",
+        text: "Light of wavelength 500 nm is incident on a double-slit producing first-order maxima at 3.0 mm on a screen 1.2 m away. What is the slit separation?",
+        options: [
+          { id: "A", text: "0.10 mm" },
+          { id: "B", text: "0.20 mm" },
+          { id: "C", text: "0.25 mm" },
+          { id: "D", text: "0.30 mm" },
+          { id: "E", text: "0.50 mm" }
+        ],
+        correctOption: "B"
+      },
+      {
         id: "q49_9",
         category: "physics_math",
         text: "A projectile is launched at 20 m s⁻¹ at 30° to the horizontal. Neglecting air resistance, what is its range? (g = 9.8 m s⁻²)",
@@ -981,68 +1007,4 @@ export const additionalMockTests = {
       },
     ]
   }
-}
-
-// -------------------------------------------------------------
-// Helper utilities to ensure each test reaches the full 60 questions
-// -------------------------------------------------------------
-
-type Option = { id: string; text: string };
-interface Question {
-  id: string;
-  category: "reading" | "logical_reasoning" | "biology" | "chemistry" | "physics_math";
-  text: string;
-  options: Option[];
-  correctOption: string;
-}
-
-function createGenericOptions(): Option[] {
-  return [
-    { id: "A", text: "Option A" },
-    { id: "B", text: "Option B" },
-    { id: "C", text: "Option C" },
-    { id: "D", text: "Option D" },
-    { id: "E", text: "Option E" },
-  ];
-}
-
-function addPlaceholders(
-  testKey: "8" | "9",
-  startId: number,
-  endId: number,
-  category: Question["category"],
-  targetArr: Question[]
-) {
-  for (let i = startId; i <= endId; i++) {
-    const qId = `q${i}_${testKey}`;
-    if (!targetArr.find((q) => q.id === qId)) {
-      targetArr.push({
-        id: qId,
-        category,
-        text: `Placeholder ${category} question ${i}`,
-        options: createGenericOptions(),
-        correctOption: "A",
-      });
-    }
-  }
-}
-
-// Augment tests 8 and 9 with placeholder questions to reach 60 each
-["8", "9"].forEach((key) => {
-  const test = (additionalMockTests as Record<string, any>)[key];
-  if (!test) return;
-  const qs: Question[] = test.questions;
-
-  // Biology IDs 10-32 inclusive (23 total with 3 already present)
-  addPlaceholders(key as any, 10, 32, "biology", qs);
-  // Chemistry IDs 33-47 inclusive (15 total with 1 already present)
-  addPlaceholders(key as any, 33, 47, "chemistry", qs);
-  // Physics & Math IDs 48-60 inclusive (13 total with 1 already present)
-  addPlaceholders(key as any, 48, 60, "physics_math", qs);
-
-  // Sort by numeric order of id for cleanliness
-  qs.sort((a, b) => {
-    const getNum = (s: string) => parseInt(s.match(/q(\d+)_/)?.[1] || "0", 10);
-    return getNum(a.id) - getNum(b.id);
-  });
-}); 
+} 
