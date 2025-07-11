@@ -63,6 +63,17 @@ const mockTests = [
     isPremium: true,
   },
   {
+    id: "10",
+    title: "Custom IMAT Practice Test 3",
+    description:
+      "Third comprehensive practice test with entirely new questions covering all IMAT syllabus topics.",
+    questionCount: 60,
+    timeLimit: 100,
+    createdAt: "2024-03-20",
+    isComplete: true,
+    isPremium: true,
+  },
+  {
     id: "4",
     title: "Advanced Biology Test",
     description:

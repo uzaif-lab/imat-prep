@@ -1006,5 +1006,803 @@ export const additionalMockTests = {
         correctOption: "B"
       },
     ]
+  },
+  "10": {
+    id: "10",
+    title: "Custom IMAT Practice Test 3",
+    description:
+      "Third comprehensive practice test with entirely new questions covering all IMAT syllabus topics.",
+    timeLimit: 100,
+    questions: [
+      // Reading Comprehension & General Knowledge (4 questions)
+      {
+        id: "q1_10",
+        category: "reading",
+        text: `Read the passage and answer the question below:\n\nThe CRISPR-Cas9 system represents a revolutionary gene-editing technology that has transformed biological research and therapeutic applications. Originally discovered as part of bacterial adaptive immunity, this system allows precise modification of DNA sequences in living cells. The technology works by using a guide RNA to direct the Cas9 nuclease to specific genomic locations, where it creates double-strand breaks that can be repaired through various cellular mechanisms, enabling targeted insertions, deletions, or substitutions.\n\nAccording to the passage, what is the primary mechanism by which CRISPR-Cas9 achieves gene editing?`,
+        options: [
+          { id: "A", text: "By preventing RNA transcription at target sites" },
+          { id: "B", text: "By using guide RNA to direct nuclease activity to specific DNA sequences" },
+          { id: "C", text: "By permanently silencing genes through methylation" },
+          { id: "D", text: "By replacing entire chromosomes with modified versions" },
+          { id: "E", text: "By activating cellular apoptosis pathways" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q2_10",
+        category: "reading",
+        text: `Read the passage and answer the question below:\n\nThe Human Genome Project, completed in 2003, marked a pivotal moment in genomic medicine. However, subsequent research has revealed that understanding gene function requires more than just sequence information. Epigenetic modifications—chemical changes to DNA and histones that do not alter the underlying sequence—play crucial roles in gene regulation and disease development. These modifications can be influenced by environmental factors and may be heritable across generations.\n\nWhat does the passage suggest about the relationship between genomic sequence and gene function?`,
+        options: [
+          { id: "A", text: "Gene sequence alone is sufficient to understand all biological functions" },
+          { id: "B", text: "Epigenetic modifications are more important than DNA sequence" },
+          { id: "C", text: "Environmental factors cannot influence gene expression" },
+          { id: "D", text: "Gene function depends on both sequence and epigenetic modifications" },
+          { id: "E", text: "The Human Genome Project was scientifically invalid" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q3_10",
+        category: "reading",
+        text: "Which Nobel Prize-winning technique revolutionized protein structure determination by enabling atomic-resolution imaging of biological macromolecules?",
+        options: [
+          { id: "A", text: "Polymerase chain reaction (PCR)" },
+          { id: "B", text: "X-ray crystallography" },
+          { id: "C", text: "Electron microscopy" },
+          { id: "D", text: "Nuclear magnetic resonance (NMR)" },
+          { id: "E", text: "Mass spectrometry" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q4_10",
+        category: "reading",
+        text: "The discovery of which cellular organelle led to the endosymbiotic theory explaining the evolution of eukaryotic cells?",
+        options: [
+          { id: "A", text: "Nucleus" },
+          { id: "B", text: "Endoplasmic reticulum" },
+          { id: "C", text: "Mitochondria" },
+          { id: "D", text: "Golgi apparatus" },
+          { id: "E", text: "Lysosomes" }
+        ],
+        correctOption: "C"
+      },
+
+      // Logical Reasoning (5 questions)
+      {
+        id: "q5_10",
+        category: "logical_reasoning",
+        text: "Complete the sequence: 1, 4, 9, 16, 25, ?",
+        options: [
+          { id: "A", text: "30" },
+          { id: "B", text: "35" },
+          { id: "C", text: "36" },
+          { id: "D", text: "49" },
+          { id: "E", text: "64" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q6_10",
+        category: "logical_reasoning",
+        text: "All physicians are educated. Some educated people are researchers. Therefore, which conclusion follows logically?",
+        options: [
+          { id: "A", text: "All researchers are physicians" },
+          { id: "B", text: "Some physicians might be researchers" },
+          { id: "C", text: "No physicians are researchers" },
+          { id: "D", text: "All educated people are physicians" },
+          { id: "E", text: "All physicians are researchers" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q7_10",
+        category: "logical_reasoning",
+        text: "In a medical trial, 80 patients receive treatment A, 60 receive treatment B, and 20 receive both treatments. How many patients participated in the trial in total?",
+        options: [
+          { id: "A", text: "100" },
+          { id: "B", text: "120" },
+          { id: "C", text: "140" },
+          { id: "D", text: "160" },
+          { id: "E", text: "180" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q8_10",
+        category: "logical_reasoning",
+        text: "A medical device costs €450. If the price increases by 20% and then decreases by 15%, what is the final price?",
+        options: [
+          { id: "A", text: "€450" },
+          { id: "B", text: "€459" },
+          { id: "C", text: "€468" },
+          { id: "D", text: "€477" },
+          { id: "E", text: "€486" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q9_10",
+        category: "logical_reasoning",
+        text: "If the following is true: 'All antibiotics are antimicrobials, and penicillin is an antibiotic,' which statement must also be true?",
+        options: [
+          { id: "A", text: "All antimicrobials are antibiotics" },
+          { id: "B", text: "Penicillin is an antimicrobial" },
+          { id: "C", text: "Some antimicrobials are not antibiotics" },
+          { id: "D", text: "No antimicrobials are antibiotics" },
+          { id: "E", text: "Penicillin is not an antimicrobial" }
+        ],
+        correctOption: "B"
+      },
+
+      // Biology (23 questions)
+      {
+        id: "q10_10",
+        category: "biology",
+        text: "Which phase of cellular respiration produces the most ATP molecules per glucose molecule?",
+        options: [
+          { id: "A", text: "Glycolysis" },
+          { id: "B", text: "Citric acid cycle" },
+          { id: "C", text: "Electron transport chain" },
+          { id: "D", text: "Fermentation" },
+          { id: "E", text: "Pentose phosphate pathway" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q11_10",
+        category: "biology",
+        text: "During DNA replication, which enzyme is responsible for removing RNA primers and replacing them with DNA?",
+        options: [
+          { id: "A", text: "DNA polymerase I" },
+          { id: "B", text: "DNA polymerase III" },
+          { id: "C", text: "Helicase" },
+          { id: "D", text: "Ligase" },
+          { id: "E", text: "Primase" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q12_10",
+        category: "biology",
+        text: "In which phase of mitosis do chromosomes align at the cell's equator?",
+        options: [
+          { id: "A", text: "Prophase" },
+          { id: "B", text: "Metaphase" },
+          { id: "C", text: "Anaphase" },
+          { id: "D", text: "Telophase" },
+          { id: "E", text: "Cytokinesis" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q13_10",
+        category: "biology",
+        text: "Which hormone is produced by the beta cells of the pancreatic islets of Langerhans?",
+        options: [
+          { id: "A", text: "Glucagon" },
+          { id: "B", text: "Insulin" },
+          { id: "C", text: "Somatostatin" },
+          { id: "D", text: "Cortisol" },
+          { id: "E", text: "Thyroxine" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q14_10",
+        category: "biology",
+        text: "Which type of cell junction allows direct communication between adjacent cells through small channels?",
+        options: [
+          { id: "A", text: "Tight junctions" },
+          { id: "B", text: "Adherens junctions" },
+          { id: "C", text: "Gap junctions" },
+          { id: "D", text: "Desmosomes" },
+          { id: "E", text: "Hemidesmosomes" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q15_10",
+        category: "biology",
+        text: "In a cross between two heterozygous individuals (Aa × Aa), what is the probability that their offspring will be homozygous recessive?",
+        options: [
+          { id: "A", text: "0%" },
+          { id: "B", text: "25%" },
+          { id: "C", text: "50%" },
+          { id: "D", text: "75%" },
+          { id: "E", text: "100%" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q16_10",
+        category: "biology",
+        text: "Which structure in the nephron is primarily responsible for water reabsorption?",
+        options: [
+          { id: "A", text: "Glomerulus" },
+          { id: "B", text: "Bowman's capsule" },
+          { id: "C", text: "Proximal convoluted tubule" },
+          { id: "D", text: "Loop of Henle" },
+          { id: "E", text: "Distal convoluted tubule" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q17_10",
+        category: "biology",
+        text: "Which enzyme catalyzes the first step of glycolysis?",
+        options: [
+          { id: "A", text: "Phosphofructokinase" },
+          { id: "B", text: "Hexokinase" },
+          { id: "C", text: "Aldolase" },
+          { id: "D", text: "Pyruvate kinase" },
+          { id: "E", text: "Glucose-6-phosphate dehydrogenase" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q18_10",
+        category: "biology",
+        text: "During photosynthesis, the light-dependent reactions occur in which part of the chloroplast?",
+        options: [
+          { id: "A", text: "Stroma" },
+          { id: "B", text: "Thylakoid membranes" },
+          { id: "C", text: "Outer membrane" },
+          { id: "D", text: "Inner membrane" },
+          { id: "E", text: "Intermembrane space" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q19_10",
+        category: "biology",
+        text: "Which cranial nerve controls the muscles of facial expression?",
+        options: [
+          { id: "A", text: "Trigeminal nerve (V)" },
+          { id: "B", text: "Facial nerve (VII)" },
+          { id: "C", text: "Glossopharyngeal nerve (IX)" },
+          { id: "D", text: "Vagus nerve (X)" },
+          { id: "E", text: "Hypoglossal nerve (XII)" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q20_10",
+        category: "biology",
+        text: "What is the primary function of the enzyme reverse transcriptase?",
+        options: [
+          { id: "A", text: "Synthesizing DNA from DNA template" },
+          { id: "B", text: "Synthesizing RNA from DNA template" },
+          { id: "C", text: "Synthesizing DNA from RNA template" },
+          { id: "D", text: "Synthesizing proteins from mRNA" },
+          { id: "E", text: "Breaking down DNA into nucleotides" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q21_10",
+        category: "biology",
+        text: "Which blood vessel directly supplies oxygenated blood to the heart muscle?",
+        options: [
+          { id: "A", text: "Pulmonary artery" },
+          { id: "B", text: "Pulmonary vein" },
+          { id: "C", text: "Coronary artery" },
+          { id: "D", text: "Vena cava" },
+          { id: "E", text: "Aorta" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q22_10",
+        category: "biology",
+        text: "In eukaryotic gene expression, which process occurs in the nucleus?",
+        options: [
+          { id: "A", text: "Translation" },
+          { id: "B", text: "Protein folding" },
+          { id: "C", text: "Transcription" },
+          { id: "D", text: "Peptide bond formation" },
+          { id: "E", text: "tRNA charging" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q23_10",
+        category: "biology",
+        text: "Which molecule serves as the primary energy carrier in cellular metabolism?",
+        options: [
+          { id: "A", text: "NADH" },
+          { id: "B", text: "FADH2" },
+          { id: "C", text: "ATP" },
+          { id: "D", text: "GTP" },
+          { id: "E", text: "Coenzyme A" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q24_10",
+        category: "biology",
+        text: "During meiosis I, homologous chromosomes separate during which phase?",
+        options: [
+          { id: "A", text: "Prophase I" },
+          { id: "B", text: "Metaphase I" },
+          { id: "C", text: "Anaphase I" },
+          { id: "D", text: "Telophase I" },
+          { id: "E", text: "Interkinesis" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q25_10",
+        category: "biology",
+        text: "Which component of blood is primarily responsible for oxygen transport?",
+        options: [
+          { id: "A", text: "Plasma" },
+          { id: "B", text: "White blood cells" },
+          { id: "C", text: "Platelets" },
+          { id: "D", text: "Red blood cells" },
+          { id: "E", text: "Serum proteins" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q26_10",
+        category: "biology",
+        text: "What is the role of the enzyme pepsin in digestion?",
+        options: [
+          { id: "A", text: "Breaking down carbohydrates" },
+          { id: "B", text: "Breaking down lipids" },
+          { id: "C", text: "Breaking down proteins" },
+          { id: "D", text: "Breaking down nucleic acids" },
+          { id: "E", text: "Neutralizing stomach acid" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q27_10",
+        category: "biology",
+        text: "Which structure connects muscle to bone?",
+        options: [
+          { id: "A", text: "Ligament" },
+          { id: "B", text: "Tendon" },
+          { id: "C", text: "Cartilage" },
+          { id: "D", text: "Fascia" },
+          { id: "E", text: "Synovial membrane" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q28_10",
+        category: "biology",
+        text: "In the immune system, which cells are primarily responsible for antibody production?",
+        options: [
+          { id: "A", text: "T helper cells" },
+          { id: "B", text: "Cytotoxic T cells" },
+          { id: "C", text: "B cells" },
+          { id: "D", text: "Natural killer cells" },
+          { id: "E", text: "Macrophages" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q29_10",
+        category: "biology",
+        text: "Which plant hormone is primarily responsible for stem elongation and apical dominance?",
+        options: [
+          { id: "A", text: "Auxin" },
+          { id: "B", text: "Cytokinin" },
+          { id: "C", text: "Gibberellin" },
+          { id: "D", text: "Abscisic acid" },
+          { id: "E", text: "Ethylene" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q30_10",
+        category: "biology",
+        text: "What is the primary site of protein synthesis in eukaryotic cells?",
+        options: [
+          { id: "A", text: "Nucleus" },
+          { id: "B", text: "Mitochondria" },
+          { id: "C", text: "Ribosomes" },
+          { id: "D", text: "Golgi apparatus" },
+          { id: "E", text: "Endoplasmic reticulum" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q31_10",
+        category: "biology",
+        text: "Which process describes the movement of water across a selectively permeable membrane?",
+        options: [
+          { id: "A", text: "Active transport" },
+          { id: "B", text: "Facilitated diffusion" },
+          { id: "C", text: "Osmosis" },
+          { id: "D", text: "Endocytosis" },
+          { id: "E", text: "Exocytosis" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q32_10",
+        category: "biology",
+        text: "In population genetics, what does the Hardy-Weinberg principle describe?",
+        options: [
+          { id: "A", text: "Evolution of species over time" },
+          { id: "B", text: "Genetic equilibrium in populations" },
+          { id: "C", text: "Natural selection mechanisms" },
+          { id: "D", text: "Mutation rates in DNA" },
+          { id: "E", text: "Chromosome segregation patterns" }
+        ],
+        correctOption: "B"
+      },
+
+      // Chemistry (15 questions)
+      {
+        id: "q33_10",
+        category: "chemistry",
+        text: "What is the molecular geometry of methane (CH₄)?",
+        options: [
+          { id: "A", text: "Linear" },
+          { id: "B", text: "Trigonal planar" },
+          { id: "C", text: "Tetrahedral" },
+          { id: "D", text: "Trigonal bipyramidal" },
+          { id: "E", text: "Octahedral" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q34_10",
+        category: "chemistry",
+        text: "Which element has the highest electronegativity?",
+        options: [
+          { id: "A", text: "Oxygen" },
+          { id: "B", text: "Nitrogen" },
+          { id: "C", text: "Fluorine" },
+          { id: "D", text: "Chlorine" },
+          { id: "E", text: "Carbon" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q35_10",
+        category: "chemistry",
+        text: "What is the pH of a 0.001 M solution of HCl?",
+        options: [
+          { id: "A", text: "1" },
+          { id: "B", text: "2" },
+          { id: "C", text: "3" },
+          { id: "D", text: "4" },
+          { id: "E", text: "7" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q36_10",
+        category: "chemistry",
+        text: "In the periodic table, which of the following shows the correct trend for atomic radius?",
+        options: [
+          { id: "A", text: "Increases across a period, decreases down a group" },
+          { id: "B", text: "Decreases across a period, increases down a group" },
+          { id: "C", text: "Increases across a period, increases down a group" },
+          { id: "D", text: "Decreases across a period, decreases down a group" },
+          { id: "E", text: "Remains constant across periods and groups" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q37_10",
+        category: "chemistry",
+        text: "Which type of intermolecular force is present in hydrogen fluoride (HF)?",
+        options: [
+          { id: "A", text: "London dispersion forces only" },
+          { id: "B", text: "Dipole-dipole interactions only" },
+          { id: "C", text: "Hydrogen bonding only" },
+          { id: "D", text: "All three: London dispersion, dipole-dipole, and hydrogen bonding" },
+          { id: "E", text: "Ionic interactions only" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q38_10",
+        category: "chemistry",
+        text: "What is the oxidation state of sulfur in sulfuric acid (H₂SO₄)?",
+        options: [
+          { id: "A", text: "+2" },
+          { id: "B", text: "+4" },
+          { id: "C", text: "+6" },
+          { id: "D", text: "-2" },
+          { id: "E", text: "0" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q39_10",
+        category: "chemistry",
+        text: "Which functional group is present in alcohols?",
+        options: [
+          { id: "A", text: "Carbonyl (C=O)" },
+          { id: "B", text: "Hydroxyl (-OH)" },
+          { id: "C", text: "Amino (-NH₂)" },
+          { id: "D", text: "Carboxyl (-COOH)" },
+          { id: "E", text: "Sulfhydryl (-SH)" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q40_10",
+        category: "chemistry",
+        text: "At STP, what volume does one mole of any ideal gas occupy?",
+        options: [
+          { id: "A", text: "11.2 L" },
+          { id: "B", text: "22.4 L" },
+          { id: "C", text: "33.6 L" },
+          { id: "D", text: "44.8 L" },
+          { id: "E", text: "6.02 L" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q41_10",
+        category: "chemistry",
+        text: "Which statement about catalysts is correct?",
+        options: [
+          { id: "A", text: "They are consumed in the reaction" },
+          { id: "B", text: "They increase the activation energy" },
+          { id: "C", text: "They change the equilibrium constant" },
+          { id: "D", text: "They lower the activation energy" },
+          { id: "E", text: "They shift the equilibrium position" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q42_10",
+        category: "chemistry",
+        text: "What is the electron configuration of a neutral chlorine atom (Cl, atomic number 17)?",
+        options: [
+          { id: "A", text: "1s² 2s² 2p⁶ 3s² 3p⁵" },
+          { id: "B", text: "1s² 2s² 2p⁶ 3s² 3p⁶" },
+          { id: "C", text: "1s² 2s² 2p⁶ 3s¹ 3p⁶" },
+          { id: "D", text: "1s² 2s² 2p⁶ 3s² 3p⁴" },
+          { id: "E", text: "1s² 2s² 2p⁵ 3s² 3p⁶" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q43_10",
+        category: "chemistry",
+        text: "In a buffer solution containing equal concentrations of acetic acid (CH₃COOH) and sodium acetate (CH₃COONa), what happens when a small amount of HCl is added?",
+        options: [
+          { id: "A", text: "The pH increases significantly" },
+          { id: "B", text: "The pH decreases significantly" },
+          { id: "C", text: "The pH remains relatively constant" },
+          { id: "D", text: "The solution becomes neutral" },
+          { id: "E", text: "All acetate ions are consumed" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q44_10",
+        category: "chemistry",
+        text: "Which type of bond is formed when electrons are shared unequally between atoms?",
+        options: [
+          { id: "A", text: "Ionic bond" },
+          { id: "B", text: "Nonpolar covalent bond" },
+          { id: "C", text: "Polar covalent bond" },
+          { id: "D", text: "Metallic bond" },
+          { id: "E", text: "Van der Waals bond" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q45_10",
+        category: "chemistry",
+        text: "What is the name of the compound CaCl₂?",
+        options: [
+          { id: "A", text: "Calcium chlorate" },
+          { id: "B", text: "Calcium chlorite" },
+          { id: "C", text: "Calcium chloride" },
+          { id: "D", text: "Calcium hypochlorite" },
+          { id: "E", text: "Calcium perchlorate" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q46_10",
+        category: "chemistry",
+        text: "According to Le Chatelier's principle, what happens to an equilibrium when the temperature is increased for an exothermic reaction?",
+        options: [
+          { id: "A", text: "The equilibrium shifts to the right" },
+          { id: "B", text: "The equilibrium shifts to the left" },
+          { id: "C", text: "The equilibrium constant increases" },
+          { id: "D", text: "No change occurs" },
+          { id: "E", text: "The reaction becomes endothermic" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q47_10",
+        category: "chemistry",
+        text: "Which compound is an example of a saturated hydrocarbon?",
+        options: [
+          { id: "A", text: "Ethene (C₂H₄)" },
+          { id: "B", text: "Ethyne (C₂H₂)" },
+          { id: "C", text: "Benzene (C₆H₆)" },
+          { id: "D", text: "Ethane (C₂H₆)" },
+          { id: "E", text: "Cyclohexene (C₆H₁₀)" }
+        ],
+        correctOption: "D"
+      },
+
+      // Physics & Mathematics (13 questions)
+      {
+        id: "q48_10",
+        category: "physics_math",
+        text: "A ball is thrown vertically upward with an initial velocity of 20 m/s. What is its velocity after 2 seconds? (g = 10 m/s²)",
+        options: [
+          { id: "A", text: "0 m/s" },
+          { id: "B", text: "10 m/s downward" },
+          { id: "C", text: "10 m/s upward" },
+          { id: "D", text: "20 m/s downward" },
+          { id: "E", text: "40 m/s upward" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q49_10",
+        category: "physics_math",
+        text: "What is the resistance of a circuit component if 3 A of current flows through it when 12 V is applied?",
+        options: [
+          { id: "A", text: "2 Ω" },
+          { id: "B", text: "4 Ω" },
+          { id: "C", text: "6 Ω" },
+          { id: "D", text: "9 Ω" },
+          { id: "E", text: "36 Ω" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q50_10",
+        category: "physics_math",
+        text: "Two parallel resistors of 6 Ω and 3 Ω are connected in parallel. What is their combined resistance?",
+        options: [
+          { id: "A", text: "1 Ω" },
+          { id: "B", text: "2 Ω" },
+          { id: "C", text: "3 Ω" },
+          { id: "D", text: "4.5 Ω" },
+          { id: "E", text: "9 Ω" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q51_10",
+        category: "physics_math",
+        text: "What is the frequency of a wave with a wavelength of 2 m traveling at 10 m/s?",
+        options: [
+          { id: "A", text: "2 Hz" },
+          { id: "B", text: "5 Hz" },
+          { id: "C", text: "10 Hz" },
+          { id: "D", text: "20 Hz" },
+          { id: "E", text: "0.2 Hz" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q52_10",
+        category: "physics_math",
+        text: "A 2 kg mass is moving at 4 m/s. What is its kinetic energy?",
+        options: [
+          { id: "A", text: "8 J" },
+          { id: "B", text: "16 J" },
+          { id: "C", text: "32 J" },
+          { id: "D", text: "4 J" },
+          { id: "E", text: "2 J" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q53_10",
+        category: "physics_math",
+        text: "Solve for x: 2x + 5 = 15",
+        options: [
+          { id: "A", text: "x = 5" },
+          { id: "B", text: "x = 10" },
+          { id: "C", text: "x = 7.5" },
+          { id: "D", text: "x = 20" },
+          { id: "E", text: "x = 2.5" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q54_10",
+        category: "physics_math",
+        text: "What is the derivative of f(x) = x³?",
+        options: [
+          { id: "A", text: "x²" },
+          { id: "B", text: "3x²" },
+          { id: "C", text: "3x³" },
+          { id: "D", text: "x⁴/4" },
+          { id: "E", text: "3" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q55_10",
+        category: "physics_math",
+        text: "In a right triangle, if one angle is 30°, what is the measure of the other acute angle?",
+        options: [
+          { id: "A", text: "30°" },
+          { id: "B", text: "45°" },
+          { id: "C", text: "60°" },
+          { id: "D", text: "90°" },
+          { id: "E", text: "120°" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q56_10",
+        category: "physics_math",
+        text: "What is the period of a pendulum with a length of 1 m? (g = 10 m/s²)",
+        options: [
+          { id: "A", text: "1.0 s" },
+          { id: "B", text: "1.6 s" },
+          { id: "C", text: "2.0 s" },
+          { id: "D", text: "3.14 s" },
+          { id: "E", text: "6.28 s" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q57_10",
+        category: "physics_math",
+        text: "If log₁₀(x) = 2, what is the value of x?",
+        options: [
+          { id: "A", text: "10" },
+          { id: "B", text: "20" },
+          { id: "C", text: "100" },
+          { id: "D", text: "1000" },
+          { id: "E", text: "0.01" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q58_10",
+        category: "physics_math",
+        text: "A force of 50 N is applied to move an object 10 m in the direction of the force. How much work is done?",
+        options: [
+          { id: "A", text: "5 J" },
+          { id: "B", text: "50 J" },
+          { id: "C", text: "100 J" },
+          { id: "D", text: "500 J" },
+          { id: "E", text: "5000 J" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q59_10",
+        category: "physics_math",
+        text: "What is the probability of getting exactly two heads when flipping a fair coin three times?",
+        options: [
+          { id: "A", text: "1/8" },
+          { id: "B", text: "2/8" },
+          { id: "C", text: "3/8" },
+          { id: "D", text: "4/8" },
+          { id: "E", text: "6/8" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q60_10",
+        category: "physics_math",
+        text: "What is the area of a circle with radius 5 cm? (π ≈ 3.14)",
+        options: [
+          { id: "A", text: "15.7 cm²" },
+          { id: "B", text: "31.4 cm²" },
+          { id: "C", text: "62.8 cm²" },
+          { id: "D", text: "78.5 cm²" },
+          { id: "E", text: "157 cm²" }
+        ],
+        correctOption: "D"
+      },
+    ]
   }
 } 
