@@ -150,7 +150,7 @@ export const additionalMockTests = {
           { id: "B", text: "Descending limb of Henle" },
           { id: "C", text: "Ascending limb of Henle" },
           { id: "D", text: "Distal convoluted tubule" },
-          { id: "E", text: "Bowman’s capsule" }
+          { id: "E", text: "Bowman's capsule" }
         ],
         correctOption: "D"
       },
@@ -521,8 +521,8 @@ export const additionalMockTests = {
         category: "biology",
         text: "The Bohr effect refers to the observation that:",
         options: [
-          { id: "A", text: "lower pH decreases haemoglobin’s affinity for oxygen" },
-          { id: "B", text: "2,3-BPG increases haemoglobin’s affinity for oxygen" },
+          { id: "A", text: "lower pH decreases haemoglobin's affinity for oxygen" },
+          { id: "B", text: "2,3-BPG increases haemoglobin's affinity for oxygen" },
           { id: "C", text: "carbon monoxide binds reversibly to haemoglobin" },
           { id: "D", text: "oxidation of Fe2+ to Fe3+ forms methaemoglobin" },
           { id: "E", text: "myoglobin displays cooperative oxygen binding" }
@@ -534,7 +534,7 @@ export const additionalMockTests = {
         category: "biology",
         text: "Which structure in the nephron is the primary site of blood plasma filtration?",
         options: [
-          { id: "A", text: "Bowman’s capsule" },
+          { id: "A", text: "Bowman's capsule" },
           { id: "B", text: "Proximal convoluted tubule" },
           { id: "C", text: "Loop of Henle" },
           { id: "D", text: "Distal convoluted tubule" },
@@ -878,7 +878,7 @@ export const additionalMockTests = {
       {
         id: "q51_9",
         category: "physics_math",
-        text: "Kirchhoff’s first law states that the algebraic sum of currents at a junction is zero because of conservation of _____.",
+        text: "Kirchhoff's first law states that the algebraic sum of currents at a junction is zero because of conservation of _____.",
         options: [
           { id: "A", text: "energy" },
           { id: "B", text: "charge" },
@@ -1803,6 +1803,804 @@ export const additionalMockTests = {
         ],
         correctOption: "D"
       },
+    ]
+  },
+  "11": {
+    id: "11",
+    title: "Advanced IMAT Challenge Test",
+    description:
+      "Highly challenging test with 2018-level difficulty featuring advanced questions across all sections.",
+    timeLimit: 100, // minutes
+    questions: [
+      // Reading Comprehension & General Knowledge (4 questions)
+      {
+        id: "q1_11",
+        category: "reading",
+        text: `Read the passage carefully and answer the question below:\n\nThe phenomenon of neuroplasticity challenges the long-held belief that the adult brain is a fixed, immutable structure. Recent advances in neuroimaging have revealed that synaptic connections continue to reorganize throughout life in response to experience, learning, and environmental stimuli. This adaptability is particularly pronounced in response to injury, where surrounding neural tissue may assume functions previously performed by damaged regions. However, the degree of functional recovery varies considerably among individuals and appears to be influenced by factors including age, lesion location, and the timing of rehabilitative interventions. The therapeutic implications are profound: targeted cognitive training protocols may facilitate cortical remapping and enhance recovery outcomes following traumatic brain injury.\n\nWhich statement best captures the central argument of this passage?`,
+        options: [
+          { id: "A", text: "Neuroimaging technology has revolutionized our understanding of brain function" },
+          { id: "B", text: "The adult brain retains capacity for structural and functional adaptation throughout life" },
+          { id: "C", text: "Brain injury recovery is primarily determined by the extent of initial damage" },
+          { id: "D", text: "Cognitive training is the most effective treatment for traumatic brain injury" },
+          { id: "E", text: "Age is the most critical factor determining neuroplastic potential" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q2_11",
+        category: "reading",
+        text: `Read the passage and answer the question:\n\nQuantum entanglement represents one of the most counterintuitive phenomena in modern physics, where particles become correlated in such a way that the quantum state of one particle instantaneously determines the state of its entangled partner, regardless of the distance separating them. Einstein famously dismissed this as "spukhafte Fernwirkung" (spooky action at a distance), arguing that hidden variables must account for the apparent correlation. However, Bell's theorem and subsequent experimental validations have demonstrated that no physical theory based on local hidden variables can reproduce all the predictions of quantum mechanics. The implications extend beyond theoretical physics, with quantum entanglement forming the foundation for emerging technologies including quantum cryptography and quantum computing.\n\nAccording to the passage, what was Einstein's primary objection to quantum entanglement?`,
+        options: [
+          { id: "A", text: "It violated the principles of quantum mechanics" },
+          { id: "B", text: "It implied that information could travel faster than light" },
+          { id: "C", text: "It suggested that hidden variables must exist to explain the correlations" },
+          { id: "D", text: "It contradicted experimental evidence available at the time" },
+          { id: "E", text: "It had no practical applications in technology" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q3_11",
+        category: "reading",
+        text: "Which of the following scientists is credited with establishing the theoretical framework for electromagnetic radiation and demonstrating the wave nature of light?",
+        options: [
+          { id: "A", text: "James Clerk Maxwell" },
+          { id: "B", text: "Heinrich Hertz" },
+          { id: "C", text: "Thomas Young" },
+          { id: "D", text: "Michael Faraday" },
+          { id: "E", text: "Isaac Newton" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q4_11",
+        category: "reading",
+        text: "The discovery of the double helix structure of DNA by Watson and Crick was heavily dependent on X-ray crystallography data obtained by which scientist?",
+        options: [
+          { id: "A", text: "Linus Pauling" },
+          { id: "B", text: "Rosalind Franklin" },
+          { id: "C", text: "Maurice Wilkins" },
+          { id: "D", text: "Erwin Chargaff" },
+          { id: "E", text: "Barbara McClintock" }
+        ],
+        correctOption: "B"
+      },
+
+      // Logical Reasoning (5 questions)
+      {
+        id: "q5_11",
+        category: "logical_reasoning",
+        text: "In a clinical trial, 80% of patients receiving treatment A showed improvement, while only 40% of patients receiving treatment B showed improvement. A pharmaceutical executive concludes: 'Treatment A is twice as effective as treatment B.' What assumption is the executive making that may not be justified?",
+        options: [
+          { id: "A", text: "That the improvement rates are directly comparable between treatments" },
+          { id: "B", text: "That both treatment groups had identical baseline characteristics" },
+          { id: "C", text: "That the definition of 'improvement' was consistent across both groups" },
+          { id: "D", text: "That the study was conducted under controlled conditions" },
+          { id: "E", text: "All of the above assumptions may be unjustified" }
+        ],
+        correctOption: "E"
+      },
+      {
+        id: "q6_11",
+        category: "logical_reasoning",
+        text: "A sequence follows the pattern: 3, 8, 18, 38, 78, ?. What is the next number?",
+        options: [
+          { id: "A", text: "158" },
+          { id: "B", text: "156" },
+          { id: "C", text: "162" },
+          { id: "D", text: "164" },
+          { id: "E", text: "168" }
+        ],
+        correctOption: "A" // Pattern: multiply by 2 and add 2: 3×2+2=8, 8×2+2=18, 18×2+2=38, 38×2+2=78, 78×2+2=158
+      },
+      {
+        id: "q7_11",
+        category: "logical_reasoning",
+        text: "All cardiologists are physicians. Some physicians specialize in pediatrics. Some pediatric specialists work in research hospitals. If these statements are true, which of the following must also be true?",
+        options: [
+          { id: "A", text: "All cardiologists work in research hospitals" },
+          { id: "B", text: "Some cardiologists specialize in pediatrics" },
+          { id: "C", text: "All physicians in research hospitals are pediatric specialists" },
+          { id: "D", text: "Some physicians work in research hospitals" },
+          { id: "E", text: "None of the above must be true" }
+        ],
+        correctOption: "E"
+      },
+      {
+        id: "q8_11",
+        category: "logical_reasoning",
+        text: "If the probability of a patient having disease X is 0.01, and a diagnostic test has a sensitivity of 95% and specificity of 98%, what is the approximate positive predictive value of the test?",
+        options: [
+          { id: "A", text: "32%" },
+          { id: "B", text: "48%" },
+          { id: "C", text: "76%" },
+          { id: "D", text: "95%" },
+          { id: "E", text: "98%" }
+        ],
+        correctOption: "A" // Using Bayes' theorem: PPV = (sensitivity × prevalence) / [(sensitivity × prevalence) + (1-specificity) × (1-prevalence)]
+      },
+      {
+        id: "q9_11",
+        category: "logical_reasoning",
+        text: "A medical research study claims: 'Patients who exercise regularly have a 40% lower risk of cardiovascular disease.' What additional information would be most critical to evaluate this claim?",
+        options: [
+          { id: "A", text: "The sample size of the study" },
+          { id: "B", text: "Whether the study controlled for confounding variables like diet and smoking" },
+          { id: "C", text: "The statistical significance of the results" },
+          { id: "D", text: "The duration of the follow-up period" },
+          { id: "E", text: "The demographic characteristics of participants" }
+        ],
+        correctOption: "B"
+      },
+
+      // Biology (23 questions)
+      {
+        id: "q10_11",
+        category: "biology",
+        text: "During oxidative phosphorylation, the electrochemical gradient established across the inner mitochondrial membrane drives ATP synthesis. Which of the following best describes the mechanism by which this gradient is utilized?",
+        options: [
+          { id: "A", text: "Protons flow through ATP synthase, causing conformational changes that facilitate ATP synthesis" },
+          { id: "B", text: "Electrons directly reduce ADP to ATP in the presence of inorganic phosphate" },
+          { id: "C", text: "The gradient provides energy for substrate-level phosphorylation" },
+          { id: "D", text: "Oxygen acts as the final electron acceptor in ATP synthesis" },
+          { id: "E", text: "NADH is directly converted to ATP through the gradient" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q11_11",
+        category: "biology",
+        text: "In eukaryotic transcription, which of the following accurately describes the role of enhancer sequences?",
+        options: [
+          { id: "A", text: "They must be located immediately adjacent to the promoter to function" },
+          { id: "B", text: "They bind RNA polymerase II directly to initiate transcription" },
+          { id: "C", text: "They can function at great distances from the gene they regulate through DNA looping" },
+          { id: "D", text: "They are exclusively found in the 5' untranslated region of genes" },
+          { id: "E", text: "They function only during DNA replication" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q12_11",
+        category: "biology",
+        text: "The phenomenon of genetic imprinting results in differential gene expression depending on the parent of origin. This is primarily mediated by:",
+        options: [
+          { id: "A", text: "Differences in DNA sequence between maternal and paternal alleles" },
+          { id: "B", text: "Epigenetic modifications such as DNA methylation and histone modifications" },
+          { id: "C", text: "X-chromosome inactivation mechanisms" },
+          { id: "D", text: "Differences in chromosome structure between parents" },
+          { id: "E", text: "Preferential replication of parental chromosomes" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q13_11",
+        category: "biology",
+        text: "In the complement cascade, which pathway is activated by the binding of C1 complex to antigen-antibody complexes?",
+        options: [
+          { id: "A", text: "Classical pathway" },
+          { id: "B", text: "Alternative pathway" },
+          { id: "C", text: "Lectin pathway" },
+          { id: "D", text: "Terminal pathway" },
+          { id: "E", text: "Membrane attack complex pathway" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q14_11",
+        category: "biology",
+        text: "During meiosis I, homologous chromosomes fail to separate properly in a process called nondisjunction. If this occurs during the formation of gametes, what is the most likely consequence?",
+        options: [
+          { id: "A", text: "Formation of gametes with normal chromosome number" },
+          { id: "B", text: "Production of aneuploid gametes (n+1 or n-1)" },
+          { id: "C", text: "Complete sterility of the organism" },
+          { id: "D", text: "Formation of polyploid gametes (2n)" },
+          { id: "E", text: "No effect on gamete chromosome number" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q15_11",
+        category: "biology",
+        text: "Which enzyme is responsible for the synthesis of RNA primers during DNA replication?",
+        options: [
+          { id: "A", text: "DNA polymerase I" },
+          { id: "B", text: "DNA polymerase III" },
+          { id: "C", text: "Primase" },
+          { id: "D", text: "Helicase" },
+          { id: "E", text: "Ligase" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q16_11",
+        category: "biology",
+        text: "In signal transduction, second messengers amplify the initial signal. Which of the following is NOT a common second messenger?",
+        options: [
+          { id: "A", text: "Cyclic adenosine monophosphate (cAMP)" },
+          { id: "B", text: "Calcium ions (Ca²⁺)" },
+          { id: "C", text: "Inositol 1,4,5-trisphosphate (IP₃)" },
+          { id: "D", text: "Diacylglycerol (DAG)" },
+          { id: "E", text: "Adenosine triphosphate (ATP)" }
+        ],
+        correctOption: "E"
+      },
+      {
+        id: "q17_11",
+        category: "biology",
+        text: "The Hardy-Weinberg principle assumes several conditions. Which of the following would violate these assumptions and cause allele frequencies to change?",
+        options: [
+          { id: "A", text: "Random mating within the population" },
+          { id: "B", text: "Large population size" },
+          { id: "C", text: "Gene flow from neighboring populations" },
+          { id: "D", text: "Absence of mutations" },
+          { id: "E", text: "No selection pressure" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q18_11",
+        category: "biology",
+        text: "In plants, the process of photorespiration occurs when:",
+        options: [
+          { id: "A", text: "CO₂ concentrations are high and O₂ concentrations are low" },
+          { id: "B", text: "O₂ concentrations are high and CO₂ concentrations are low" },
+          { id: "C", text: "Light intensity is extremely high" },
+          { id: "D", text: "Temperature is below optimal range" },
+          { id: "E", text: "Water availability is limited" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q19_11",
+        category: "biology",
+        text: "Which of the following best describes the difference between prokaryotic and eukaryotic ribosomes?",
+        options: [
+          { id: "A", text: "Prokaryotic ribosomes are 80S while eukaryotic ribosomes are 70S" },
+          { id: "B", text: "Prokaryotic ribosomes are 70S while eukaryotic ribosomes are 80S" },
+          { id: "C", text: "Both are 80S but differ in protein composition" },
+          { id: "D", text: "Prokaryotic ribosomes lack rRNA components" },
+          { id: "E", text: "There is no significant difference between them" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q20_11",
+        category: "biology",
+        text: "The process of apoptosis is characterized by all of the following EXCEPT:",
+        options: [
+          { id: "A", text: "DNA fragmentation" },
+          { id: "B", text: "Cell membrane blebbing" },
+          { id: "C", text: "Activation of caspase enzymes" },
+          { id: "D", text: "Rapid cell swelling and membrane rupture" },
+          { id: "E", text: "Phosphatidylserine exposure on cell surface" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q21_11",
+        category: "biology",
+        text: "In the electron transport chain, which complex pumps the most protons across the inner mitochondrial membrane per electron pair?",
+        options: [
+          { id: "A", text: "Complex I (NADH dehydrogenase)" },
+          { id: "B", text: "Complex II (succinate dehydrogenase)" },
+          { id: "C", text: "Complex III (cytochrome bc₁ complex)" },
+          { id: "D", text: "Complex IV (cytochrome c oxidase)" },
+          { id: "E", text: "All complexes pump the same number" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q22_11",
+        category: "biology",
+        text: "The lac operon in E. coli is an example of negative regulation. In the presence of lactose and absence of glucose, which of the following occurs?",
+        options: [
+          { id: "A", text: "The lac repressor binds to the operator and blocks transcription" },
+          { id: "B", text: "CAP-cAMP complex prevents RNA polymerase binding" },
+          { id: "C", text: "Allolactose binds to the repressor, preventing it from binding to the operator" },
+          { id: "D", text: "The lac genes are permanently turned off" },
+          { id: "E", text: "Glucose activates the lac operon directly" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q23_11",
+        category: "biology",
+        text: "Which of the following statements about enzyme kinetics is most accurate?",
+        options: [
+          { id: "A", text: "Km represents the maximum velocity of the enzyme" },
+          { id: "B", text: "Vmax is achieved when substrate concentration equals Km" },
+          { id: "C", text: "Km is the substrate concentration at which the reaction velocity is half of Vmax" },
+          { id: "D", text: "Competitive inhibitors change both Km and Vmax" },
+          { id: "E", text: "Non-competitive inhibitors only affect Km" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q24_11",
+        category: "biology",
+        text: "In adaptive immunity, which cells are primarily responsible for antigen presentation to naive T cells?",
+        options: [
+          { id: "A", text: "B cells only" },
+          { id: "B", text: "Dendritic cells, macrophages, and B cells" },
+          { id: "C", text: "Natural killer cells" },
+          { id: "D", text: "Neutrophils" },
+          { id: "E", text: "Plasma cells" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q25_11",
+        category: "biology",
+        text: "The sliding filament model of muscle contraction involves:",
+        options: [
+          { id: "A", text: "Actin and myosin filaments changing length during contraction" },
+          { id: "B", text: "Actin filaments sliding past myosin filaments without changing filament length" },
+          { id: "C", text: "Only myosin filaments moving during contraction" },
+          { id: "D", text: "Calcium binding directly to actin" },
+          { id: "E", text: "ATP hydrolysis causing filament elongation" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q26_11",
+        category: "biology",
+        text: "Which hormone is primarily responsible for regulating blood calcium levels by promoting calcium reabsorption in the kidneys and calcium absorption in the intestines?",
+        options: [
+          { id: "A", text: "Calcitonin" },
+          { id: "B", text: "Parathyroid hormone (PTH)" },
+          { id: "C", text: "Aldosterone" },
+          { id: "D", text: "Insulin" },
+          { id: "E", text: "Cortisol" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q27_11",
+        category: "biology",
+        text: "During translation initiation in eukaryotes, which ribosomal subunit first binds to the mRNA?",
+        options: [
+          { id: "A", text: "60S large subunit" },
+          { id: "B", text: "40S small subunit" },
+          { id: "C", text: "Both subunits bind simultaneously" },
+          { id: "D", text: "80S ribosome binds as a complete unit" },
+          { id: "E", text: "30S small subunit" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q28_11",
+        category: "biology",
+        text: "In the kidney, the majority of glucose reabsorption occurs in which part of the nephron?",
+        options: [
+          { id: "A", text: "Glomerulus" },
+          { id: "B", text: "Proximal convoluted tubule" },
+          { id: "C", text: "Loop of Henle" },
+          { id: "D", text: "Distal convoluted tubule" },
+          { id: "E", text: "Collecting duct" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q29_11",
+        category: "biology",
+        text: "Which of the following best explains why C4 plants have an advantage over C3 plants in hot, dry conditions?",
+        options: [
+          { id: "A", text: "C4 plants use less water for photosynthesis" },
+          { id: "B", text: "C4 plants have a mechanism to concentrate CO₂ and reduce photorespiration" },
+          { id: "C", text: "C4 plants can photosynthesize without light" },
+          { id: "D", text: "C4 plants produce more oxygen than C3 plants" },
+          { id: "E", text: "C4 plants have deeper root systems" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q30_11",
+        category: "biology",
+        text: "The polymerase chain reaction (PCR) requires repeated cycles of heating and cooling. What is the purpose of the denaturation step at ~95°C?",
+        options: [
+          { id: "A", text: "To activate the DNA polymerase enzyme" },
+          { id: "B", text: "To allow primers to bind to template DNA" },
+          { id: "C", text: "To separate the two strands of double-stranded DNA" },
+          { id: "D", text: "To synthesize new DNA strands" },
+          { id: "E", text: "To prevent contamination" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q31_11",
+        category: "biology",
+        text: "In humans, ABO blood type is determined by multiple alleles. An individual with type AB blood has which genotype?",
+        options: [
+          { id: "A", text: "I^A I^A" },
+          { id: "B", text: "I^B I^B" },
+          { id: "C", text: "I^A I^B" },
+          { id: "D", text: "I^A i" },
+          { id: "E", text: "I^B i" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q32_11",
+        category: "biology",
+        text: "Which of the following processes occurs during the S phase of the cell cycle?",
+        options: [
+          { id: "A", text: "Chromosome condensation" },
+          { id: "B", text: "Nuclear envelope breakdown" },
+          { id: "C", text: "DNA replication" },
+          { id: "D", text: "Spindle formation" },
+          { id: "E", text: "Cytokinesis" }
+        ],
+        correctOption: "C"
+      },
+
+      // Chemistry (15 questions)
+      {
+        id: "q33_11",
+        category: "chemistry",
+        text: "Which of the following molecular geometries is predicted for a molecule with the formula AX₂E₂ (where A is the central atom, X represents bonded atoms, and E represents lone pairs)?",
+        options: [
+          { id: "A", text: "Tetrahedral" },
+          { id: "B", text: "Bent (angular)" },
+          { id: "C", text: "Linear" },
+          { id: "D", text: "Trigonal planar" },
+          { id: "E", text: "Trigonal pyramidal" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q34_11",
+        category: "chemistry",
+        text: "In the reaction mechanism for the SN2 substitution, which statement is most accurate?",
+        options: [
+          { id: "A", text: "The reaction proceeds through a carbocation intermediate" },
+          { id: "B", text: "The nucleophile attacks simultaneously as the leaving group departs" },
+          { id: "C", text: "The reaction rate depends only on the concentration of the substrate" },
+          { id: "D", text: "Tertiary substrates react faster than primary substrates" },
+          { id: "E", text: "The stereochemistry is retained during the reaction" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q35_11",
+        category: "chemistry",
+        text: "For the equilibrium N₂O₄(g) ⇌ 2NO₂(g), ΔH° = +57 kJ/mol. According to Le Chatelier's principle, increasing the temperature will:",
+        options: [
+          { id: "A", text: "Shift the equilibrium to the left and decrease Kc" },
+          { id: "B", text: "Shift the equilibrium to the right and increase Kc" },
+          { id: "C", text: "Shift the equilibrium to the left and increase Kc" },
+          { id: "D", text: "Have no effect on the equilibrium position" },
+          { id: "E", text: "Shift the equilibrium to the right and decrease Kc" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q36_11",
+        category: "chemistry",
+        text: "Which of the following best explains why fluorine has the highest electronegativity among all elements?",
+        options: [
+          { id: "A", text: "It has the largest atomic radius" },
+          { id: "B", text: "It has the highest ionization energy" },
+          { id: "C", text: "It has a small atomic radius and high nuclear charge relative to its electron shielding" },
+          { id: "D", text: "It has the most electron shells" },
+          { id: "E", text: "It forms the strongest metallic bonds" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q37_11",
+        category: "chemistry",
+        text: "In a buffer solution containing CH₃COOH and CH₃COONa, what happens when a small amount of strong acid (HCl) is added?",
+        options: [
+          { id: "A", text: "The acetate ion (CH₃COO⁻) reacts with H⁺ to form acetic acid" },
+          { id: "B", text: "The acetic acid dissociates completely to neutralize the acid" },
+          { id: "C", text: "The pH drops dramatically" },
+          { id: "D", text: "Sodium chloride precipitates from solution" },
+          { id: "E", text: "The buffer becomes more basic" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q38_11",
+        category: "chemistry",
+        text: "Which of the following represents the correct electron configuration for Fe³⁺ (iron in the +3 oxidation state)?",
+        options: [
+          { id: "A", text: "[Ar] 3d⁶" },
+          { id: "B", text: "[Ar] 3d⁵" },
+          { id: "C", text: "[Ar] 3d⁴ 4s¹" },
+          { id: "D", text: "[Ar] 3d³ 4s²" },
+          { id: "E", text: "[Ar] 4s² 3d³" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q39_11",
+        category: "chemistry",
+        text: "The rate law for a reaction is Rate = k[A]²[B]. If the concentration of A is doubled and the concentration of B is tripled, by what factor does the reaction rate increase?",
+        options: [
+          { id: "A", text: "6" },
+          { id: "B", text: "9" },
+          { id: "C", text: "12" },
+          { id: "D", text: "18" },
+          { id: "E", text: "36" }
+        ],
+        correctOption: "C" // Rate increases by 2² × 3¹ = 4 × 3 = 12
+      },
+      {
+        id: "q40_11",
+        category: "chemistry",
+        text: "Which intermolecular force is primarily responsible for the relatively high boiling point of water compared to other molecules of similar molecular weight?",
+        options: [
+          { id: "A", text: "Van der Waals forces" },
+          { id: "B", text: "Dipole-dipole interactions" },
+          { id: "C", text: "Hydrogen bonding" },
+          { id: "D", text: "Ionic bonding" },
+          { id: "E", text: "Metallic bonding" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q41_11",
+        category: "chemistry",
+        text: "For the redox reaction: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O, what is the oxidation state of manganese in MnO₄⁻?",
+        options: [
+          { id: "A", text: "+3" },
+          { id: "B", text: "+5" },
+          { id: "C", text: "+6" },
+          { id: "D", text: "+7" },
+          { id: "E", text: "+8" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q42_11",
+        category: "chemistry",
+        text: "Which of the following compounds would be expected to have the highest melting point?",
+        options: [
+          { id: "A", text: "NaCl" },
+          { id: "B", text: "MgO" },
+          { id: "C", text: "CaF₂" },
+          { id: "D", text: "KI" },
+          { id: "E", text: "LiF" }
+        ],
+        correctOption: "B" // MgO has the highest lattice energy due to small highly charged ions (Mg²⁺, O²⁻)
+      },
+      {
+        id: "q43_11",
+        category: "chemistry",
+        text: "In organic chemistry, which reagent would most effectively convert a primary alcohol to an aldehyde without over-oxidation to a carboxylic acid?",
+        options: [
+          { id: "A", text: "KMnO₄" },
+          { id: "B", text: "K₂Cr₂O₇/H₂SO₄" },
+          { id: "C", text: "PCC (pyridinium chlorochromate)" },
+          { id: "D", text: "Na₂Cr₂O₇" },
+          { id: "E", text: "Concentrated HNO₃" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q44_11",
+        category: "chemistry",
+        text: "A solution has a pH of 3.5. What is the concentration of hydroxide ions [OH⁻] in this solution at 25°C?",
+        options: [
+          { id: "A", text: "3.2 × 10⁻¹¹ M" },
+          { id: "B", text: "3.2 × 10⁻⁴ M" },
+          { id: "C", text: "1.0 × 10⁻¹⁰⁻⁵ M" },
+          { id: "D", text: "3.5 × 10⁻¹⁴ M" },
+          { id: "E", text: "1.0 × 10⁻³⁻⁵ M" }
+        ],
+        correctOption: "A" // pOH = 14 - 3.5 = 10.5, so [OH⁻] = 10^(-10.5) = 3.2 × 10⁻¹¹ M
+      },
+      {
+        id: "q45_11",
+        category: "chemistry",
+        text: "Which of the following statements about catalysts is most accurate?",
+        options: [
+          { id: "A", text: "Catalysts increase the equilibrium constant of a reaction" },
+          { id: "B", text: "Catalysts are consumed during the reaction" },
+          { id: "C", text: "Catalysts lower the activation energy for both forward and reverse reactions" },
+          { id: "D", text: "Catalysts change the enthalpy change (ΔH) of the reaction" },
+          { id: "E", text: "Catalysts only affect the rate of the forward reaction" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q46_11",
+        category: "chemistry",
+        text: "For the isotope ²³⁸U, how many neutrons are present in the nucleus?",
+        options: [
+          { id: "A", text: "92" },
+          { id: "B", text: "146" },
+          { id: "C", text: "238" },
+          { id: "D", text: "330" },
+          { id: "E", text: "184" }
+        ],
+        correctOption: "B" // Neutrons = Mass number - Atomic number = 238 - 92 = 146
+      },
+      {
+        id: "q47_11",
+        category: "chemistry",
+        text: "Which of the following molecules exhibits resonance structures?",
+        options: [
+          { id: "A", text: "CH₄" },
+          { id: "B", text: "NH₃" },
+          { id: "C", text: "SO₃" },
+          { id: "D", text: "H₂O" },
+          { id: "E", text: "CCl₄" }
+        ],
+        correctOption: "C"
+      },
+
+      // Physics & Mathematics (13 questions)
+      {
+        id: "q48_11",
+        category: "physics_math",
+        text: "A particle undergoes simple harmonic motion with amplitude A and angular frequency ω. At what displacement from equilibrium is the kinetic energy equal to the potential energy?",
+        options: [
+          { id: "A", text: "A/4" },
+          { id: "B", text: "A/2" },
+          { id: "C", text: "A/√2" },
+          { id: "D", text: "A/√3" },
+          { id: "E", text: "2A/3" }
+        ],
+        correctOption: "C" // At equilibrium: KE = ½mv² = ½mω²(A² - x²), PE = ½kx² = ½mω²x². Setting equal: A² - x² = x², so x = A/√2
+      },
+      {
+        id: "q49_11",
+        category: "physics_math",
+        text: "In the photoelectric effect, the maximum kinetic energy of emitted electrons depends on:",
+        options: [
+          { id: "A", text: "The intensity of the incident light only" },
+          { id: "B", text: "The frequency of the incident light only" },
+          { id: "C", text: "Both the intensity and frequency of the incident light" },
+          { id: "D", text: "The work function of the material only" },
+          { id: "E", text: "The frequency of the incident light and the work function of the material" }
+        ],
+        correctOption: "E"
+      },
+      {
+        id: "q50_11",
+        category: "physics_math",
+        text: "A capacitor C is connected in series with a resistor R to a DC voltage source V. What is the time constant of this RC circuit?",
+        options: [
+          { id: "A", text: "R/C" },
+          { id: "B", text: "RC" },
+          { id: "C", text: "C/R" },
+          { id: "D", text: "1/(RC)" },
+          { id: "E", text: "√(RC)" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q51_11",
+        category: "physics_math",
+        text: "A conducting loop moves through a non-uniform magnetic field. According to Faraday's law, the induced EMF is proportional to:",
+        options: [
+          { id: "A", text: "The magnetic field strength" },
+          { id: "B", text: "The area of the loop" },
+          { id: "C", text: "The velocity of the loop" },
+          { id: "D", text: "The rate of change of magnetic flux through the loop" },
+          { id: "E", text: "The resistance of the loop" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q52_11",
+        category: "physics_math",
+        text: "In a double-slit experiment, if the wavelength of light is increased while keeping the slit separation and screen distance constant, what happens to the fringe spacing?",
+        options: [
+          { id: "A", text: "Increases" },
+          { id: "B", text: "Decreases" },
+          { id: "C", text: "Remains the same" },
+          { id: "D", text: "First increases then decreases" },
+          { id: "E", text: "Becomes zero" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q53_11",
+        category: "physics_math",
+        text: "What is the derivative of f(x) = ln(cos(x)) with respect to x?",
+        options: [
+          { id: "A", text: "-sin(x)" },
+          { id: "B", text: "-tan(x)" },
+          { id: "C", text: "tan(x)" },
+          { id: "D", text: "sin(x)/cos(x)" },
+          { id: "E", text: "1/sin(x)" }
+        ],
+        correctOption: "B" // d/dx[ln(cos(x))] = (1/cos(x)) × (-sin(x)) = -sin(x)/cos(x) = -tan(x)
+      },
+      {
+        id: "q54_11",
+        category: "physics_math",
+        text: "A projectile is launched at an angle θ to the horizontal with initial speed v₀. What is the maximum height reached?",
+        options: [
+          { id: "A", text: "v₀²sin²θ / (2g)" },
+          { id: "B", text: "v₀²cos²θ / (2g)" },
+          { id: "C", text: "v₀²sinθ / g" },
+          { id: "D", text: "v₀²sin(2θ) / g" },
+          { id: "E", text: "v₀² / (2g)" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q55_11",
+        category: "physics_math",
+        text: "For the function f(x) = e^(x²), what is the second derivative f''(x)?",
+        options: [
+          { id: "A", text: "2xe^(x²)" },
+          { id: "B", text: "(2 + 4x²)e^(x²)" },
+          { id: "C", text: "4x²e^(x²)" },
+          { id: "D", text: "2e^(x²)" },
+          { id: "E", text: "(4x² + 2x)e^(x²)" }
+        ],
+        correctOption: "B" // f'(x) = 2xe^(x²), f''(x) = 2e^(x²) + 2x(2xe^(x²)) = 2e^(x²) + 4x²e^(x²) = (2 + 4x²)e^(x²)
+      },
+      {
+        id: "q56_11",
+        category: "physics_math",
+        text: "A mass m hangs from a spring with spring constant k. The period of oscillation is T = 2π√(m/k). If the mass is quadrupled, how does the period change?",
+        options: [
+          { id: "A", text: "Doubles" },
+          { id: "B", text: "Quadruples" },
+          { id: "C", text: "Halves" },
+          { id: "D", text: "Remains the same" },
+          { id: "E", text: "Increases by a factor of √2" }
+        ],
+        correctOption: "A" // If m → 4m, then T → 2π√(4m/k) = 2π(2)√(m/k) = 2T
+      },
+      {
+        id: "q57_11",
+        category: "physics_math",
+        text: "What is the value of the definite integral ∫₀^π sin²(x) dx?",
+        options: [
+          { id: "A", text: "0" },
+          { id: "B", text: "π/4" },
+          { id: "C", text: "π/2" },
+          { id: "D", text: "π" },
+          { id: "E", text: "2π" }
+        ],
+        correctOption: "C" // Using sin²(x) = (1 - cos(2x))/2, integral becomes π/2
+      },
+      {
+        id: "q58_11",
+        category: "physics_math",
+        text: "In a right-angled triangle, if one angle is 60° and the hypotenuse is 10 cm, what is the length of the side adjacent to the 60° angle?",
+        options: [
+          { id: "A", text: "5 cm" },
+          { id: "B", text: "5√3 cm" },
+          { id: "C", text: "10√3 cm" },
+          { id: "D", text: "10/√3 cm" },
+          { id: "E", text: "5√2 cm" }
+        ],
+        correctOption: "A" // Adjacent = hypotenuse × cos(60°) = 10 × 0.5 = 5 cm
+      },
+      {
+        id: "q59_11",
+        category: "physics_math",
+        text: "Two identical capacitors are connected in series and then connected to a battery. How does the energy stored in this configuration compare to a single capacitor connected to the same battery?",
+        options: [
+          { id: "A", text: "Four times as much" },
+          { id: "B", text: "Twice as much" },
+          { id: "C", text: "The same" },
+          { id: "D", text: "Half as much" },
+          { id: "E", text: "One quarter as much" }
+        ],
+        correctOption: "D" // Equivalent capacitance in series is C/2, so energy = ½(C/2)V² = ¼CV² compared to ½CV² for single capacitor
+      },
+      {
+        id: "q60_11",
+        category: "physics_math",
+        text: "A Carnot engine operates between two thermal reservoirs at temperatures T₁ = 400 K and T₂ = 300 K. What is the theoretical maximum efficiency of this engine?",
+        options: [
+          { id: "A", text: "20%" },
+          { id: "B", text: "25%" },
+          { id: "C", text: "30%" },
+          { id: "D", text: "33%" },
+          { id: "E", text: "75%" }
+        ],
+        correctOption: "B" // Efficiency = 1 - T₂/T₁ = 1 - 300/400 = 0.25 = 25%
+      }
     ]
   }
 } 

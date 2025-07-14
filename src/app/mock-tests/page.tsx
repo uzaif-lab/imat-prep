@@ -74,6 +74,17 @@ const mockTests = [
     isPremium: true,
   },
   {
+    id: "11",
+    title: "Advanced IMAT Challenge Test",
+    description:
+      "Highly challenging test with 2018-level difficulty featuring advanced questions across all sections.",
+    questionCount: 60,
+    timeLimit: 100,
+    createdAt: "2024-04-25",
+    isComplete: true,
+    isPremium: true,
+  },
+  {
     id: "4",
     title: "Advanced Biology Test",
     description:
