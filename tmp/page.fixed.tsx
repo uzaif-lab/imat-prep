@@ -1,4 +1,0 @@
-        ],
-        correctOption: 'D'
-      },
-
