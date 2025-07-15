@@ -88,7 +88,7 @@ const mockTests = [
     id: "12",
     title: "IMAT Practice Test 4",
     description:
-      "last paper mein farhan fatt gayi thi isliye ye asaan test do.",
+      "last paper mein farhan ki fatt gayi thi isliye ye asaan test do.",
     questionCount: 60,
     timeLimit: 100,
     createdAt: "2024-05-30",
