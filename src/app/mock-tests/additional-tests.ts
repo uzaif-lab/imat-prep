@@ -2602,5 +2602,803 @@ export const additionalMockTests = {
         correctOption: "B" // Efficiency = 1 - T₂/T₁ = 1 - 300/400 = 0.25 = 25%
       }
     ]
+  },
+  "12": {
+    id: "12",
+    title: "IMAT Practice Test 4",
+    description:
+      "Fourth original practice test with fresh questions covering all IMAT syllabus topics at standard difficulty.",
+    timeLimit: 100,
+    questions: [
+      // Reading Comprehension & General Knowledge (4 questions)
+      {
+        id: "q1_12",
+        category: "reading",
+        text: `Read the passage and answer the question below:\n\nThe James Webb Space Telescope (JWST) has begun delivering images of galaxies that formed less than 400 million years after the Big Bang. By observing infrared light stretched by the expansion of the universe, JWST peers deeper into cosmic history than any previous observatory.\n\nAccording to the passage, JWST is able to see early galaxies primarily because it:`,
+        options: [
+          { id: "A", text: "It uses X-ray detectors to penetrate dust" },
+          { id: "B", text: "It detects infrared radiation that has been red-shifted" },
+          { id: "C", text: "It travels beyond the Milky Way to capture images" },
+          { id: "D", text: "It generates its own gravitational waves" },
+          { id: "E", text: "It cancels background microwave radiation" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q2_12",
+        category: "reading",
+        text: `Read the passage and answer the question below:\n\nAntibiotic stewardship programs seek to optimise the use of antimicrobial agents in clinical settings. By tailoring drug choice, dose and duration, these initiatives aim to curb the emergence of resistant strains while ensuring effective patient care.\n\nWhat is the PRIMARY goal of antibiotic stewardship according to the passage?`,
+        options: [
+          { id: "A", text: "To increase use of broad-spectrum antibiotics" },
+          { id: "B", text: "To preserve antibiotic effectiveness by reducing inappropriate prescriptions" },
+          { id: "C", text: "To accelerate the evolution of resistant bacteria" },
+          { id: "D", text: "To ban prophylactic antibiotic use in surgery" },
+          { id: "E", text: "To encourage self-medication with leftover drugs" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q3_12",
+        category: "reading",
+        text: "Deficiency of which vitamin causes rickets in children?",
+        options: [
+          { id: "A", text: "Vitamin A" },
+          { id: "B", text: "Vitamin C" },
+          { id: "C", text: "Vitamin D" },
+          { id: "D", text: "Vitamin K" },
+          { id: "E", text: "Vitamin B12" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q4_12",
+        category: "reading",
+        text: "Which endocrine gland secretes the hormone cortisol in humans?",
+        options: [
+          { id: "A", text: "Thyroid gland" },
+          { id: "B", text: "Adrenal cortex" },
+          { id: "C", text: "Pancreas" },
+          { id: "D", text: "Pineal gland" },
+          { id: "E", text: "Parathyroid gland" }
+        ],
+        correctOption: "B"
+      },
+
+      // Logical Reasoning (5 questions)
+      {
+        id: "q5_12",
+        category: "logical_reasoning",
+        text: "Complete the sequence: 2, 6, 12, 20, 30, ?",
+        options: [
+          { id: "A", text: "40" },
+          { id: "B", text: "42" },
+          { id: "C", text: "44" },
+          { id: "D", text: "48" },
+          { id: "E", text: "52" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q6_12",
+        category: "logical_reasoning",
+        text: "All surgeons are doctors. Some doctors are musicians. Which conclusion must be true?",
+        options: [
+          { id: "A", text: "Some surgeons are musicians" },
+          { id: "B", text: "All musicians are surgeons" },
+          { id: "C", text: "Some musicians are doctors" },
+          { id: "D", text: "No surgeons are musicians" },
+          { id: "E", text: "All doctors are surgeons" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q7_12",
+        category: "logical_reasoning",
+        text: "When a fair die is rolled once, what is the probability of obtaining a prime number?",
+        options: [
+          { id: "A", text: "1/6" },
+          { id: "B", text: "1/3" },
+          { id: "C", text: "1/2" },
+          { id: "D", text: "2/3" },
+          { id: "E", text: "5/6" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q8_12",
+        category: "logical_reasoning",
+        text: "A plant is 50 cm tall and grows by 20% each week. What will its height be after two weeks?",
+        options: [
+          { id: "A", text: "60 cm" },
+          { id: "B", text: "72 cm" },
+          { id: "C", text: "75 cm" },
+          { id: "D", text: "80 cm" },
+          { id: "E", text: "90 cm" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q9_12",
+        category: "logical_reasoning",
+        text: "A solution contains acid and water in the ratio 3:5. After adding 4 litres of water, the ratio becomes 3:7. How many litres of acid were in the original solution?",
+        options: [
+          { id: "A", text: "4 L" },
+          { id: "B", text: "5 L" },
+          { id: "C", text: "6 L" },
+          { id: "D", text: "7 L" },
+          { id: "E", text: "8 L" }
+        ],
+        correctOption: "C"
+      },
+
+      // Biology (23 questions)
+      {
+        id: "q10_12",
+        category: "biology",
+        text: "Which organelle is primarily responsible for modifying, sorting and packaging proteins received from the rough endoplasmic reticulum?",
+        options: [
+          { id: "A", text: "Lysosome" },
+          { id: "B", text: "Nucleus" },
+          { id: "C", text: "Golgi apparatus" },
+          { id: "D", text: "Peroxisome" },
+          { id: "E", text: "Mitochondrion" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q11_12",
+        category: "biology",
+        text: "Which type of leukocyte is chiefly responsible for antibody production?",
+        options: [
+          { id: "A", text: "T helper cell" },
+          { id: "B", text: "Neutrophil" },
+          { id: "C", text: "Macrophage" },
+          { id: "D", text: "B lymphocyte" },
+          { id: "E", text: "Eosinophil" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q12_12",
+        category: "biology",
+        text: "In humans, how many pairs of autosomes are present in a typical somatic cell?",
+        options: [
+          { id: "A", text: "22" },
+          { id: "B", text: "23" },
+          { id: "C", text: "24" },
+          { id: "D", text: "44" },
+          { id: "E", text: "46" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q13_12",
+        category: "biology",
+        text: "During which phase of the cell cycle is DNA replicated?",
+        options: [
+          { id: "A", text: "G0 phase" },
+          { id: "B", text: "G1 phase" },
+          { id: "C", text: "S phase" },
+          { id: "D", text: "G2 phase" },
+          { id: "E", text: "M phase" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q14_12",
+        category: "biology",
+        text: "The Bohr effect describes the influence of which factor on haemoglobin's affinity for oxygen?",
+        options: [
+          { id: "A", text: "Temperature" },
+          { id: "B", text: "pH / CO₂ concentration" },
+          { id: "C", text: "2,3-BPG concentration" },
+          { id: "D", text: "Partial pressure of oxygen" },
+          { id: "E", text: "All of the above" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q15_12",
+        category: "biology",
+        text: "Which hormone triggers ovulation in the human menstrual cycle?",
+        options: [
+          { id: "A", text: "Follicle-stimulating hormone" },
+          { id: "B", text: "Luteinising hormone" },
+          { id: "C", text: "Progesterone" },
+          { id: "D", text: "Prolactin" },
+          { id: "E", text: "Oestradiol" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q16_12",
+        category: "biology",
+        text: "Which vitamin is essential for the gamma-carboxylation of clotting factors II, VII, IX and X?",
+        options: [
+          { id: "A", text: "Vitamin C" },
+          { id: "B", text: "Vitamin D" },
+          { id: "C", text: "Vitamin K" },
+          { id: "D", text: "Vitamin A" },
+          { id: "E", text: "Vitamin B12" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q17_12",
+        category: "biology",
+        text: "What is the primary function of ribosomes in a cell?",
+        options: [
+          { id: "A", text: "DNA replication" },
+          { id: "B", text: "Protein synthesis" },
+          { id: "C", text: "Lipid storage" },
+          { id: "D", text: "Energy production" },
+          { id: "E", text: "Cell signalling" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q18_12",
+        category: "biology",
+        text: "Which cells form the blood-testis barrier?",
+        options: [
+          { id: "A", text: "Sertoli cells" },
+          { id: "B", text: "Leydig cells" },
+          { id: "C", text: "Spermatogonia" },
+          { id: "D", text: "Peritubular myoid cells" },
+          { id: "E", text: "Reinke crystals" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q19_12",
+        category: "biology",
+        text: "Which neurotransmitter is released at the neuromuscular junction?",
+        options: [
+          { id: "A", text: "Dopamine" },
+          { id: "B", text: "Serotonin" },
+          { id: "C", text: "Acetylcholine" },
+          { id: "D", text: "GABA" },
+          { id: "E", text: "Glutamate" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q20_12",
+        category: "biology",
+        text: "The Hardy-Weinberg equilibrium assumes all of the following EXCEPT:",
+        options: [
+          { id: "A", text: "Large population size" },
+          { id: "B", text: "No migration" },
+          { id: "C", text: "Non-random mating" },
+          { id: "D", text: "No mutation" },
+          { id: "E", text: "No natural selection" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q21_12",
+        category: "biology",
+        text: "Which portion of the nephron is primarily responsible for the reabsorption of glucose?",
+        options: [
+          { id: "A", text: "Proximal convoluted tubule" },
+          { id: "B", text: "Descending limb of Henle" },
+          { id: "C", text: "Ascending limb of Henle" },
+          { id: "D", text: "Distal convoluted tubule" },
+          { id: "E", text: "Collecting duct" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q22_12",
+        category: "biology",
+        text: "During translation, the mRNA codon UGA normally signals:",
+        options: [
+          { id: "A", text: "Methionine" },
+          { id: "B", text: "Tryptophan" },
+          { id: "C", text: "Start of translation" },
+          { id: "D", text: "Stop of translation" },
+          { id: "E", text: "Arginine" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q23_12",
+        category: "biology",
+        text: "Which pathogen is an obligate intracellular parasite that causes trachoma?",
+        options: [
+          { id: "A", text: "Staphylococcus aureus" },
+          { id: "B", text: "Chlamydia trachomatis" },
+          { id: "C", text: "Salmonella enterica" },
+          { id: "D", text: "Mycoplasma pneumoniae" },
+          { id: "E", text: "Treponema pallidum" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q24_12",
+        category: "biology",
+        text: "What term describes different forms of a gene at a particular locus?",
+        options: [
+          { id: "A", text: "Chromatid" },
+          { id: "B", text: "Allele" },
+          { id: "C", text: "Centromere" },
+          { id: "D", text: "Genome" },
+          { id: "E", text: "Karyotype" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q25_12",
+        category: "biology",
+        text: "Which layer of the gastrointestinal tract contains Meissner's (submucosal) plexus?",
+        options: [
+          { id: "A", text: "Serosa" },
+          { id: "B", text: "Muscularis externa" },
+          { id: "C", text: "Submucosa" },
+          { id: "D", text: "Mucosa" },
+          { id: "E", text: "Adventitia" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q26_12",
+        category: "biology",
+        text: "Which gas is the primary driver of the respiratory drive in healthy humans?",
+        options: [
+          { id: "A", text: "Oxygen" },
+          { id: "B", text: "Carbon dioxide" },
+          { id: "C", text: "Nitrogen" },
+          { id: "D", text: "Carbon monoxide" },
+          { id: "E", text: "Hydrogen" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q27_12",
+        category: "biology",
+        text: "During a primary immune response, which class of antibody is produced first?",
+        options: [
+          { id: "A", text: "IgA" },
+          { id: "B", text: "IgG" },
+          { id: "C", text: "IgM" },
+          { id: "D", text: "IgE" },
+          { id: "E", text: "IgD" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q28_12",
+        category: "biology",
+        text: "Which enzyme converts angiotensin I to angiotensin II?",
+        options: [
+          { id: "A", text: "Renin" },
+          { id: "B", text: "Angiotensin-converting enzyme" },
+          { id: "C", text: "Aldosterone" },
+          { id: "D", text: "Bradykininase" },
+          { id: "E", text: "Angiotensinase" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q29_12",
+        category: "biology",
+        text: "Which photoreceptor cells in the retina are responsible for colour vision?",
+        options: [
+          { id: "A", text: "Rods" },
+          { id: "B", text: "Cones" },
+          { id: "C", text: "Bipolar cells" },
+          { id: "D", text: "Ganglion cells" },
+          { id: "E", text: "Müller glia" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q30_12",
+        category: "biology",
+        text: "Which of the following best defines epistasis?",
+        options: [
+          { id: "A", text: "The dosage effect of gene alleles" },
+          { id: "B", text: "Interaction between non-allelic genes" },
+          { id: "C", text: "Dominance of one allele over another" },
+          { id: "D", text: "Multiple genes controlling one trait" },
+          { id: "E", text: "A gene influencing multiple traits" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q31_12",
+        category: "biology",
+        text: "Which type of RNA possesses an anticodon loop?",
+        options: [
+          { id: "A", text: "mRNA" },
+          { id: "B", text: "tRNA" },
+          { id: "C", text: "rRNA" },
+          { id: "D", text: "snRNA" },
+          { id: "E", text: "miRNA" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q32_12",
+        category: "biology",
+        text: "The directed movement of leukocytes toward higher concentrations of certain chemicals is called:",
+        options: [
+          { id: "A", text: "Diapedesis" },
+          { id: "B", text: "Chemotaxis" },
+          { id: "C", text: "Phagocytosis" },
+          { id: "D", text: "Pinocytosis" },
+          { id: "E", text: "Opsonisation" }
+        ],
+        correctOption: "B"
+      },
+
+      // Chemistry (15 questions)
+      {
+        id: "q33_12",
+        category: "chemistry",
+        text: "Which element has the highest electronegativity on the Pauling scale?",
+        options: [
+          { id: "A", text: "Oxygen" },
+          { id: "B", text: "Nitrogen" },
+          { id: "C", text: "Fluorine" },
+          { id: "D", text: "Chlorine" },
+          { id: "E", text: "Neon" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q34_12",
+        category: "chemistry",
+        text: "What is the molecular geometry of methane (CH₄)?",
+        options: [
+          { id: "A", text: "Trigonal planar" },
+          { id: "B", text: "Bent" },
+          { id: "C", text: "Linear" },
+          { id: "D", text: "Tetrahedral" },
+          { id: "E", text: "Trigonal bipyramidal" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q35_12",
+        category: "chemistry",
+        text: "Which gas law states that the volume of a fixed mass of gas is directly proportional to its absolute temperature at constant pressure?",
+        options: [
+          { id: "A", text: "Boyle's law" },
+          { id: "B", text: "Charles's law" },
+          { id: "C", text: "Gay-Lussac's law" },
+          { id: "D", text: "Avogadro's law" },
+          { id: "E", text: "Dalton's law" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q36_12",
+        category: "chemistry",
+        text: "A first-order reaction has a rate constant k = 0.693 min⁻¹. What is its half-life?",
+        options: [
+          { id: "A", text: "0.1 min" },
+          { id: "B", text: "0.5 min" },
+          { id: "C", text: "1 min" },
+          { id: "D", text: "10 min" },
+          { id: "E", text: "100 min" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q37_12",
+        category: "chemistry",
+        text: "Which of the following compounds is NOT an alkane?",
+        options: [
+          { id: "A", text: "Ethane" },
+          { id: "B", text: "Propane" },
+          { id: "C", text: "Butene" },
+          { id: "D", text: "Pentane" },
+          { id: "E", text: "Methane" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q38_12",
+        category: "chemistry",
+        text: "What is the pH of a 0.01 M solution of hydrochloric acid (HCl)?",
+        options: [
+          { id: "A", text: "1" },
+          { id: "B", text: "2" },
+          { id: "C", text: "3" },
+          { id: "D", text: "4" },
+          { id: "E", text: "12" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q39_12",
+        category: "chemistry",
+        text: "Which oxide is amphoteric?",
+        options: [
+          { id: "A", text: "Na₂O" },
+          { id: "B", text: "MgO" },
+          { id: "C", text: "SiO₂" },
+          { id: "D", text: "Al₂O₃" },
+          { id: "E", text: "SO₃" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q40_12",
+        category: "chemistry",
+        text: "What is the coordination number of Na⁺ in the crystal lattice of sodium chloride?",
+        options: [
+          { id: "A", text: "4" },
+          { id: "B", text: "6" },
+          { id: "C", text: "8" },
+          { id: "D", text: "12" },
+          { id: "E", text: "2" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q41_12",
+        category: "chemistry",
+        text: "Which industrial process uses an iron catalyst to synthesise ammonia from nitrogen and hydrogen?",
+        options: [
+          { id: "A", text: "Contact process" },
+          { id: "B", text: "Haber-Bosch process" },
+          { id: "C", text: "Ostwald process" },
+          { id: "D", text: "Solvay process" },
+          { id: "E", text: "Hall-Héroult process" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q42_12",
+        category: "chemistry",
+        text: "Which isotope is commonly used for radiocarbon dating of archaeological samples?",
+        options: [
+          { id: "A", text: "¹²C" },
+          { id: "B", text: "¹³C" },
+          { id: "C", text: "¹⁴C" },
+          { id: "D", text: "³H" },
+          { id: "E", text: "²³⁵U" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q43_12",
+        category: "chemistry",
+        text: "Which ionic compound has the greatest lattice energy?",
+        options: [
+          { id: "A", text: "LiF" },
+          { id: "B", text: "NaCl" },
+          { id: "C", text: "KF" },
+          { id: "D", text: "CsI" },
+          { id: "E", text: "LiI" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q44_12",
+        category: "chemistry",
+        text: "What is the hybridisation of each carbon atom in ethene (C₂H₄)?",
+        options: [
+          { id: "A", text: "sp" },
+          { id: "B", text: "sp²" },
+          { id: "C", text: "sp³" },
+          { id: "D", text: "sp³d" },
+          { id: "E", text: "sp²d" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q45_12",
+        category: "chemistry",
+        text: "In an electrolytic cell, reduction occurs at the:",
+        options: [
+          { id: "A", text: "Anode" },
+          { id: "B", text: "Cathode" },
+          { id: "C", text: "Both electrodes" },
+          { id: "D", text: "Neither electrode" },
+          { id: "E", text: "Electrolyte" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q46_12",
+        category: "chemistry",
+        text: "The standard molar enthalpy of formation of an element in its standard state is:",
+        options: [
+          { id: "A", text: "−1 kJ mol⁻¹" },
+          { id: "B", text: "0 kJ mol⁻¹" },
+          { id: "C", text: "+1 kJ mol⁻¹" },
+          { id: "D", text: "Variable" },
+          { id: "E", text: "100 kJ mol⁻¹" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q47_12",
+        category: "chemistry",
+        text: "Which compound is primarily responsible for the characteristic smell of vinegar?",
+        options: [
+          { id: "A", text: "Formic acid" },
+          { id: "B", text: "Acetic acid" },
+          { id: "C", text: "Propionic acid" },
+          { id: "D", text: "Butyric acid" },
+          { id: "E", text: "Citric acid" }
+        ],
+        correctOption: "B"
+      },
+
+      // Physics & Mathematics (13 questions)
+      {
+        id: "q48_12",
+        category: "physics_math",
+        text: "A car starts from rest and accelerates uniformly at 2 m s⁻². How far does it travel in 5 s?",
+        options: [
+          { id: "A", text: "10 m" },
+          { id: "B", text: "20 m" },
+          { id: "C", text: "25 m" },
+          { id: "D", text: "50 m" },
+          { id: "E", text: "100 m" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q49_12",
+        category: "physics_math",
+        text: "Light passes from air (n = 1.00) into glass (n = 1.50) with an incidence angle of 30°. What is the approximate angle of refraction?",
+        options: [
+          { id: "A", text: "15°" },
+          { id: "B", text: "19°" },
+          { id: "C", text: "20°" },
+          { id: "D", text: "25°" },
+          { id: "E", text: "30°" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q50_12",
+        category: "physics_math",
+        text: "An electrical resistor of 10 Ω carries a current of 2 A. What power is dissipated as heat?",
+        options: [
+          { id: "A", text: "20 W" },
+          { id: "B", text: "40 W" },
+          { id: "C", text: "80 W" },
+          { id: "D", text: "100 W" },
+          { id: "E", text: "200 W" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q51_12",
+        category: "physics_math",
+        text: "Which of the following quantities is a vector?",
+        options: [
+          { id: "A", text: "Mass" },
+          { id: "B", text: "Speed" },
+          { id: "C", text: "Work" },
+          { id: "D", text: "Displacement" },
+          { id: "E", text: "Energy" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q52_12",
+        category: "physics_math",
+        text: "What is the derivative of f(x) = sin(x) cos(x)?",
+        options: [
+          { id: "A", text: "cos²(x) − sin²(x)" },
+          { id: "B", text: "cos(2x)" },
+          { id: "C", text: "−cos(2x)" },
+          { id: "D", text: "sin(2x)" },
+          { id: "E", text: "1" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q53_12",
+        category: "physics_math",
+        text: "Evaluate the definite integral ∫₀¹ x dx.",
+        options: [
+          { id: "A", text: "0.25" },
+          { id: "B", text: "0.5" },
+          { id: "C", text: "1" },
+          { id: "D", text: "2" },
+          { id: "E", text: "Undefined" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q54_12",
+        category: "physics_math",
+        text: "An object of mass 3 kg experiences Earth's gravitational field (g = 9.8 m s⁻²). What is its weight?",
+        options: [
+          { id: "A", text: "3 N" },
+          { id: "B", text: "9.8 N" },
+          { id: "C", text: "29 N" },
+          { id: "D", text: "32 N" },
+          { id: "E", text: "98 N" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q55_12",
+        category: "physics_math",
+        text: "Which law states that the algebraic sum of currents at a junction is zero?",
+        options: [
+          { id: "A", text: "Ohm's law" },
+          { id: "B", text: "Kirchhoff's voltage law" },
+          { id: "C", text: "Kirchhoff's current law" },
+          { id: "D", text: "Lenz's law" },
+          { id: "E", text: "Faraday's law" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q56_12",
+        category: "physics_math",
+        text: "A 4 μF capacitor is charged to 100 V. How much energy is stored in the capacitor?",
+        options: [
+          { id: "A", text: "0.004 J" },
+          { id: "B", text: "0.02 J" },
+          { id: "C", text: "0.2 J" },
+          { id: "D", text: "2 J" },
+          { id: "E", text: "20 J" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q57_12",
+        category: "physics_math",
+        text: "If a planet's mass is quadrupled and its radius is doubled, the escape velocity will:",
+        options: [
+          { id: "A", text: "Remain unchanged" },
+          { id: "B", text: "Increase by a factor of √2" },
+          { id: "C", text: "Double" },
+          { id: "D", text: "Halve" },
+          { id: "E", text: "Decrease by √2" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q58_12",
+        category: "physics_math",
+        text: "Which wave phenomenon results in the bending of waves around small obstacles and openings?",
+        options: [
+          { id: "A", text: "Reflection" },
+          { id: "B", text: "Refraction" },
+          { id: "C", text: "Diffraction" },
+          { id: "D", text: "Interference" },
+          { id: "E", text: "Polarisation" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q59_12",
+        category: "physics_math",
+        text: "A radioactive isotope has a half-life of 5 years. What fraction of the original sample remains after 15 years?",
+        options: [
+          { id: "A", text: "1/2" },
+          { id: "B", text: "1/4" },
+          { id: "C", text: "1/8" },
+          { id: "D", text: "1/16" },
+          { id: "E", text: "1/32" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q60_12",
+        category: "physics_math",
+        text: "What is the value of sin(30°)?",
+        options: [
+          { id: "A", text: "0.5" },
+          { id: "B", text: "0.866" },
+          { id: "C", text: "1" },
+          { id: "D", text: "0" },
+          { id: "E", text: "−0.5" }
+        ],
+        correctOption: "A"
+      }
+    ]
   }
 } 
