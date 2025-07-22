@@ -3400,5 +3400,803 @@ export const additionalMockTests = {
         correctOption: "A"
       }
     ]
+  },
+  "13": {
+    id: "13",
+    title: "Advanced IMAT Mastery Test",
+    description:
+      "Ultra-challenging test with advanced difficulty featuring complex questions across all IMAT sections.",
+    timeLimit: 100,
+    questions: [
+      // Reading Comprehension & General Knowledge (4 questions)
+      {
+        id: "q1_13",
+        category: "reading",
+        text: `Read the passage and answer the question below:\n\nThe discovery of CRISPR-Cas9 gene editing technology has revolutionised molecular biology, but its therapeutic applications face significant challenges. Off-target effects, where the Cas9 nuclease cuts unintended DNA sequences, remain a major concern. Recent advances in high-fidelity Cas9 variants and base editing technologies have reduced but not eliminated this risk. Additionally, delivery systems must efficiently transport CRISPR components to target cells while avoiding immune responses. The complexity of polygenic diseases further complicates therapeutic strategies, as single-gene modifications may be insufficient.\n\nAccording to the passage, which of the following represents the MOST significant obstacle to CRISPR-Cas9 therapeutic applications?`,
+        options: [
+          { id: "A", text: "The high cost of CRISPR-Cas9 technology" },
+          { id: "B", text: "The inability to target specific cell types" },
+          { id: "C", text: "Off-target DNA cutting by the Cas9 nuclease" },
+          { id: "D", text: "The complexity of polygenic disease mechanisms" },
+          { id: "E", text: "The requirement for specialised laboratory equipment" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q2_13",
+        category: "reading",
+        text: `Read the passage and answer the question below:\n\nQuantum computing represents a paradigm shift from classical computing, utilising quantum mechanical phenomena such as superposition and entanglement. Unlike classical bits that exist in states of 0 or 1, quantum bits (qubits) can exist in superposition of both states simultaneously. This property theoretically enables quantum computers to solve certain problems exponentially faster than classical computers. However, qubits are extremely fragile and susceptible to decoherence, where quantum information is lost due to environmental interactions.\n\nWhich quantum mechanical phenomenon is primarily responsible for the computational advantage of quantum computers over classical computers?`,
+        options: [
+          { id: "A", text: "Wave-particle duality" },
+          { id: "B", text: "Quantum tunnelling" },
+          { id: "C", text: "Superposition of quantum states" },
+          { id: "D", text: "Heisenberg uncertainty principle" },
+          { id: "E", text: "Quantum entanglement" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q3_13",
+        category: "reading",
+        text: "Which Nobel Prize-winning discovery established the molecular basis of circadian rhythms in organisms?",
+        options: [
+          { id: "A", text: "The discovery of DNA structure" },
+          { id: "B", text: "The identification of clock genes" },
+          { id: "C", text: "The elucidation of protein synthesis" },
+          { id: "D", text: "The discovery of RNA interference" },
+          { id: "E", text: "The identification of telomeres" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q4_13",
+        category: "reading",
+        text: "Which cellular process is primarily responsible for the generation of reactive oxygen species (ROS) in mitochondria?",
+        options: [
+          { id: "A", text: "Glycolysis" },
+          { id: "B", text: "Electron transport chain" },
+          { id: "C", text: "Krebs cycle" },
+          { id: "D", text: "Beta-oxidation" },
+          { id: "E", text: "Gluconeogenesis" }
+        ],
+        correctOption: "B"
+      },
+
+      // Logical Reasoning (5 questions)
+      {
+        id: "q5_13",
+        category: "logical_reasoning",
+        text: "Complete the sequence: 1, 3, 7, 15, 31, ?",
+        options: [
+          { id: "A", text: "47" },
+          { id: "B", text: "55" },
+          { id: "C", text: "63" },
+          { id: "D", text: "71" },
+          { id: "E", text: "79" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q6_13",
+        category: "logical_reasoning",
+        text: "In a medical study, 60% of patients respond to treatment A, 40% respond to treatment B, and 20% respond to both treatments. What percentage of patients respond to neither treatment?",
+        options: [
+          { id: "A", text: "10%" },
+          { id: "B", text: "20%" },
+          { id: "C", text: "30%" },
+          { id: "D", text: "40%" },
+          { id: "E", text: "50%" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q7_13",
+        category: "logical_reasoning",
+        text: "A hospital has 3 emergency departments (A, B, C) that can handle 100, 150, and 200 patients respectively per day. If the total daily patient load is 400, and department A is at 80% capacity, what is the maximum number of patients that can be assigned to department C?",
+        options: [
+          { id: "A", text: "120" },
+          { id: "B", text: "140" },
+          { id: "C", text: "160" },
+          { id: "D", text: "180" },
+          { id: "E", text: "200" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q8_13",
+        category: "logical_reasoning",
+        text: "If all X are Y, and some Y are Z, and no Z are W, which of the following must be true?",
+        options: [
+          { id: "A", text: "Some X are Z" },
+          { id: "B", text: "No X are W" },
+          { id: "C", text: "All Y are X" },
+          { id: "D", text: "Some Z are Y" },
+          { id: "E", text: "All W are X" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q9_13",
+        category: "logical_reasoning",
+        text: "A drug has a half-life of 6 hours. If 100 mg is administered, how much remains after 18 hours?",
+        options: [
+          { id: "A", text: "6.25 mg" },
+          { id: "B", text: "12.5 mg" },
+          { id: "C", text: "25 mg" },
+          { id: "D", text: "50 mg" },
+          { id: "E", text: "75 mg" }
+        ],
+        correctOption: "B"
+      },
+
+      // Biology (23 questions)
+      {
+        id: "q10_13",
+        category: "biology",
+        text: "Which enzyme is responsible for the conversion of angiotensinogen to angiotensin I in the renin-angiotensin system?",
+        options: [
+          { id: "A", text: "Angiotensin-converting enzyme" },
+          { id: "B", text: "Renin" },
+          { id: "C", text: "Aldosterone synthase" },
+          { id: "D", text: "Bradykininase" },
+          { id: "E", text: "Chymase" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q11_13",
+        category: "biology",
+        text: "During oxidative phosphorylation, which complex of the electron transport chain is responsible for the reduction of oxygen to water?",
+        options: [
+          { id: "A", text: "Complex I" },
+          { id: "B", text: "Complex II" },
+          { id: "C", text: "Complex III" },
+          { id: "D", text: "Complex IV" },
+          { id: "E", text: "ATP synthase" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q12_13",
+        category: "biology",
+        text: "Which type of cell junction is characterised by the presence of connexin proteins forming gap junctions?",
+        options: [
+          { id: "A", text: "Tight junctions" },
+          { id: "B", text: "Adherens junctions" },
+          { id: "C", text: "Gap junctions" },
+          { id: "D", text: "Desmosomes" },
+          { id: "E", text: "Hemidesmosomes" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q13_13",
+        category: "biology",
+        text: "In the context of gene regulation, what is the function of a silencer element?",
+        options: [
+          { id: "A", text: "To enhance transcription initiation" },
+          { id: "B", text: "To repress transcription by binding repressor proteins" },
+          { id: "C", text: "To terminate transcription" },
+          { id: "D", text: "To stabilise mRNA transcripts" },
+          { id: "E", text: "To promote alternative splicing" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q14_13",
+        category: "biology",
+        text: "Which hormone is primarily responsible for the regulation of calcium homeostasis by increasing intestinal calcium absorption?",
+        options: [
+          { id: "A", text: "Parathyroid hormone" },
+          { id: "B", text: "Calcitonin" },
+          { id: "C", text: "1,25-dihydroxyvitamin D" },
+          { id: "D", text: "Estrogen" },
+          { id: "E", text: "Growth hormone" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q15_13",
+        category: "biology",
+        text: "During the cell cycle, which checkpoint ensures that all chromosomes are properly attached to the mitotic spindle?",
+        options: [
+          { id: "A", text: "G1 checkpoint" },
+          { id: "B", text: "G2 checkpoint" },
+          { id: "C", text: "Metaphase checkpoint" },
+          { id: "D", text: "Anaphase checkpoint" },
+          { id: "E", text: "Cytokinesis checkpoint" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q16_13",
+        category: "biology",
+        text: "Which type of RNA polymerase is responsible for transcribing ribosomal RNA genes in eukaryotes?",
+        options: [
+          { id: "A", text: "RNA polymerase I" },
+          { id: "B", text: "RNA polymerase II" },
+          { id: "C", text: "RNA polymerase III" },
+          { id: "D", text: "RNA polymerase IV" },
+          { id: "E", text: "RNA polymerase V" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q17_13",
+        category: "biology",
+        text: "In the context of immune responses, what is the primary function of MHC class II molecules?",
+        options: [
+          { id: "A", text: "To present endogenous antigens to CD8+ T cells" },
+          { id: "B", text: "To present exogenous antigens to CD4+ T cells" },
+          { id: "C", text: "To activate natural killer cells" },
+          { id: "D", text: "To bind to B cell receptors" },
+          { id: "E", text: "To stimulate cytokine production" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q18_13",
+        category: "biology",
+        text: "Which enzyme is responsible for the conversion of fibrinogen to fibrin during blood coagulation?",
+        options: [
+          { id: "A", text: "Thrombin" },
+          { id: "B", text: "Prothrombin" },
+          { id: "C", text: "Factor X" },
+          { id: "D", text: "Factor VII" },
+          { id: "E", text: "Tissue factor" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q19_13",
+        category: "biology",
+        text: "During spermatogenesis, which stage is characterised by the completion of meiosis I?",
+        options: [
+          { id: "A", text: "Spermatogonium" },
+          { id: "B", text: "Primary spermatocyte" },
+          { id: "C", text: "Secondary spermatocyte" },
+          { id: "D", text: "Spermatid" },
+          { id: "E", text: "Spermatozoon" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q20_13",
+        category: "biology",
+        text: "Which cellular organelle is primarily responsible for the degradation of damaged mitochondria through autophagy?",
+        options: [
+          { id: "A", text: "Lysosome" },
+          { id: "B", text: "Peroxisome" },
+          { id: "C", text: "Autophagosome" },
+          { id: "D", text: "Endosome" },
+          { id: "E", text: "Phagosome" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q21_13",
+        category: "biology",
+        text: "In the context of signal transduction, what is the function of a G protein-coupled receptor (GPCR)?",
+        options: [
+          { id: "A", text: "To directly phosphorylate target proteins" },
+          { id: "B", text: "To activate heterotrimeric G proteins upon ligand binding" },
+          { id: "C", text: "To translocate to the nucleus and bind DNA" },
+          { id: "D", text: "To form ion channels in the membrane" },
+          { id: "E", text: "To catalyse the conversion of ATP to cAMP" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q22_13",
+        category: "biology",
+        text: "Which type of mutation results in the insertion or deletion of nucleotides that is not a multiple of three?",
+        options: [
+          { id: "A", text: "Silent mutation" },
+          { id: "B", text: "Missense mutation" },
+          { id: "C", text: "Nonsense mutation" },
+          { id: "D", text: "Frameshift mutation" },
+          { id: "E", text: "Point mutation" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q23_13",
+        category: "biology",
+        text: "During the process of transcription, which enzyme is responsible for unwinding the DNA double helix?",
+        options: [
+          { id: "A", text: "DNA helicase" },
+          { id: "B", text: "RNA polymerase" },
+          { id: "C", text: "Topoisomerase" },
+          { id: "D", text: "Single-stranded binding protein" },
+          { id: "E", text: "DNA ligase" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q24_13",
+        category: "biology",
+        text: "Which hormone is primarily responsible for the regulation of sodium reabsorption in the distal convoluted tubule?",
+        options: [
+          { id: "A", text: "Antidiuretic hormone" },
+          { id: "B", text: "Aldosterone" },
+          { id: "C", text: "Atrial natriuretic peptide" },
+          { id: "D", text: "Renin" },
+          { id: "E", text: "Angiotensin II" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q25_13",
+        category: "biology",
+        text: "In the context of cellular respiration, which enzyme catalyses the conversion of pyruvate to acetyl-CoA?",
+        options: [
+          { id: "A", text: "Pyruvate dehydrogenase complex" },
+          { id: "B", text: "Lactate dehydrogenase" },
+          { id: "C", text: "Pyruvate kinase" },
+          { id: "D", text: "Phosphofructokinase" },
+          { id: "E", text: "Hexokinase" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q26_13",
+        category: "biology",
+        text: "Which type of cell death is characterised by cell shrinkage, chromatin condensation, and formation of apoptotic bodies?",
+        options: [
+          { id: "A", text: "Necrosis" },
+          { id: "B", text: "Apoptosis" },
+          { id: "C", text: "Autophagy" },
+          { id: "D", text: "Pyroptosis" },
+          { id: "E", text: "Ferroptosis" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q27_13",
+        category: "biology",
+        text: "During the process of DNA replication, which enzyme is responsible for removing RNA primers and replacing them with DNA?",
+        options: [
+          { id: "A", text: "DNA polymerase I" },
+          { id: "B", text: "DNA polymerase III" },
+          { id: "C", text: "DNA ligase" },
+          { id: "D", text: "Primase" },
+          { id: "E", text: "Helicase" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q28_13",
+        category: "biology",
+        text: "Which cellular structure is responsible for the organisation of microtubules during cell division?",
+        options: [
+          { id: "A", text: "Centrosome" },
+          { id: "B", text: "Centromere" },
+          { id: "C", text: "Kinetochore" },
+          { id: "D", text: "Spindle pole" },
+          { id: "E", text: "Aster" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q29_13",
+        category: "biology",
+        text: "In the context of protein synthesis, what is the function of the signal recognition particle (SRP)?",
+        options: [
+          { id: "A", text: "To initiate translation" },
+          { id: "B", text: "To target proteins to the endoplasmic reticulum" },
+          { id: "C", text: "To terminate translation" },
+          { id: "D", text: "To catalyse peptide bond formation" },
+          { id: "E", text: "To proofread amino acid incorporation" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q30_13",
+        category: "biology",
+        text: "Which type of immunity is characterised by the production of antibodies by B lymphocytes?",
+        options: [
+          { id: "A", text: "Innate immunity" },
+          { id: "B", text: "Humoral immunity" },
+          { id: "C", text: "Cell-mediated immunity" },
+          { id: "D", text: "Natural immunity" },
+          { id: "E", text: "Adaptive immunity" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q31_13",
+        category: "biology",
+        text: "During the process of meiosis, which event is responsible for the generation of genetic diversity through crossing over?",
+        options: [
+          { id: "A", text: "Synapsis" },
+          { id: "B", text: "Chiasma formation" },
+          { id: "C", text: "Independent assortment" },
+          { id: "D", text: "Sister chromatid separation" },
+          { id: "E", text: "Cytokinesis" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q32_13",
+        category: "biology",
+        text: "Which hormone is primarily responsible for the regulation of glucose metabolism by promoting gluconeogenesis?",
+        options: [
+          { id: "A", text: "Insulin" },
+          { id: "B", text: "Glucagon" },
+          { id: "C", text: "Cortisol" },
+          { id: "D", text: "Epinephrine" },
+          { id: "E", text: "Growth hormone" }
+        ],
+        correctOption: "C"
+      },
+
+      // Chemistry (15 questions)
+      {
+        id: "q33_13",
+        category: "chemistry",
+        text: "For the reaction 2A + B → C, if the rate law is rate = k[A]²[B], what is the overall order of the reaction?",
+        options: [
+          { id: "A", text: "1" },
+          { id: "B", text: "2" },
+          { id: "C", text: "3" },
+          { id: "D", text: "4" },
+          { id: "E", text: "Cannot be determined" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q34_13",
+        category: "chemistry",
+        text: "Which of the following molecules has a trigonal bipyramidal electron-pair geometry?",
+        options: [
+          { id: "A", text: "SF₄" },
+          { id: "B", text: "PCl₅" },
+          { id: "C", text: "BrF₃" },
+          { id: "D", text: "XeF₂" },
+          { id: "E", text: "IF₅" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q35_13",
+        category: "chemistry",
+        text: "What is the pH of a 0.1 M solution of acetic acid (Ka = 1.8 × 10⁻⁵)?",
+        options: [
+          { id: "A", text: "1.0" },
+          { id: "B", text: "2.9" },
+          { id: "C", text: "3.4" },
+          { id: "D", text: "4.7" },
+          { id: "E", text: "7.0" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q36_13",
+        category: "chemistry",
+        text: "Which of the following compounds exhibits optical isomerism?",
+        options: [
+          { id: "A", text: "CH₃CH₂OH" },
+          { id: "B", text: "CH₃CH₂CH₂OH" },
+          { id: "C", text: "CH₃CH(OH)CH₃" },
+          { id: "D", text: "CH₃CH₂CH₃" },
+          { id: "E", text: "CH₃COOH" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q37_13",
+        category: "chemistry",
+        text: "For the equilibrium reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g), if the pressure is increased, the equilibrium will:",
+        options: [
+          { id: "A", text: "Shift to the left" },
+          { id: "B", text: "Shift to the right" },
+          { id: "C", text: "Remain unchanged" },
+          { id: "D", text: "Cannot be predicted" },
+          { id: "E", text: "Depend on temperature" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q38_13",
+        category: "chemistry",
+        text: "Which of the following elements has the highest first ionisation energy?",
+        options: [
+          { id: "A", text: "Li" },
+          { id: "B", text: "Be" },
+          { id: "C", text: "B" },
+          { id: "D", text: "C" },
+          { id: "E", text: "N" }
+        ],
+        correctOption: "E"
+      },
+      {
+        id: "q39_13",
+        category: "chemistry",
+        text: "What is the coordination number of the central metal ion in [Co(NH₃)₆]³⁺?",
+        options: [
+          { id: "A", text: "3" },
+          { id: "B", text: "6" },
+          { id: "C", text: "9" },
+          { id: "D", text: "12" },
+          { id: "E", text: "18" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q40_13",
+        category: "chemistry",
+        text: "Which of the following reactions is an example of a disproportionation reaction?",
+        options: [
+          { id: "A", text: "2H₂ + O₂ → 2H₂O" },
+          { id: "B", text: "2Na + Cl₂ → 2NaCl" },
+          { id: "C", text: "2Cu⁺ → Cu²⁺ + Cu" },
+          { id: "D", text: "Fe + CuSO₄ → FeSO₄ + Cu" },
+          { id: "E", text: "AgNO₃ + NaCl → AgCl + NaNO₃" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q41_13",
+        category: "chemistry",
+        text: "What is the hybridisation of the central atom in SF₆?",
+        options: [
+          { id: "A", text: "sp" },
+          { id: "B", text: "sp²" },
+          { id: "C", text: "sp³" },
+          { id: "D", text: "sp³d" },
+          { id: "E", text: "sp³d²" }
+        ],
+        correctOption: "E"
+      },
+      {
+        id: "q42_13",
+        category: "chemistry",
+        text: "Which of the following compounds is most likely to be a gas at room temperature?",
+        options: [
+          { id: "A", text: "CH₃CH₂CH₂CH₃" },
+          { id: "B", text: "CH₃CH₂CH₂OH" },
+          { id: "C", text: "CH₃COOH" },
+          { id: "D", text: "CH₃CH₂CH₃" },
+          { id: "E", text: "CH₃CH₂CH₂CH₂CH₃" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q43_13",
+        category: "chemistry",
+        text: "For the reaction A + B → C, if the activation energy is 50 kJ mol⁻¹ and the enthalpy change is -20 kJ mol⁻¹, what is the activation energy for the reverse reaction?",
+        options: [
+          { id: "A", text: "30 kJ mol⁻¹" },
+          { id: "B", text: "50 kJ mol⁻¹" },
+          { id: "C", text: "70 kJ mol⁻¹" },
+          { id: "D", text: "90 kJ mol⁻¹" },
+          { id: "E", text: "Cannot be determined" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q44_13",
+        category: "chemistry",
+        text: "Which of the following molecules has a permanent dipole moment?",
+        options: [
+          { id: "A", text: "CO₂" },
+          { id: "B", text: "BF₃" },
+          { id: "C", text: "CH₄" },
+          { id: "D", text: "NH₃" },
+          { id: "E", text: "CCl₄" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q45_13",
+        category: "chemistry",
+        text: "What is the oxidation state of manganese in KMnO₄?",
+        options: [
+          { id: "A", text: "+3" },
+          { id: "B", text: "+5" },
+          { id: "C", text: "+7" },
+          { id: "D", text: "+9" },
+          { id: "E", text: "+11" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q46_13",
+        category: "chemistry",
+        text: "Which of the following compounds is most soluble in water?",
+        options: [
+          { id: "A", text: "CH₃CH₂CH₃" },
+          { id: "B", text: "CH₃CH₂OH" },
+          { id: "C", text: "CH₃COOH" },
+          { id: "D", text: "CH₃CH₂CH₂CH₃" },
+          { id: "E", text: "CH₃CH₂CH₂OH" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q47_13",
+        category: "chemistry",
+        text: "For a first-order reaction, if the initial concentration is 1.0 M and the half-life is 10 minutes, what is the concentration after 30 minutes?",
+        options: [
+          { id: "A", text: "0.125 M" },
+          { id: "B", text: "0.25 M" },
+          { id: "C", text: "0.5 M" },
+          { id: "D", text: "0.75 M" },
+          { id: "E", text: "1.0 M" }
+        ],
+        correctOption: "A"
+      },
+
+      // Physics & Mathematics (13 questions)
+      {
+        id: "q48_13",
+        category: "physics_math",
+        text: "A particle moves in a circle of radius r with constant angular velocity ω. What is the magnitude of its acceleration?",
+        options: [
+          { id: "A", text: "rω" },
+          { id: "B", text: "rω²" },
+          { id: "C", text: "2rω" },
+          { id: "D", text: "2rω²" },
+          { id: "E", text: "r²ω" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q49_13",
+        category: "physics_math",
+        text: "What is the derivative of f(x) = e^(sin(x)) with respect to x?",
+        options: [
+          { id: "A", text: "e^(sin(x))" },
+          { id: "B", text: "cos(x)e^(sin(x))" },
+          { id: "C", text: "sin(x)e^(sin(x))" },
+          { id: "D", text: "e^(cos(x))" },
+          { id: "E", text: "cos(x)e^(cos(x))" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q50_13",
+        category: "physics_math",
+        text: "A capacitor of capacitance C is charged to a voltage V and then connected to an uncharged capacitor of capacitance 2C. What is the final voltage across both capacitors?",
+        options: [
+          { id: "A", text: "V/3" },
+          { id: "B", text: "V/2" },
+          { id: "C", text: "2V/3" },
+          { id: "D", text: "V" },
+          { id: "E", text: "2V" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q51_13",
+        category: "physics_math",
+        text: "What is the value of the definite integral ∫₀^π/2 sin²(x)cos(x) dx?",
+        options: [
+          { id: "A", text: "0" },
+          { id: "B", text: "1/3" },
+          { id: "C", text: "1/2" },
+          { id: "D", text: "2/3" },
+          { id: "E", text: "1" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q52_13",
+        category: "physics_math",
+        text: "A mass m is attached to a spring with spring constant k and oscillates with amplitude A. What is the maximum kinetic energy of the mass?",
+        options: [
+          { id: "A", text: "½kA²" },
+          { id: "B", text: "kA²" },
+          { id: "C", text: "2kA²" },
+          { id: "D", text: "½mω²A²" },
+          { id: "E", text: "mω²A²" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q53_13",
+        category: "physics_math",
+        text: "In Young's double-slit experiment, if the wavelength of light is λ and the slit separation is d, what is the angular separation between adjacent bright fringes?",
+        options: [
+          { id: "A", text: "λ/d" },
+          { id: "B", text: "d/λ" },
+          { id: "C", text: "λ/(2d)" },
+          { id: "D", text: "2λ/d" },
+          { id: "E", text: "d/(2λ)" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q54_13",
+        category: "physics_math",
+        text: "What is the limit as x approaches 0 of (sin(x) - x)/x³?",
+        options: [
+          { id: "A", text: "0" },
+          { id: "B", text: "1/6" },
+          { id: "C", text: "-1/6" },
+          { id: "D", text: "1" },
+          { id: "E", text: "∞" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q55_13",
+        category: "physics_math",
+        text: "A particle of charge q moves with velocity v perpendicular to a uniform magnetic field B. What is the radius of its circular path?",
+        options: [
+          { id: "A", text: "mv/(qB)" },
+          { id: "B", text: "qB/(mv)" },
+          { id: "C", text: "mv²/(qB)" },
+          { id: "D", text: "qB²/(mv)" },
+          { id: "E", text: "mv/(qB²)" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q56_13",
+        category: "physics_math",
+        text: "What is the sum of the infinite series 1 + 1/2 + 1/4 + 1/8 + ...?",
+        options: [
+          { id: "A", text: "1" },
+          { id: "B", text: "2" },
+          { id: "C", text: "3" },
+          { id: "D", text: "∞" },
+          { id: "E", text: "Cannot be determined" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q57_13",
+        category: "physics_math",
+        text: "A Carnot engine operates between temperatures T₁ and T₂ (T₁ > T₂). If the efficiency is 40%, what is the ratio T₂/T₁?",
+        options: [
+          { id: "A", text: "0.4" },
+          { id: "B", text: "0.6" },
+          { id: "C", text: "0.8" },
+          { id: "D", text: "1.4" },
+          { id: "E", text: "2.5" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q58_13",
+        category: "physics_math",
+        text: "What is the derivative of f(x) = ln(√(1 + x²)) with respect to x?",
+        options: [
+          { id: "A", text: "x/(1 + x²)" },
+          { id: "B", text: "1/(1 + x²)" },
+          { id: "C", text: "x/√(1 + x²)" },
+          { id: "D", text: "1/√(1 + x²)" },
+          { id: "E", text: "2x/(1 + x²)" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q59_13",
+        category: "physics_math",
+        text: "A wave has frequency f and wavelength λ. If the frequency is doubled while the speed remains constant, the new wavelength is:",
+        options: [
+          { id: "A", text: "λ/2" },
+          { id: "B", text: "λ" },
+          { id: "C", text: "2λ" },
+          { id: "D", text: "4λ" },
+          { id: "E", text: "λ/4" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q60_13",
+        category: "physics_math",
+        text: "What is the value of the definite integral ∫₀^1 x²e^x dx?",
+        options: [
+          { id: "A", text: "e - 1" },
+          { id: "B", text: "e - 2" },
+          { id: "C", text: "2e - 1" },
+          { id: "D", text: "2e - 2" },
+          { id: "E", text: "e" }
+        ],
+        correctOption: "B"
+      }
+    ]
   }
 } 
