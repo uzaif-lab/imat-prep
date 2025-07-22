@@ -98,8 +98,7 @@ const mockTests = [
   {
     id: "13",
     title: "Advanced IMAT Mastery Test",
-    description:
-      "Ultra-challenging test with advanced difficulty featuring complex questions across all IMAT sections.",
+    description: "ye wala deke dikha baune, ismein 70 + la toh maane.",
     questionCount: 60,
     timeLimit: 100,
     createdAt: "2024-06-15",
