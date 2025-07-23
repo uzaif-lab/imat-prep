@@ -3062,7 +3062,7 @@ export const additionalMockTests = {
       {
         id: "q35_12",
         category: "chemistry",
-        text: "Which gas law states that the volume of a fixed mass of gas is directly proportional to its absolute temperature at constant pressure?",
+        text: "Which gas law states that the volume of a fixed mass of gas is inversely proportional to its pressure at constant temperature?",
         options: [
           { id: "A", text: "Boyle's law" },
           { id: "B", text: "Charles's law" },
@@ -3070,7 +3070,7 @@ export const additionalMockTests = {
           { id: "D", text: "Avogadro's law" },
           { id: "E", text: "Dalton's law" }
         ],
-        correctOption: "B"
+        correctOption: "A"
       },
       {
         id: "q36_12",
@@ -4196,6 +4196,804 @@ export const additionalMockTests = {
           { id: "E", text: "e" }
         ],
         correctOption: "B"
+      }
+    ]
+  },
+  "14": {
+    id: "14",
+    title: "IMAT Practice Test 5",
+    description:
+      "Fifth comprehensive practice test with original questions covering all IMAT syllabus topics at standard exam difficulty.",
+    timeLimit: 100,
+    questions: [
+      // Reading Comprehension & General Knowledge (4 questions)
+      {
+        id: "q1_14",
+        category: "reading",
+        text: `Read the passage and answer the question below:\n\nThe development of mRNA vaccines represents a significant advancement in vaccine technology. Unlike traditional vaccines that use weakened or inactivated pathogens, mRNA vaccines deliver genetic instructions that enable cells to produce specific viral proteins. These proteins then trigger an immune response, teaching the body to recognize and fight the actual virus. The rapid development of mRNA vaccines during the COVID-19 pandemic demonstrated their potential for addressing emerging infectious diseases.\n\nAccording to the passage, what is the primary mechanism by which mRNA vaccines stimulate immunity?`,
+        options: [
+          { id: "A", text: "By directly killing viral particles" },
+          { id: "B", text: "By instructing cells to produce viral proteins that trigger immune responses" },
+          { id: "C", text: "By introducing weakened viruses into the body" },
+          { id: "D", text: "By activating only innate immune responses" },
+          { id: "E", text: "By preventing viral entry into cells" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q2_14",
+        category: "reading",
+        text: `Read the passage and answer the question below:\n\nArtificial intelligence in healthcare has evolved from simple rule-based systems to complex machine learning algorithms capable of analyzing vast amounts of medical data. These systems can assist in diagnosis, predict patient outcomes, and even suggest treatment plans. However, concerns about data privacy, algorithmic bias, and the need for human oversight remain significant challenges that must be addressed as AI becomes more integrated into clinical practice.\n\nWhat is the main concern highlighted in the passage regarding AI in healthcare?`,
+        options: [
+          { id: "A", text: "The high cost of AI implementation" },
+          { id: "B", text: "The complexity of machine learning algorithms" },
+          { id: "C", text: "Ethical and practical challenges including privacy and bias" },
+          { id: "D", text: "The replacement of human doctors by AI systems" },
+          { id: "E", text: "The accuracy of AI diagnostic systems" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q3_14",
+        category: "reading",
+        text: "Which vitamin is essential for the synthesis of collagen and acts as a cofactor in hydroxylation reactions?",
+        options: [
+          { id: "A", text: "Vitamin A" },
+          { id: "B", text: "Vitamin C" },
+          { id: "C", text: "Vitamin D" },
+          { id: "D", text: "Vitamin E" },
+          { id: "E", text: "Vitamin K" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q4_14",
+        category: "reading",
+        text: "Which organ is primarily responsible for the production of erythropoietin in response to low oxygen levels?",
+        options: [
+          { id: "A", text: "Liver" },
+          { id: "B", text: "Kidney" },
+          { id: "C", text: "Spleen" },
+          { id: "D", text: "Bone marrow" },
+          { id: "E", text: "Heart" }
+        ],
+        correctOption: "B"
+      },
+
+      // Logical Reasoning (5 questions)
+      {
+        id: "q5_14",
+        category: "logical_reasoning",
+        text: "Complete the sequence: 2, 5, 10, 17, 26, ?",
+        options: [
+          { id: "A", text: "35" },
+          { id: "B", text: "37" },
+          { id: "C", text: "39" },
+          { id: "D", text: "41" },
+          { id: "E", text: "43" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q6_14",
+        category: "logical_reasoning",
+        text: "All medical students are learners. Some learners are researchers. Which conclusion must be true?",
+        options: [
+          { id: "A", text: "All researchers are medical students" },
+          { id: "B", text: "Some medical students are researchers" },
+          { id: "C", text: "Some researchers are learners" },
+          { id: "D", text: "No medical students are researchers" },
+          { id: "E", text: "All learners are medical students" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q7_14",
+        category: "logical_reasoning",
+        text: "A clinical trial involves 120 patients. If 30% receive treatment A, 40% receive treatment B, and 15% receive both treatments, how many patients receive neither treatment?",
+        options: [
+          { id: "A", text: "18" },
+          { id: "B", text: "24" },
+          { id: "C", text: "30" },
+          { id: "D", text: "36" },
+          { id: "E", text: "42" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q8_14",
+        category: "logical_reasoning",
+        text: "A hospital pharmacy dispenses 500 medications daily. If 60% are antibiotics, 25% are pain relievers, and 20% are both, how many medications are neither antibiotics nor pain relievers?",
+        options: [
+          { id: "A", text: "75" },
+          { id: "B", text: "100" },
+          { id: "C", text: "125" },
+          { id: "D", text: "150" },
+          { id: "E", text: "175" }
+        ],
+        correctOption: "E"
+      },
+      {
+        id: "q9_14",
+        category: "logical_reasoning",
+        text: "A patient's medication has a half-life of 8 hours. If 200 mg is administered, how much remains after 24 hours?",
+        options: [
+          { id: "A", text: "25 mg" },
+          { id: "B", text: "50 mg" },
+          { id: "C", text: "75 mg" },
+          { id: "D", text: "100 mg" },
+          { id: "E", text: "150 mg" }
+        ],
+        correctOption: "A"
+      },
+
+      // Biology (23 questions)
+      {
+        id: "q10_14",
+        category: "biology",
+        text: "Which organelle is responsible for the synthesis of lipids and detoxification of drugs in liver cells?",
+        options: [
+          { id: "A", text: "Rough endoplasmic reticulum" },
+          { id: "B", text: "Smooth endoplasmic reticulum" },
+          { id: "C", text: "Golgi apparatus" },
+          { id: "D", text: "Lysosome" },
+          { id: "E", text: "Mitochondrion" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q11_14",
+        category: "biology",
+        text: "Which type of white blood cell is primarily responsible for phagocytosis of bacteria and cellular debris?",
+        options: [
+          { id: "A", text: "Lymphocyte" },
+          { id: "B", text: "Neutrophil" },
+          { id: "C", text: "Eosinophil" },
+          { id: "D", text: "Basophil" },
+          { id: "E", text: "Monocyte" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q12_14",
+        category: "biology",
+        text: "In humans, how many chromosomes are present in a haploid gamete?",
+        options: [
+          { id: "A", text: "22" },
+          { id: "B", text: "23" },
+          { id: "C", text: "44" },
+          { id: "D", text: "46" },
+          { id: "E", text: "48" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q13_14",
+        category: "biology",
+        text: "Which phase of mitosis is characterized by the separation of sister chromatids?",
+        options: [
+          { id: "A", text: "Prophase" },
+          { id: "B", text: "Metaphase" },
+          { id: "C", text: "Anaphase" },
+          { id: "D", text: "Telophase" },
+          { id: "E", text: "Cytokinesis" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q14_14",
+        category: "biology",
+        text: "Which hormone is produced by the alpha cells of the pancreatic islets of Langerhans?",
+        options: [
+          { id: "A", text: "Insulin" },
+          { id: "B", text: "Glucagon" },
+          { id: "C", text: "Somatostatin" },
+          { id: "D", text: "Pancreatic polypeptide" },
+          { id: "E", text: "Amylin" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q15_14",
+        category: "biology",
+        text: "Which part of the nephron is primarily responsible for the reabsorption of water and sodium?",
+        options: [
+          { id: "A", text: "Proximal convoluted tubule" },
+          { id: "B", text: "Descending limb of Henle" },
+          { id: "C", text: "Ascending limb of Henle" },
+          { id: "D", text: "Distal convoluted tubule" },
+          { id: "E", text: "Collecting duct" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q16_14",
+        category: "biology",
+        text: "Which enzyme is responsible for the conversion of angiotensin I to angiotensin II?",
+        options: [
+          { id: "A", text: "Renin" },
+          { id: "B", text: "Angiotensin-converting enzyme" },
+          { id: "C", text: "Aldosterone synthase" },
+          { id: "D", text: "Bradykininase" },
+          { id: "E", text: "Chymase" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q17_14",
+        category: "biology",
+        text: "Which type of cell junction allows direct communication between adjacent cells through small channels?",
+        options: [
+          { id: "A", text: "Tight junctions" },
+          { id: "B", text: "Adherens junctions" },
+          { id: "C", text: "Gap junctions" },
+          { id: "D", text: "Desmosomes" },
+          { id: "E", text: "Hemidesmosomes" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q18_14",
+        category: "biology",
+        text: "During cellular respiration, which process occurs in the cytoplasm?",
+        options: [
+          { id: "A", text: "Krebs cycle" },
+          { id: "B", text: "Electron transport chain" },
+          { id: "C", text: "Glycolysis" },
+          { id: "D", text: "Oxidative phosphorylation" },
+          { id: "E", text: "Beta-oxidation" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q19_14",
+        category: "biology",
+        text: "Which vitamin is essential for the gamma-carboxylation of clotting factors II, VII, IX, and X?",
+        options: [
+          { id: "A", text: "Vitamin A" },
+          { id: "B", text: "Vitamin C" },
+          { id: "C", text: "Vitamin D" },
+          { id: "D", text: "Vitamin K" },
+          { id: "E", text: "Vitamin B12" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q20_14",
+        category: "biology",
+        text: "Which hormone is primarily responsible for the regulation of calcium absorption in the small intestine?",
+        options: [
+          { id: "A", text: "Parathyroid hormone" },
+          { id: "B", text: "Calcitonin" },
+          { id: "C", text: "1,25-dihydroxyvitamin D" },
+          { id: "D", text: "Estrogen" },
+          { id: "E", text: "Growth hormone" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q21_14",
+        category: "biology",
+        text: "Which type of RNA carries amino acids to the ribosome during protein synthesis?",
+        options: [
+          { id: "A", text: "mRNA" },
+          { id: "B", text: "tRNA" },
+          { id: "C", text: "rRNA" },
+          { id: "D", text: "snRNA" },
+          { id: "E", text: "miRNA" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q22_14",
+        category: "biology",
+        text: "During the process of transcription, which enzyme is responsible for synthesizing RNA from a DNA template?",
+        options: [
+          { id: "A", text: "DNA polymerase" },
+          { id: "B", text: "RNA polymerase" },
+          { id: "C", text: "Reverse transcriptase" },
+          { id: "D", text: "DNA ligase" },
+          { id: "E", text: "Helicase" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q23_14",
+        category: "biology",
+        text: "Which type of immunity is characterized by the production of antibodies by B lymphocytes?",
+        options: [
+          { id: "A", text: "Innate immunity" },
+          { id: "B", text: "Humoral immunity" },
+          { id: "C", text: "Cell-mediated immunity" },
+          { id: "D", text: "Natural immunity" },
+          { id: "E", text: "Adaptive immunity" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q24_14",
+        category: "biology",
+        text: "Which hormone triggers ovulation in the human menstrual cycle?",
+        options: [
+          { id: "A", text: "Follicle-stimulating hormone" },
+          { id: "B", text: "Luteinizing hormone" },
+          { id: "C", text: "Progesterone" },
+          { id: "D", text: "Estrogen" },
+          { id: "E", text: "Prolactin" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q25_14",
+        category: "biology",
+        text: "Which cellular process is responsible for the programmed cell death characterized by cell shrinkage and chromatin condensation?",
+        options: [
+          { id: "A", text: "Necrosis" },
+          { id: "B", text: "Apoptosis" },
+          { id: "C", text: "Autophagy" },
+          { id: "D", text: "Phagocytosis" },
+          { id: "E", text: "Pinocytosis" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q26_14",
+        category: "biology",
+        text: "Which enzyme is responsible for the conversion of fibrinogen to fibrin during blood coagulation?",
+        options: [
+          { id: "A", text: "Thrombin" },
+          { id: "B", text: "Prothrombin" },
+          { id: "C", text: "Factor X" },
+          { id: "D", text: "Factor VII" },
+          { id: "E", text: "Tissue factor" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q27_14",
+        category: "biology",
+        text: "Which gas is the primary driver of the respiratory drive in healthy humans?",
+        options: [
+          { id: "A", text: "Oxygen" },
+          { id: "B", text: "Carbon dioxide" },
+          { id: "C", text: "Nitrogen" },
+          { id: "D", text: "Carbon monoxide" },
+          { id: "E", text: "Hydrogen" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q28_14",
+        category: "biology",
+        text: "Which photoreceptor cells in the retina are responsible for color vision?",
+        options: [
+          { id: "A", text: "Rods" },
+          { id: "B", text: "Cones" },
+          { id: "C", text: "Bipolar cells" },
+          { id: "D", text: "Ganglion cells" },
+          { id: "E", text: "Müller glia" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q29_14",
+        category: "biology",
+        text: "Which neurotransmitter is released at the neuromuscular junction?",
+        options: [
+          { id: "A", text: "Dopamine" },
+          { id: "B", text: "Serotonin" },
+          { id: "C", text: "Acetylcholine" },
+          { id: "D", text: "GABA" },
+          { id: "E", text: "Glutamate" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q30_14",
+        category: "biology",
+        text: "Which hormone is primarily responsible for the regulation of sodium reabsorption in the distal convoluted tubule?",
+        options: [
+          { id: "A", text: "Antidiuretic hormone" },
+          { id: "B", text: "Aldosterone" },
+          { id: "C", text: "Atrial natriuretic peptide" },
+          { id: "D", text: "Renin" },
+          { id: "E", text: "Angiotensin II" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q31_14",
+        category: "biology",
+        text: "Which cellular structure is responsible for organizing microtubules during cell division?",
+        options: [
+          { id: "A", text: "Centrosome" },
+          { id: "B", text: "Centromere" },
+          { id: "C", text: "Kinetochore" },
+          { id: "D", text: "Spindle pole" },
+          { id: "E", text: "Aster" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q32_14",
+        category: "biology",
+        text: "Which type of mutation results in the insertion or deletion of nucleotides that is not a multiple of three?",
+        options: [
+          { id: "A", text: "Silent mutation" },
+          { id: "B", text: "Missense mutation" },
+          { id: "C", text: "Nonsense mutation" },
+          { id: "D", text: "Frameshift mutation" },
+          { id: "E", text: "Point mutation" }
+        ],
+        correctOption: "D"
+      },
+
+      // Chemistry (15 questions)
+      {
+        id: "q33_14",
+        category: "chemistry",
+        text: "Which element has the highest electronegativity on the Pauling scale?",
+        options: [
+          { id: "A", text: "Oxygen" },
+          { id: "B", text: "Nitrogen" },
+          { id: "C", text: "Fluorine" },
+          { id: "D", text: "Chlorine" },
+          { id: "E", text: "Neon" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q34_14",
+        category: "chemistry",
+        text: "What is the molecular geometry of methane (CH₄)?",
+        options: [
+          { id: "A", text: "Trigonal planar" },
+          { id: "B", text: "Bent" },
+          { id: "C", text: "Linear" },
+          { id: "D", text: "Tetrahedral" },
+          { id: "E", text: "Trigonal bipyramidal" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q35_14",
+        category: "chemistry",
+        text: "Which gas law states that the volume of a fixed mass of gas is inversely proportional to its pressure at constant temperature?",
+        options: [
+          { id: "A", text: "Boyle's law" },
+          { id: "B", text: "Charles's law" },
+          { id: "C", text: "Gay-Lussac's law" },
+          { id: "D", text: "Avogadro's law" },
+          { id: "E", text: "Dalton's law" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q36_14",
+        category: "chemistry",
+        text: "What is the pH of a 0.01 M solution of hydrochloric acid (HCl)?",
+        options: [
+          { id: "A", text: "1" },
+          { id: "B", text: "2" },
+          { id: "C", text: "3" },
+          { id: "D", text: "4" },
+          { id: "E", text: "12" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q37_14",
+        category: "chemistry",
+        text: "Which of the following compounds is NOT an alkane?",
+        options: [
+          { id: "A", text: "Ethane" },
+          { id: "B", text: "Propane" },
+          { id: "C", text: "Butene" },
+          { id: "D", text: "Pentane" },
+          { id: "E", text: "Methane" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q38_14",
+        category: "chemistry",
+        text: "Which oxide is amphoteric?",
+        options: [
+          { id: "A", text: "Na₂O" },
+          { id: "B", text: "MgO" },
+          { id: "C", text: "SiO₂" },
+          { id: "D", text: "Al₂O₃" },
+          { id: "E", text: "SO₃" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q39_14",
+        category: "chemistry",
+        text: "What is the coordination number of Na⁺ in the crystal lattice of sodium chloride?",
+        options: [
+          { id: "A", text: "4" },
+          { id: "B", text: "6" },
+          { id: "C", text: "8" },
+          { id: "D", text: "12" },
+          { id: "E", text: "2" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q40_14",
+        category: "chemistry",
+        text: "Which industrial process uses an iron catalyst to synthesize ammonia from nitrogen and hydrogen?",
+        options: [
+          { id: "A", text: "Contact process" },
+          { id: "B", text: "Haber-Bosch process" },
+          { id: "C", text: "Ostwald process" },
+          { id: "D", text: "Solvay process" },
+          { id: "E", text: "Hall-Héroult process" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q41_14",
+        category: "chemistry",
+        text: "Which isotope is commonly used for radiocarbon dating of archaeological samples?",
+        options: [
+          { id: "A", text: "¹²C" },
+          { id: "B", text: "¹³C" },
+          { id: "C", text: "¹⁴C" },
+          { id: "D", text: "³H" },
+          { id: "E", text: "²³⁵U" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q42_14",
+        category: "chemistry",
+        text: "What is the hybridisation of each carbon atom in ethene (C₂H₄)?",
+        options: [
+          { id: "A", text: "sp" },
+          { id: "B", text: "sp²" },
+          { id: "C", text: "sp³" },
+          { id: "D", text: "sp³d" },
+          { id: "E", text: "sp²d" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q43_14",
+        category: "chemistry",
+        text: "In an electrolytic cell, reduction occurs at the:",
+        options: [
+          { id: "A", text: "Anode" },
+          { id: "B", text: "Cathode" },
+          { id: "C", text: "Both electrodes" },
+          { id: "D", text: "Neither electrode" },
+          { id: "E", text: "Electrolyte" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q44_14",
+        category: "chemistry",
+        text: "The standard molar enthalpy of formation of an element in its standard state is:",
+        options: [
+          { id: "A", text: "−1 kJ mol⁻¹" },
+          { id: "B", text: "0 kJ mol⁻¹" },
+          { id: "C", text: "+1 kJ mol⁻¹" },
+          { id: "D", text: "Variable" },
+          { id: "E", text: "100 kJ mol⁻¹" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q45_14",
+        category: "chemistry",
+        text: "Which compound is primarily responsible for the characteristic smell of vinegar?",
+        options: [
+          { id: "A", text: "Formic acid" },
+          { id: "B", text: "Acetic acid" },
+          { id: "C", text: "Propionic acid" },
+          { id: "D", text: "Butyric acid" },
+          { id: "E", text: "Citric acid" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q46_14",
+        category: "chemistry",
+        text: "Which of the following molecules has a permanent dipole moment?",
+        options: [
+          { id: "A", text: "CO₂" },
+          { id: "B", text: "BF₃" },
+          { id: "C", text: "CH₄" },
+          { id: "D", text: "NH₃" },
+          { id: "E", text: "CCl₄" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q47_14",
+        category: "chemistry",
+        text: "What is the oxidation state of manganese in KMnO₄?",
+        options: [
+          { id: "A", text: "+3" },
+          { id: "B", text: "+5" },
+          { id: "C", text: "+7" },
+          { id: "D", text: "+9" },
+          { id: "E", text: "+11" }
+        ],
+        correctOption: "C"
+      },
+
+      // Physics & Mathematics (13 questions)
+      {
+        id: "q48_14",
+        category: "physics_math",
+        text: "A car starts from rest and accelerates uniformly at 3 m s⁻². How far does it travel in 4 s?",
+        options: [
+          { id: "A", text: "12 m" },
+          { id: "B", text: "24 m" },
+          { id: "C", text: "36 m" },
+          { id: "D", text: "48 m" },
+          { id: "E", text: "60 m" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q49_14",
+        category: "physics_math",
+        text: "Light passes from air (n = 1.00) into water (n = 1.33) with an incidence angle of 30°. What is the approximate angle of refraction?",
+        options: [
+          { id: "A", text: "15°" },
+          { id: "B", text: "22°" },
+          { id: "C", text: "30°" },
+          { id: "D", text: "40°" },
+          { id: "E", text: "45°" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q50_14",
+        category: "physics_math",
+        text: "An electrical resistor of 20 Ω carries a current of 3 A. What power is dissipated as heat?",
+        options: [
+          { id: "A", text: "60 W" },
+          { id: "B", text: "120 W" },
+          { id: "C", text: "180 W" },
+          { id: "D", text: "240 W" },
+          { id: "E", text: "360 W" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q51_14",
+        category: "physics_math",
+        text: "Which of the following quantities is a vector?",
+        options: [
+          { id: "A", text: "Mass" },
+          { id: "B", text: "Speed" },
+          { id: "C", text: "Work" },
+          { id: "D", text: "Displacement" },
+          { id: "E", text: "Energy" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q52_14",
+        category: "physics_math",
+        text: "What is the derivative of f(x) = x² + 3x + 2?",
+        options: [
+          { id: "A", text: "2x + 3" },
+          { id: "B", text: "2x + 2" },
+          { id: "C", text: "x² + 3" },
+          { id: "D", text: "2x" },
+          { id: "E", text: "3x + 2" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q53_14",
+        category: "physics_math",
+        text: "Evaluate the definite integral ∫₀² x dx.",
+        options: [
+          { id: "A", text: "1" },
+          { id: "B", text: "2" },
+          { id: "C", text: "3" },
+          { id: "D", text: "4" },
+          { id: "E", text: "5" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q54_14",
+        category: "physics_math",
+        text: "An object of mass 5 kg experiences Earth's gravitational field (g = 9.8 m s⁻²). What is its weight?",
+        options: [
+          { id: "A", text: "5 N" },
+          { id: "B", text: "9.8 N" },
+          { id: "C", text: "49 N" },
+          { id: "D", text: "98 N" },
+          { id: "E", text: "490 N" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q55_14",
+        category: "physics_math",
+        text: "Which law states that the algebraic sum of currents at a junction is zero?",
+        options: [
+          { id: "A", text: "Ohm's law" },
+          { id: "B", text: "Kirchhoff's voltage law" },
+          { id: "C", text: "Kirchhoff's current law" },
+          { id: "D", text: "Lenz's law" },
+          { id: "E", text: "Faraday's law" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q56_14",
+        category: "physics_math",
+        text: "A 2 μF capacitor is charged to 50 V. How much energy is stored in the capacitor?",
+        options: [
+          { id: "A", text: "0.001 J" },
+          { id: "B", text: "0.0025 J" },
+          { id: "C", text: "0.005 J" },
+          { id: "D", text: "0.01 J" },
+          { id: "E", text: "0.025 J" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q57_14",
+        category: "physics_math",
+        text: "If a planet's mass is doubled and its radius is halved, the escape velocity will:",
+        options: [
+          { id: "A", text: "Remain unchanged" },
+          { id: "B", text: "Double" },
+          { id: "C", text: "Quadruple" },
+          { id: "D", text: "Halve" },
+          { id: "E", text: "Increase by a factor of √2" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q58_14",
+        category: "physics_math",
+        text: "Which wave phenomenon results in the bending of waves around small obstacles and openings?",
+        options: [
+          { id: "A", text: "Reflection" },
+          { id: "B", text: "Refraction" },
+          { id: "C", text: "Diffraction" },
+          { id: "D", text: "Interference" },
+          { id: "E", text: "Polarisation" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q59_14",
+        category: "physics_math",
+        text: "A radioactive isotope has a half-life of 4 years. What fraction of the original sample remains after 12 years?",
+        options: [
+          { id: "A", text: "1/2" },
+          { id: "B", text: "1/4" },
+          { id: "C", text: "1/8" },
+          { id: "D", text: "1/16" },
+          { id: "E", text: "1/32" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q60_14",
+        category: "physics_math",
+        text: "What is the value of cos(60°)?",
+        options: [
+          { id: "A", text: "0.5" },
+          { id: "B", text: "0.707" },
+          { id: "C", text: "0.866" },
+          { id: "D", text: "1" },
+          { id: "E", text: "0" }
+        ],
+        correctOption: "A"
       }
     ]
   }
