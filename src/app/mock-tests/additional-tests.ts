@@ -4996,5 +4996,803 @@ export const additionalMockTests = {
         correctOption: "A"
       }
     ]
+  },
+  "15": {
+    id: "15",
+    title: "Advanced IMAT Challenge Test 2",
+    description:
+      "High-difficulty practice test with advanced questions covering all IMAT syllabus topics at challenging exam level.",
+    timeLimit: 100,
+    questions: [
+      // Reading Comprehension & General Knowledge (4 questions)
+      {
+        id: "q1_15",
+        category: "reading",
+        text: `Read the passage and answer the question below:\n\nThe CRISPR-Cas9 gene editing system represents a revolutionary breakthrough in molecular biology. This technology utilizes a guide RNA molecule that directs the Cas9 enzyme to specific DNA sequences, where it creates precise double-strand breaks. The cell's natural repair mechanisms then fix these breaks, allowing for targeted gene modifications. While CRISPR has immense potential for treating genetic disorders and advancing agricultural biotechnology, concerns about off-target effects, ethical implications of germline editing, and the potential for misuse in creating designer organisms remain significant challenges that require careful regulation and oversight.\n\nAccording to the passage, what is the primary mechanism by which CRISPR-Cas9 achieves gene editing?`,
+        options: [
+          { id: "A", text: "By directly replacing defective genes with healthy ones" },
+          { id: "B", text: "By creating double-strand breaks that trigger cellular repair mechanisms" },
+          { id: "C", text: "By inhibiting the expression of unwanted genes" },
+          { id: "D", text: "By introducing foreign DNA into the genome" },
+          { id: "E", text: "By activating dormant genes through epigenetic modifications" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q2_15",
+        category: "reading",
+        text: `Read the passage and answer the question below:\n\nThe human microbiome, consisting of trillions of microorganisms inhabiting various body sites, plays a crucial role in maintaining health and preventing disease. These microbial communities influence immune system development, nutrient metabolism, and even neurological function through the gut-brain axis. Recent research has revealed that disruptions in microbiome composition, known as dysbiosis, are associated with conditions ranging from inflammatory bowel disease to depression and autism spectrum disorders. The development of microbiome-based therapeutics, including fecal microbiota transplantation and targeted probiotic interventions, represents a promising frontier in personalized medicine.\n\nWhat is the main implication of the passage regarding the relationship between the microbiome and human health?`,
+        options: [
+          { id: "A", text: "The microbiome is primarily harmful and should be eliminated" },
+          { id: "B", text: "Microbiome composition directly causes all human diseases" },
+          { id: "C", text: "The microbiome has complex interactions with multiple body systems and can influence disease states" },
+          { id: "D", text: "Only the gut microbiome is important for human health" },
+          { id: "E", text: "Microbiome research has no practical applications in medicine" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q3_15",
+        category: "reading",
+        text: "Which Nobel Prize-winning discovery revolutionized our understanding of how cells communicate and respond to external signals?",
+        options: [
+          { id: "A", text: "The discovery of DNA structure" },
+          { id: "B", text: "The identification of G-protein coupled receptors and their role in signal transduction" },
+          { id: "C", text: "The discovery of the electron microscope" },
+          { id: "D", text: "The identification of the genetic code" },
+          { id: "E", text: "The discovery of stem cells" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q4_15",
+        category: "reading",
+        text: "Which international organization coordinates global efforts to combat antimicrobial resistance and promote responsible antibiotic use?",
+        options: [
+          { id: "A", text: "World Health Organization (WHO)" },
+          { id: "B", text: "United Nations Educational, Scientific and Cultural Organization (UNESCO)" },
+          { id: "C", text: "International Atomic Energy Agency (IAEA)" },
+          { id: "D", text: "Food and Agriculture Organization (FAO)" },
+          { id: "E", text: "World Trade Organization (WTO)" }
+        ],
+        correctOption: "A"
+      },
+
+      // Logical Reasoning (5 questions)
+      {
+        id: "q5_15",
+        category: "logical_reasoning",
+        text: "Complete the sequence: 1, 3, 7, 15, 31, ?",
+        options: [
+          { id: "A", text: "47" },
+          { id: "B", text: "55" },
+          { id: "C", text: "63" },
+          { id: "D", text: "71" },
+          { id: "E", text: "79" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q6_15",
+        category: "logical_reasoning",
+        text: "In a clinical study, 80% of patients responded to treatment A, 70% responded to treatment B, and 60% responded to both treatments. What percentage of patients responded to neither treatment?",
+        options: [
+          { id: "A", text: "5%" },
+          { id: "B", text: "10%" },
+          { id: "C", text: "15%" },
+          { id: "D", text: "20%" },
+          { id: "E", text: "25%" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q7_15",
+        category: "logical_reasoning",
+        text: "A hospital has 200 doctors. If 40% are specialists, 30% are surgeons, and 20% are both specialists and surgeons, how many doctors are neither specialists nor surgeons?",
+        options: [
+          { id: "A", text: "40" },
+          { id: "B", text: "60" },
+          { id: "C", text: "80" },
+          { id: "D", text: "100" },
+          { id: "E", text: "120" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q8_15",
+        category: "logical_reasoning",
+        text: "A patient's medication has a half-life of 6 hours. If 400 mg is administered, how much remains after 18 hours?",
+        options: [
+          { id: "A", text: "25 mg" },
+          { id: "B", text: "50 mg" },
+          { id: "C", text: "75 mg" },
+          { id: "D", text: "100 mg" },
+          { id: "E", text: "150 mg" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q9_15",
+        category: "logical_reasoning",
+        text: "All researchers are scientists. Some scientists are clinicians. Some clinicians are professors. Which conclusion must be true?",
+        options: [
+          { id: "A", text: "All professors are researchers" },
+          { id: "B", text: "Some researchers are professors" },
+          { id: "C", text: "Some scientists are professors" },
+          { id: "D", text: "All clinicians are scientists" },
+          { id: "E", text: "No researchers are professors" }
+        ],
+        correctOption: "C"
+      },
+
+      // Biology (23 questions)
+      {
+        id: "q10_15",
+        category: "biology",
+        text: "Which cellular process is responsible for the degradation of damaged organelles and protein aggregates through autophagosome formation?",
+        options: [
+          { id: "A", text: "Phagocytosis" },
+          { id: "B", text: "Autophagy" },
+          { id: "C", text: "Pinocytosis" },
+          { id: "D", text: "Exocytosis" },
+          { id: "E", text: "Endocytosis" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q11_15",
+        category: "biology",
+        text: "Which enzyme is responsible for the conversion of angiotensinogen to angiotensin I in the renin-angiotensin-aldosterone system?",
+        options: [
+          { id: "A", text: "Angiotensin-converting enzyme" },
+          { id: "B", text: "Renin" },
+          { id: "C", text: "Aldosterone synthase" },
+          { id: "D", text: "Bradykininase" },
+          { id: "E", text: "Chymase" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q12_15",
+        category: "biology",
+        text: "Which type of cell death is characterized by cell swelling, membrane rupture, and release of cellular contents that trigger inflammation?",
+        options: [
+          { id: "A", text: "Apoptosis" },
+          { id: "B", text: "Necrosis" },
+          { id: "C", text: "Autophagy" },
+          { id: "D", text: "Ferroptosis" },
+          { id: "E", text: "Pyroptosis" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q13_15",
+        category: "biology",
+        text: "Which hormone is produced by the delta cells of the pancreatic islets of Langerhans?",
+        options: [
+          { id: "A", text: "Insulin" },
+          { id: "B", text: "Glucagon" },
+          { id: "C", text: "Somatostatin" },
+          { id: "D", text: "Pancreatic polypeptide" },
+          { id: "E", text: "Amylin" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q14_15",
+        category: "biology",
+        text: "Which cellular structure is responsible for the synthesis and assembly of ribosomal subunits?",
+        options: [
+          { id: "A", text: "Nucleolus" },
+          { id: "B", text: "Nucleus" },
+          { id: "C", text: "Rough endoplasmic reticulum" },
+          { id: "D", text: "Golgi apparatus" },
+          { id: "E", text: "Mitochondrion" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q15_15",
+        category: "biology",
+        text: "Which enzyme is responsible for the conversion of pyruvate to acetyl-CoA in the mitochondrial matrix?",
+        options: [
+          { id: "A", text: "Pyruvate dehydrogenase complex" },
+          { id: "B", text: "Pyruvate kinase" },
+          { id: "C", text: "Lactate dehydrogenase" },
+          { id: "D", text: "Phosphoenolpyruvate carboxykinase" },
+          { id: "E", text: "Pyruvate carboxylase" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q16_15",
+        category: "biology",
+        text: "Which type of white blood cell is primarily responsible for the production of antibodies and immunological memory?",
+        options: [
+          { id: "A", text: "Neutrophil" },
+          { id: "B", text: "Eosinophil" },
+          { id: "C", text: "Basophil" },
+          { id: "D", text: "Lymphocyte" },
+          { id: "E", text: "Monocyte" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q17_15",
+        category: "biology",
+        text: "Which hormone is primarily responsible for the regulation of calcium reabsorption in the distal convoluted tubule?",
+        options: [
+          { id: "A", text: "Parathyroid hormone" },
+          { id: "B", text: "Calcitonin" },
+          { id: "C", text: "1,25-dihydroxyvitamin D" },
+          { id: "D", text: "Aldosterone" },
+          { id: "E", text: "Antidiuretic hormone" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q18_15",
+        category: "biology",
+        text: "Which cellular process is responsible for the transfer of genetic material between bacteria through direct cell-to-cell contact?",
+        options: [
+          { id: "A", text: "Transformation" },
+          { id: "B", text: "Transduction" },
+          { id: "C", text: "Conjugation" },
+          { id: "D", text: "Transfection" },
+          { id: "E", text: "Transposition" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q19_15",
+        category: "biology",
+        text: "Which enzyme is responsible for the conversion of fibrinogen to fibrin during the coagulation cascade?",
+        options: [
+          { id: "A", text: "Thrombin" },
+          { id: "B", text: "Prothrombin" },
+          { id: "C", text: "Factor X" },
+          { id: "D", text: "Factor VII" },
+          { id: "E", text: "Tissue factor" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q20_15",
+        category: "biology",
+        text: "Which cellular structure is responsible for the organization and segregation of chromosomes during cell division?",
+        options: [
+          { id: "A", text: "Centrosome" },
+          { id: "B", text: "Centromere" },
+          { id: "C", text: "Kinetochore" },
+          { id: "D", text: "Spindle apparatus" },
+          { id: "E", text: "Aster" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q21_15",
+        category: "biology",
+        text: "Which hormone triggers the release of follicle-stimulating hormone and luteinizing hormone from the anterior pituitary?",
+        options: [
+          { id: "A", text: "Gonadotropin-releasing hormone" },
+          { id: "B", text: "Follicle-stimulating hormone" },
+          { id: "C", text: "Luteinizing hormone" },
+          { id: "D", text: "Estrogen" },
+          { id: "E", text: "Progesterone" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q22_15",
+        category: "biology",
+        text: "Which cellular process is responsible for the degradation of proteins marked with ubiquitin tags?",
+        options: [
+          { id: "A", text: "Lysosomal degradation" },
+          { id: "B", text: "Proteasomal degradation" },
+          { id: "C", text: "Autophagic degradation" },
+          { id: "D", text: "Phagocytic degradation" },
+          { id: "E", text: "Endocytic degradation" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q23_15",
+        category: "biology",
+        text: "Which type of RNA is responsible for the catalytic activity of the ribosome during protein synthesis?",
+        options: [
+          { id: "A", text: "mRNA" },
+          { id: "B", text: "tRNA" },
+          { id: "C", text: "rRNA" },
+          { id: "D", text: "snRNA" },
+          { id: "E", text: "miRNA" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q24_15",
+        category: "biology",
+        text: "Which enzyme is responsible for the conversion of angiotensin I to angiotensin II in the pulmonary circulation?",
+        options: [
+          { id: "A", text: "Renin" },
+          { id: "B", text: "Angiotensin-converting enzyme" },
+          { id: "C", text: "Aldosterone synthase" },
+          { id: "D", text: "Bradykininase" },
+          { id: "E", text: "Chymase" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q25_15",
+        category: "biology",
+        text: "Which cellular structure is responsible for the synthesis of phospholipids and cholesterol in eukaryotic cells?",
+        options: [
+          { id: "A", text: "Rough endoplasmic reticulum" },
+          { id: "B", text: "Smooth endoplasmic reticulum" },
+          { id: "C", text: "Golgi apparatus" },
+          { id: "D", text: "Mitochondrion" },
+          { id: "E", text: "Peroxisome" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q26_15",
+        category: "biology",
+        text: "Which hormone is primarily responsible for the regulation of water reabsorption in the collecting duct?",
+        options: [
+          { id: "A", text: "Aldosterone" },
+          { id: "B", text: "Antidiuretic hormone" },
+          { id: "C", text: "Atrial natriuretic peptide" },
+          { id: "D", text: "Renin" },
+          { id: "E", text: "Angiotensin II" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q27_15",
+        category: "biology",
+        text: "Which cellular process is responsible for the transfer of genetic material from one bacterium to another via bacteriophage?",
+        options: [
+          { id: "A", text: "Transformation" },
+          { id: "B", text: "Transduction" },
+          { id: "C", text: "Conjugation" },
+          { id: "D", text: "Transfection" },
+          { id: "E", text: "Transposition" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q28_15",
+        category: "biology",
+        text: "Which enzyme is responsible for the conversion of glucose-6-phosphate to fructose-6-phosphate in glycolysis?",
+        options: [
+          { id: "A", text: "Hexokinase" },
+          { id: "B", text: "Phosphoglucose isomerase" },
+          { id: "C", text: "Phosphofructokinase" },
+          { id: "D", text: "Aldolase" },
+          { id: "E", text: "Triose phosphate isomerase" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q29_15",
+        category: "biology",
+        text: "Which cellular structure is responsible for the synthesis and modification of proteins destined for secretion?",
+        options: [
+          { id: "A", text: "Rough endoplasmic reticulum" },
+          { id: "B", text: "Smooth endoplasmic reticulum" },
+          { id: "C", text: "Golgi apparatus" },
+          { id: "D", text: "Lysosome" },
+          { id: "E", text: "Peroxisome" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q30_15",
+        category: "biology",
+        text: "Which hormone is produced by the beta cells of the pancreatic islets of Langerhans?",
+        options: [
+          { id: "A", text: "Insulin" },
+          { id: "B", text: "Glucagon" },
+          { id: "C", text: "Somatostatin" },
+          { id: "D", text: "Pancreatic polypeptide" },
+          { id: "E", text: "Amylin" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q31_15",
+        category: "biology",
+        text: "Which cellular process is responsible for the degradation of cellular components through lysosomal enzymes?",
+        options: [
+          { id: "A", text: "Autophagy" },
+          { id: "B", text: "Phagocytosis" },
+          { id: "C", text: "Pinocytosis" },
+          { id: "D", text: "Exocytosis" },
+          { id: "E", text: "Endocytosis" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q32_15",
+        category: "biology",
+        text: "Which enzyme is responsible for the conversion of tryptophan to serotonin in the brain?",
+        options: [
+          { id: "A", text: "Tryptophan hydroxylase" },
+          { id: "B", text: "Aromatic L-amino acid decarboxylase" },
+          { id: "C", text: "Monoamine oxidase" },
+          { id: "D", text: "Catechol-O-methyltransferase" },
+          { id: "E", text: "Tyrosine hydroxylase" }
+        ],
+        correctOption: "A"
+      },
+
+      // Chemistry (15 questions)
+      {
+        id: "q33_15",
+        category: "chemistry",
+        text: "What is the hybridization state of the central atom in SF₆?",
+        options: [
+          { id: "A", text: "sp" },
+          { id: "B", text: "sp²" },
+          { id: "C", text: "sp³" },
+          { id: "D", text: "sp³d" },
+          { id: "E", text: "sp³d²" }
+        ],
+        correctOption: "E"
+      },
+      {
+        id: "q34_15",
+        category: "chemistry",
+        text: "Which of the following compounds exhibits optical isomerism?",
+        options: [
+          { id: "A", text: "CH₃CH₂CH₃" },
+          { id: "B", text: "CH₃CH₂CH₂CH₃" },
+          { id: "C", text: "CH₃CH₂CH(OH)CH₃" },
+          { id: "D", text: "CH₃CH₂CH₂CH₂CH₃" },
+          { id: "E", text: "CH₃CH₂CH₂CH₂CH₂CH₃" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q35_15",
+        category: "chemistry",
+        text: "What is the pH of a 0.001 M solution of acetic acid (Ka = 1.8 × 10⁻⁵)?",
+        options: [
+          { id: "A", text: "2.9" },
+          { id: "B", text: "3.4" },
+          { id: "C", text: "3.9" },
+          { id: "D", text: "4.4" },
+          { id: "E", text: "4.9" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q36_15",
+        category: "chemistry",
+        text: "Which gas law states that the pressure of a fixed mass of gas is directly proportional to its absolute temperature at constant volume?",
+        options: [
+          { id: "A", text: "Boyle's law" },
+          { id: "B", text: "Charles's law" },
+          { id: "C", text: "Gay-Lussac's law" },
+          { id: "D", text: "Avogadro's law" },
+          { id: "E", text: "Dalton's law" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q37_15",
+        category: "chemistry",
+        text: "What is the coordination number of Fe³⁺ in the complex [Fe(CN)₆]³⁻?",
+        options: [
+          { id: "A", text: "3" },
+          { id: "B", text: "4" },
+          { id: "C", text: "6" },
+          { id: "D", text: "8" },
+          { id: "E", text: "12" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q38_15",
+        category: "chemistry",
+        text: "Which of the following molecules has a trigonal bipyramidal geometry?",
+        options: [
+          { id: "A", text: "PCl₅" },
+          { id: "B", text: "SF₄" },
+          { id: "C", text: "XeF₄" },
+          { id: "D", text: "BrF₅" },
+          { id: "E", text: "IF₇" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q39_15",
+        category: "chemistry",
+        text: "What is the oxidation state of chromium in K₂Cr₂O₇?",
+        options: [
+          { id: "A", text: "+3" },
+          { id: "B", text: "+5" },
+          { id: "C", text: "+6" },
+          { id: "D", text: "+7" },
+          { id: "E", text: "+9" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q40_15",
+        category: "chemistry",
+        text: "Which of the following compounds is most soluble in water?",
+        options: [
+          { id: "A", text: "CH₃CH₂CH₃" },
+          { id: "B", text: "CH₃CH₂OH" },
+          { id: "C", text: "CH₃COOH" },
+          { id: "D", text: "CH₃CH₂CH₂CH₃" },
+          { id: "E", text: "CH₃CH₂CH₂OH" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q41_15",
+        category: "chemistry",
+        text: "What is the standard electrode potential of the hydrogen electrode?",
+        options: [
+          { id: "A", text: "-1.23 V" },
+          { id: "B", text: "-0.76 V" },
+          { id: "C", text: "0.00 V" },
+          { id: "D", text: "+0.76 V" },
+          { id: "E", text: "+1.23 V" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q42_15",
+        category: "chemistry",
+        text: "Which of the following molecules has a permanent dipole moment?",
+        options: [
+          { id: "A", text: "CO₂" },
+          { id: "B", text: "BF₃" },
+          { id: "C", text: "CH₄" },
+          { id: "D", text: "NH₃" },
+          { id: "E", text: "CCl₄" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q43_15",
+        category: "chemistry",
+        text: "What is the molecular formula of benzene?",
+        options: [
+          { id: "A", text: "C₆H₆" },
+          { id: "B", text: "C₆H₁₂" },
+          { id: "C", text: "C₆H₁₄" },
+          { id: "D", text: "C₆H₁₈" },
+          { id: "E", text: "C₆H₂₀" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q44_15",
+        category: "chemistry",
+        text: "Which isotope is commonly used for positron emission tomography (PET) imaging?",
+        options: [
+          { id: "A", text: "¹²C" },
+          { id: "B", text: "¹³C" },
+          { id: "C", text: "¹⁴C" },
+          { id: "D", text: "¹⁸F" },
+          { id: "E", text: "²³⁵U" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q45_15",
+        category: "chemistry",
+        text: "What is the coordination number of Na⁺ in the crystal lattice of sodium chloride?",
+        options: [
+          { id: "A", text: "4" },
+          { id: "B", text: "6" },
+          { id: "C", text: "8" },
+          { id: "D", text: "12" },
+          { id: "E", text: "2" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q46_15",
+        category: "chemistry",
+        text: "Which of the following compounds is NOT an alkane?",
+        options: [
+          { id: "A", text: "Ethane" },
+          { id: "B", text: "Propane" },
+          { id: "C", text: "Butene" },
+          { id: "D", text: "Pentane" },
+          { id: "E", text: "Methane" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q47_15",
+        category: "chemistry",
+        text: "What is the oxidation state of sulfur in H₂SO₄?",
+        options: [
+          { id: "A", text: "+2" },
+          { id: "B", text: "+4" },
+          { id: "C", text: "+6" },
+          { id: "D", text: "+8" },
+          { id: "E", text: "+10" }
+        ],
+        correctOption: "C"
+      },
+
+      // Physics & Mathematics (13 questions)
+      {
+        id: "q48_15",
+        category: "physics_math",
+        text: "A particle moves in a circle of radius r with constant angular velocity ω. What is the magnitude of its centripetal acceleration?",
+        options: [
+          { id: "A", text: "rω" },
+          { id: "B", text: "rω²" },
+          { id: "C", text: "2rω" },
+          { id: "D", text: "2rω²" },
+          { id: "E", text: "r²ω" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q49_15",
+        category: "physics_math",
+        text: "What is the derivative of f(x) = e^(sin(x)) with respect to x?",
+        options: [
+          { id: "A", text: "e^(sin(x))" },
+          { id: "B", text: "cos(x)e^(sin(x))" },
+          { id: "C", text: "sin(x)e^(sin(x))" },
+          { id: "D", text: "e^(cos(x))" },
+          { id: "E", text: "cos(x)e^(cos(x))" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q50_15",
+        category: "physics_math",
+        text: "A capacitor of capacitance C is charged to a voltage V and then connected to an uncharged capacitor of capacitance 2C. What is the final voltage across both capacitors?",
+        options: [
+          { id: "A", text: "V/3" },
+          { id: "B", text: "V/2" },
+          { id: "C", text: "2V/3" },
+          { id: "D", text: "V" },
+          { id: "E", text: "2V" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q51_15",
+        category: "physics_math",
+        text: "What is the value of the definite integral ∫₀^π/2 sin²(x)cos(x) dx?",
+        options: [
+          { id: "A", text: "0" },
+          { id: "B", text: "1/3" },
+          { id: "C", text: "1/2" },
+          { id: "D", text: "2/3" },
+          { id: "E", text: "1" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q52_15",
+        category: "physics_math",
+        text: "A mass m is attached to a spring with spring constant k and oscillates with amplitude A. What is the maximum kinetic energy of the mass?",
+        options: [
+          { id: "A", text: "½kA²" },
+          { id: "B", text: "kA²" },
+          { id: "C", text: "2kA²" },
+          { id: "D", text: "½mω²A²" },
+          { id: "E", text: "mω²A²" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q53_15",
+        category: "physics_math",
+        text: "In Young's double-slit experiment, if the wavelength of light is λ and the slit separation is d, what is the angular separation between adjacent bright fringes?",
+        options: [
+          { id: "A", text: "λ/d" },
+          { id: "B", text: "d/λ" },
+          { id: "C", text: "λ/(2d)" },
+          { id: "D", text: "2λ/d" },
+          { id: "E", text: "d/(2λ)" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q54_15",
+        category: "physics_math",
+        text: "What is the limit as x approaches 0 of (sin(x) - x)/x³?",
+        options: [
+          { id: "A", text: "0" },
+          { id: "B", text: "1/6" },
+          { id: "C", text: "-1/6" },
+          { id: "D", text: "1" },
+          { id: "E", text: "∞" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q55_15",
+        category: "physics_math",
+        text: "A particle of charge q moves with velocity v perpendicular to a uniform magnetic field B. What is the radius of its circular path?",
+        options: [
+          { id: "A", text: "mv/(qB)" },
+          { id: "B", text: "qB/(mv)" },
+          { id: "C", text: "mv²/(qB)" },
+          { id: "D", text: "qB²/(mv)" },
+          { id: "E", text: "mv/(qB²)" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q56_15",
+        category: "physics_math",
+        text: "What is the sum of the infinite series 1 + 1/2 + 1/4 + 1/8 + ...?",
+        options: [
+          { id: "A", text: "1" },
+          { id: "B", text: "2" },
+          { id: "C", text: "3" },
+          { id: "D", text: "∞" },
+          { id: "E", text: "Cannot be determined" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q57_15",
+        category: "physics_math",
+        text: "A Carnot engine operates between temperatures T₁ and T₂ (T₁ > T₂). If the efficiency is 40%, what is the ratio T₂/T₁?",
+        options: [
+          { id: "A", text: "0.4" },
+          { id: "B", text: "0.6" },
+          { id: "C", text: "0.8" },
+          { id: "D", text: "1.4" },
+          { id: "E", text: "2.5" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q58_15",
+        category: "physics_math",
+        text: "What is the derivative of f(x) = ln(√(1 + x²)) with respect to x?",
+        options: [
+          { id: "A", text: "x/(1 + x²)" },
+          { id: "B", text: "1/(1 + x²)" },
+          { id: "C", text: "x/√(1 + x²)" },
+          { id: "D", text: "1/√(1 + x²)" },
+          { id: "E", text: "2x/(1 + x²)" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q59_15",
+        category: "physics_math",
+        text: "A wave has frequency f and wavelength λ. If the frequency is doubled while the speed remains constant, the new wavelength is:",
+        options: [
+          { id: "A", text: "λ/2" },
+          { id: "B", text: "λ" },
+          { id: "C", text: "2λ" },
+          { id: "D", text: "4λ" },
+          { id: "E", text: "λ/4" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q60_15",
+        category: "physics_math",
+        text: "What is the value of the definite integral ∫₀^1 x²e^x dx?",
+        options: [
+          { id: "A", text: "e - 1" },
+          { id: "B", text: "e - 2" },
+          { id: "C", text: "2e - 1" },
+          { id: "D", text: "2e - 2" },
+          { id: "E", text: "e" }
+        ],
+        correctOption: "B"
+      }
+    ]
   }
 } 
