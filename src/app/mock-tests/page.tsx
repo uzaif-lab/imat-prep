@@ -120,10 +120,21 @@ const mockTests = [
     id: "15",
     title: "Advanced IMAT Challenge Test 2",
     description:
-      "hagg denge aap pant mein thoda sa difficult hai.",
+      "High-difficulty practice test with advanced questions covering all IMAT syllabus topics at challenging exam level.",
     questionCount: 60,
     timeLimit: 100,
     createdAt: "2024-08-25",
+    isComplete: true,
+    isPremium: true,
+  },
+  {
+    id: "16",
+    title: "Advanced IMAT Challenge Test 3",
+    description:
+      "Ultra-high difficulty practice test with advanced questions covering all IMAT syllabus topics at the most challenging exam level.",
+    questionCount: 60,
+    timeLimit: 100,
+    createdAt: "2024-09-30",
     isComplete: true,
     isPremium: true,
   },
