@@ -120,7 +120,7 @@ const mockTests = [
     id: "15",
     title: "Advanced IMAT Challenge Test 2",
     description:
-      "High-difficulty practice test with advanced questions covering all IMAT syllabus topics at challenging exam level.",
+      "ismein hag diye the.",
     questionCount: 60,
     timeLimit: 100,
     createdAt: "2024-08-25",
