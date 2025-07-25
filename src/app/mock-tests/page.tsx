@@ -119,8 +119,7 @@ const mockTests = [
   {
     id: "15",
     title: "Advanced IMAT Challenge Test 2",
-    description:
-      "ismein hag diye the.",
+    description: "ismein hag diye the.",
     questionCount: 60,
     timeLimit: 100,
     createdAt: "2024-08-25",
@@ -131,7 +130,7 @@ const mockTests = [
     id: "16",
     title: "Advanced IMAT Challenge Test 3",
     description:
-      "Ultra-high difficulty practice test with advanced questions covering all IMAT syllabus topics at the most challenging exam level.",
+      "this is new one, hopefully ismein nahi hagoge aur agar hagna toh limit mein hagna.",
     questionCount: 60,
     timeLimit: 100,
     createdAt: "2024-09-30",
