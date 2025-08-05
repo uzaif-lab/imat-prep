@@ -4777,7 +4777,7 @@ export const additionalMockTests = {
         category: "chemistry",
         text: "The standard molar enthalpy of formation of an element in its standard state is:",
         options: [
-          { id: "A", text: "−1 kJ mol⁻¹" },
+          { id: "A", text: "-1 kJ mol⁻¹" },
           { id: "B", text: "0 kJ mol⁻¹" },
           { id: "C", text: "+1 kJ mol⁻¹" },
           { id: "D", text: "Variable" },
@@ -5324,7 +5324,7 @@ export const additionalMockTests = {
       {
         id: "q25_15",
         category: "biology",
-        text: "Which cellular structure is responsible for the synthesis of phospholipids and cholesterol in eukaryotic cells?",
+        text: "Which cellular structure is responsible for the synthesis and modification of proteins destined for secretion?",
         options: [
           { id: "A", text: "Rough endoplasmic reticulum" },
           { id: "B", text: "Smooth endoplasmic reticulum" },
@@ -5332,7 +5332,7 @@ export const additionalMockTests = {
           { id: "D", text: "Mitochondrion" },
           { id: "E", text: "Peroxisome" }
         ],
-        correctOption: "B"
+        correctOption: "A"
       },
       {
         id: "q26_15",
@@ -5584,7 +5584,7 @@ export const additionalMockTests = {
         correctOption: "D"
       },
       {
-        id: "q45_15",
+        id: "q46_15",
         category: "chemistry",
         text: "What is the coordination number of Na⁺ in the crystal lattice of sodium chloride?",
         options: [
@@ -5597,7 +5597,7 @@ export const additionalMockTests = {
         correctOption: "B"
       },
       {
-        id: "q46_15",
+        id: "q47_15",
         category: "chemistry",
         text: "Which of the following compounds is NOT an alkane?",
         options: [
@@ -5610,7 +5610,7 @@ export const additionalMockTests = {
         correctOption: "C"
       },
       {
-        id: "q47_15",
+        id: "q48_15",
         category: "chemistry",
         text: "What is the oxidation state of sulfur in H₂SO₄?",
         options: [
@@ -5625,7 +5625,7 @@ export const additionalMockTests = {
 
       // Physics & Mathematics (13 questions)
       {
-        id: "q48_15",
+        id: "q49_15",
         category: "physics_math",
         text: "A particle moves in a circle of radius r with constant angular velocity ω. What is the magnitude of its centripetal acceleration?",
         options: [
@@ -5638,7 +5638,7 @@ export const additionalMockTests = {
         correctOption: "B"
       },
       {
-        id: "q49_15",
+        id: "q50_15",
         category: "physics_math",
         text: "What is the derivative of f(x) = e^(sin(x)) with respect to x?",
         options: [
@@ -5651,7 +5651,7 @@ export const additionalMockTests = {
         correctOption: "B"
       },
       {
-        id: "q50_15",
+        id: "q51_15",
         category: "physics_math",
         text: "A capacitor of capacitance C is charged to a voltage V and then connected to an uncharged capacitor of capacitance 2C. What is the final voltage across both capacitors?",
         options: [
@@ -5664,7 +5664,7 @@ export const additionalMockTests = {
         correctOption: "A"
       },
       {
-        id: "q51_15",
+        id: "q52_15",
         category: "physics_math",
         text: "What is the value of the definite integral ∫₀^π/2 sin²(x)cos(x) dx?",
         options: [
@@ -5677,7 +5677,7 @@ export const additionalMockTests = {
         correctOption: "B"
       },
       {
-        id: "q52_15",
+        id: "q53_15",
         category: "physics_math",
         text: "A mass m is attached to a spring with spring constant k and oscillates with amplitude A. What is the maximum kinetic energy of the mass?",
         options: [
@@ -5690,7 +5690,7 @@ export const additionalMockTests = {
         correctOption: "A"
       },
       {
-        id: "q53_15",
+        id: "q54_15",
         category: "physics_math",
         text: "In Young's double-slit experiment, if the wavelength of light is λ and the slit separation is d, what is the angular separation between adjacent bright fringes?",
         options: [
@@ -5703,7 +5703,7 @@ export const additionalMockTests = {
         correctOption: "A"
       },
       {
-        id: "q54_15",
+        id: "q55_15",
         category: "physics_math",
         text: "What is the limit as x approaches 0 of (sin(x) - x)/x³?",
         options: [
@@ -5716,7 +5716,7 @@ export const additionalMockTests = {
         correctOption: "C"
       },
       {
-        id: "q55_15",
+        id: "q56_15",
         category: "physics_math",
         text: "A particle of charge q moves with velocity v perpendicular to a uniform magnetic field B. What is the radius of its circular path?",
         options: [
@@ -5729,7 +5729,7 @@ export const additionalMockTests = {
         correctOption: "A"
       },
       {
-        id: "q56_15",
+        id: "q57_15",
         category: "physics_math",
         text: "What is the sum of the infinite series 1 + 1/2 + 1/4 + 1/8 + ...?",
         options: [
@@ -5742,7 +5742,7 @@ export const additionalMockTests = {
         correctOption: "B"
       },
       {
-        id: "q57_15",
+        id: "q58_15",
         category: "physics_math",
         text: "A Carnot engine operates between temperatures T₁ and T₂ (T₁ > T₂). If the efficiency is 40%, what is the ratio T₂/T₁?",
         options: [
@@ -5755,7 +5755,7 @@ export const additionalMockTests = {
         correctOption: "B"
       },
       {
-        id: "q58_15",
+        id: "q59_15",
         category: "physics_math",
         text: "What is the derivative of f(x) = ln(√(1 + x²)) with respect to x?",
         options: [
@@ -5768,7 +5768,7 @@ export const additionalMockTests = {
         correctOption: "A"
       },
       {
-        id: "q59_15",
+        id: "q60_15",
         category: "physics_math",
         text: "A wave has frequency f and wavelength λ. If the frequency is doubled while the speed remains constant, the new wavelength is:",
         options: [
@@ -5779,19 +5779,6 @@ export const additionalMockTests = {
           { id: "E", text: "λ/4" }
         ],
         correctOption: "A"
-      },
-      {
-        id: "q60_15",
-        category: "physics_math",
-        text: "What is the value of the definite integral ∫₀^1 x²e^x dx?",
-        options: [
-          { id: "A", text: "e - 1" },
-          { id: "B", text: "e - 2" },
-          { id: "C", text: "2e - 1" },
-          { id: "D", text: "2e - 2" },
-          { id: "E", text: "e" }
-        ],
-        correctOption: "B"
       }
     ]
   },
@@ -5860,13 +5847,13 @@ export const additionalMockTests = {
       {
         id: "q5_16",
         category: "logical_reasoning",
-        text: "Complete the sequence: 2, 6, 12, 20, 30, ?",
+        text: "Complete the sequence: 1, 4, 10, 22, 46, ?",
         options: [
-          { id: "A", text: "40" },
-          { id: "B", text: "42" },
-          { id: "C", text: "44" },
-          { id: "D", text: "46" },
-          { id: "E", text: "48" }
+          { id: "A", text: "92" },
+          { id: "B", text: "94" },
+          { id: "C", text: "96" },
+          { id: "D", text: "98" },
+          { id: "E", text: "100" }
         ],
         correctOption: "B"
       },
@@ -5940,7 +5927,7 @@ export const additionalMockTests = {
       {
         id: "q11_16",
         category: "biology",
-        text: "Which enzyme is responsible for the conversion of angiotensinogen to angiotensin I in the systemic circulation?",
+        text: "Which enzyme is responsible for the conversion of bradykinin to inactive peptides in the systemic circulation?",
         options: [
           { id: "A", text: "Renin" },
           { id: "B", text: "Angiotensin-converting enzyme" },
@@ -5948,7 +5935,7 @@ export const additionalMockTests = {
           { id: "D", text: "Bradykininase" },
           { id: "E", text: "Chymase" }
         ],
-        correctOption: "A"
+        correctOption: "D"
       },
       {
         id: "q12_16",
@@ -6382,7 +6369,7 @@ export const additionalMockTests = {
         correctOption: "C"
       },
       {
-        id: "q45_16",
+        id: "q46_16",
         category: "chemistry",
         text: "What is the coordination number of Ca²⁺ in the crystal lattice of calcium fluoride?",
         options: [
@@ -6395,7 +6382,7 @@ export const additionalMockTests = {
         correctOption: "C"
       },
       {
-        id: "q46_16",
+        id: "q47_16",
         category: "chemistry",
         text: "Which of the following compounds is NOT an alcohol?",
         options: [
@@ -6408,7 +6395,7 @@ export const additionalMockTests = {
         correctOption: "C"
       },
       {
-        id: "q47_16",
+        id: "q48_16",
         category: "chemistry",
         text: "What is the oxidation state of nitrogen in HNO₃?",
         options: [
@@ -6423,7 +6410,7 @@ export const additionalMockTests = {
 
       // Physics & Mathematics (13 questions)
       {
-        id: "q48_16",
+        id: "q49_16",
         category: "physics_math",
         text: "A particle moves in a circle of radius r with constant angular velocity ω. What is the magnitude of its tangential velocity?",
         options: [
@@ -6436,7 +6423,7 @@ export const additionalMockTests = {
         correctOption: "A"
       },
       {
-        id: "q49_16",
+        id: "q50_16",
         category: "physics_math",
         text: "What is the derivative of f(x) = ln(cos(x)) with respect to x?",
         options: [
@@ -6449,7 +6436,7 @@ export const additionalMockTests = {
         correctOption: "A"
       },
       {
-        id: "q50_16",
+        id: "q51_16",
         category: "physics_math",
         text: "A capacitor of capacitance C is charged to a voltage V and then connected to an uncharged capacitor of capacitance 3C. What is the final voltage across both capacitors?",
         options: [
@@ -6462,7 +6449,7 @@ export const additionalMockTests = {
         correctOption: "A"
       },
       {
-        id: "q51_16",
+        id: "q52_16",
         category: "physics_math",
         text: "What is the value of the definite integral ∫₀^π/2 cos²(x)sin(x) dx?",
         options: [
@@ -6475,7 +6462,7 @@ export const additionalMockTests = {
         correctOption: "B"
       },
       {
-        id: "q52_16",
+        id: "q53_16",
         category: "physics_math",
         text: "A mass m is attached to a spring with spring constant k and oscillates with amplitude A. What is the maximum potential energy of the mass?",
         options: [
@@ -6488,7 +6475,7 @@ export const additionalMockTests = {
         correctOption: "A"
       },
       {
-        id: "q53_16",
+        id: "q54_16",
         category: "physics_math",
         text: "In Young's double-slit experiment, if the wavelength of light is λ and the slit separation is d, what is the distance between adjacent bright fringes on a screen at distance L?",
         options: [
@@ -6501,7 +6488,7 @@ export const additionalMockTests = {
         correctOption: "A"
       },
       {
-        id: "q54_16",
+        id: "q55_16",
         category: "physics_math",
         text: "What is the limit as x approaches 0 of (cos(x) - 1)/x²?",
         options: [
@@ -6514,7 +6501,7 @@ export const additionalMockTests = {
         correctOption: "C"
       },
       {
-        id: "q55_16",
+        id: "q56_16",
         category: "physics_math",
         text: "A particle of charge q moves with velocity v perpendicular to a uniform magnetic field B. What is the frequency of its circular motion?",
         options: [
@@ -6527,7 +6514,7 @@ export const additionalMockTests = {
         correctOption: "A"
       },
       {
-        id: "q56_16",
+        id: "q57_16",
         category: "physics_math",
         text: "What is the sum of the infinite series 1 + 1/3 + 1/9 + 1/27 + ...?",
         options: [
@@ -6540,7 +6527,7 @@ export const additionalMockTests = {
         correctOption: "B"
       },
       {
-        id: "q57_16",
+        id: "q58_16",
         category: "physics_math",
         text: "A Carnot engine operates between temperatures T₁ and T₂ (T₁ > T₂). If the efficiency is 60%, what is the ratio T₂/T₁?",
         options: [
@@ -6553,7 +6540,7 @@ export const additionalMockTests = {
         correctOption: "B"
       },
       {
-        id: "q58_16",
+        id: "q59_16",
         category: "physics_math",
         text: "What is the derivative of f(x) = √(1 - x²) with respect to x?",
         options: [
@@ -6566,7 +6553,7 @@ export const additionalMockTests = {
         correctOption: "B"
       },
       {
-        id: "q59_16",
+        id: "q60_16",
         category: "physics_math",
         text: "A wave has frequency f and wavelength λ. If the wavelength is halved while the speed remains constant, the new frequency is:",
         options: [
@@ -6577,19 +6564,804 @@ export const additionalMockTests = {
           { id: "E", text: "f/4" }
         ],
         correctOption: "C"
+      }
+    ]
+  },
+  "17": {
+    id: "17",
+    title: "IMAT Practice Test 6",
+    description:
+      "Mid-level difficulty practice test with balanced questions covering all IMAT syllabus topics at standard exam difficulty.",
+    timeLimit: 100,
+    questions: [
+      // Reading Comprehension & General Knowledge (4 questions)
+      {
+        id: "q1_17",
+        category: "reading",
+        text: `Read the passage and answer the question below:\n\nThe human gut microbiome consists of trillions of microorganisms that play crucial roles in digestion, immune function, and even mental health. Recent research has shown that the composition of these microbial communities can be influenced by diet, antibiotics, and lifestyle factors. The gut-brain axis, a bidirectional communication system between the gastrointestinal tract and the central nervous system, suggests that changes in gut microbiota may affect mood, behavior, and cognitive function.\n\nAccording to the passage, what is the primary mechanism by which gut microbiota may influence mental health?`,
+        options: [
+          { id: "A", text: "Direct production of neurotransmitters in the brain" },
+          { id: "B", text: "Through the gut-brain axis communication system" },
+          { id: "C", text: "By altering blood glucose levels" },
+          { id: "D", text: "Through direct neural connections to the brain" },
+          { id: "E", text: "By producing hormones that cross the blood-brain barrier" }
+        ],
+        correctOption: "B"
       },
       {
-        id: "q60_16",
-        category: "physics_math",
-        text: "What is the value of the definite integral ∫₀^1 xe^x dx?",
+        id: "q2_17",
+        category: "reading",
+        text: `Read the passage and answer the question below:\n\nGene therapy represents a promising approach for treating genetic disorders by introducing functional genes into cells to replace or supplement defective ones. Viral vectors, particularly adeno-associated viruses (AAVs), are commonly used to deliver therapeutic genes due to their ability to infect cells efficiently and their relatively low immunogenicity. However, challenges remain in achieving long-term gene expression and avoiding immune responses to the viral vectors.\n\nWhat is the main advantage of using AAVs as gene therapy vectors?`,
         options: [
-          { id: "A", text: "e - 1" },
-          { id: "B", text: "e - 2" },
-          { id: "C", text: "2e - 1" },
-          { id: "D", text: "2e - 2" },
-          { id: "E", text: "e" }
+          { id: "A", text: "They can carry large therapeutic genes" },
+          { id: "B", text: "They integrate into the host genome permanently" },
+          { id: "C", text: "They have low immunogenicity and efficient cell infection" },
+          { id: "D", text: "They can target any cell type specifically" },
+          { id: "E", text: "They replicate independently in host cells" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q3_17",
+        category: "reading",
+        text: "Which Nobel Prize-winning discovery revolutionized our understanding of how cells communicate through chemical signals?",
+        options: [
+          { id: "A", text: "The discovery of DNA structure" },
+          { id: "B", text: "The identification of G-protein coupled receptors and signal transduction" },
+          { id: "C", text: "The discovery of the electron microscope" },
+          { id: "D", text: "The identification of the genetic code" },
+          { id: "E", text: "The discovery of stem cells" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q4_17",
+        category: "reading",
+        text: "Which international organization coordinates global efforts to combat antimicrobial resistance and promote responsible antibiotic use?",
+        options: [
+          { id: "A", text: "World Health Organization (WHO)" },
+          { id: "B", text: "United Nations Educational, Scientific and Cultural Organization (UNESCO)" },
+          { id: "C", text: "International Atomic Energy Agency (IAEA)" },
+          { id: "D", text: "Food and Agriculture Organization (FAO)" },
+          { id: "E", text: "World Trade Organization (WTO)" }
         ],
         correctOption: "A"
+      },
+
+      // Logical Reasoning (5 questions)
+      {
+        id: "q5_17",
+        category: "logical_reasoning",
+        text: "Complete the sequence: 2, 5, 11, 23, 47, ?",
+        options: [
+          { id: "A", text: "71" },
+          { id: "B", text: "83" },
+          { id: "C", text: "95" },
+          { id: "D", text: "107" },
+          { id: "E", text: "119" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q6_17",
+        category: "logical_reasoning",
+        text: "In a clinical trial, 80% of patients responded to treatment X, 65% responded to treatment Y, and 55% responded to both treatments. What percentage of patients responded to neither treatment?",
+        options: [
+          { id: "A", text: "5%" },
+          { id: "B", text: "10%" },
+          { id: "C", text: "15%" },
+          { id: "D", text: "20%" },
+          { id: "E", text: "25%" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q7_17",
+        category: "logical_reasoning",
+        text: "A medical center has 200 physicians. If 45% are internists, 35% are surgeons, and 25% are both internists and surgeons, how many physicians are neither internists nor surgeons?",
+        options: [
+          { id: "A", text: "60" },
+          { id: "B", text: "80" },
+          { id: "C", text: "90" },
+          { id: "D", text: "110" },
+          { id: "E", text: "130" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q8_17",
+        category: "logical_reasoning",
+        text: "A patient's medication has a half-life of 4 hours. If 200 mg is administered, how much remains after 12 hours?",
+        options: [
+          { id: "A", text: "12.5 mg" },
+          { id: "B", text: "25 mg" },
+          { id: "C", text: "50 mg" },
+          { id: "D", text: "75 mg" },
+          { id: "E", text: "100 mg" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q9_17",
+        category: "logical_reasoning",
+        text: "All nurses are healthcare workers. Some healthcare workers are researchers. Some researchers are professors. Which conclusion must be true?",
+        options: [
+          { id: "A", text: "All professors are nurses" },
+          { id: "B", text: "Some nurses are professors" },
+          { id: "C", text: "Some healthcare workers are professors" },
+          { id: "D", text: "All researchers are healthcare workers" },
+          { id: "E", text: "No nurses are professors" }
+        ],
+        correctOption: "C"
+      },
+
+      // Biology (23 questions)
+      {
+        id: "q10_17",
+        category: "biology",
+        text: "Which cellular process is responsible for the selective degradation of damaged organelles through autophagosome formation?",
+        options: [
+          { id: "A", text: "Autophagy" },
+          { id: "B", text: "Phagocytosis" },
+          { id: "C", text: "Apoptosis" },
+          { id: "D", text: "Necrosis" },
+          { id: "E", text: "Endocytosis" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q11_17",
+        category: "biology",
+        text: "Which enzyme is responsible for the conversion of bradykinin to inactive peptides in the pulmonary circulation?",
+        options: [
+          { id: "A", text: "Renin" },
+          { id: "B", text: "Angiotensin-converting enzyme" },
+          { id: "C", text: "Aldosterone synthase" },
+          { id: "D", text: "Bradykininase" },
+          { id: "E", text: "Chymase" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q12_17",
+        category: "biology",
+        text: "Which type of programmed cell death is characterized by caspase-dependent DNA fragmentation and formation of apoptotic bodies?",
+        options: [
+          { id: "A", text: "Necrosis" },
+          { id: "B", text: "Apoptosis" },
+          { id: "C", text: "Autophagy" },
+          { id: "D", text: "Ferroptosis" },
+          { id: "E", text: "Pyroptosis" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q13_17",
+        category: "biology",
+        text: "Which hormone is produced by the beta cells of the pancreatic islets of Langerhans?",
+        options: [
+          { id: "A", text: "Insulin" },
+          { id: "B", text: "Glucagon" },
+          { id: "C", text: "Somatostatin" },
+          { id: "D", text: "Pancreatic polypeptide" },
+          { id: "E", text: "Amylin" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q14_17",
+        category: "biology",
+        text: "Which cellular structure is responsible for the synthesis and processing of ribosomal RNA precursors?",
+        options: [
+          { id: "A", text: "Nucleolus" },
+          { id: "B", text: "Nucleus" },
+          { id: "C", text: "Rough endoplasmic reticulum" },
+          { id: "D", text: "Golgi apparatus" },
+          { id: "E", text: "Mitochondrion" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q15_17",
+        category: "biology",
+        text: "Which enzyme complex is responsible for the conversion of pyruvate to acetyl-CoA in the mitochondrial matrix?",
+        options: [
+          { id: "A", text: "Pyruvate dehydrogenase complex" },
+          { id: "B", text: "Pyruvate kinase" },
+          { id: "C", text: "Lactate dehydrogenase" },
+          { id: "D", text: "Phosphoenolpyruvate carboxykinase" },
+          { id: "E", text: "Pyruvate carboxylase" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q16_17",
+        category: "biology",
+        text: "Which type of white blood cell is primarily responsible for the production of antibodies and immunological memory?",
+        options: [
+          { id: "A", text: "Neutrophil" },
+          { id: "B", text: "Eosinophil" },
+          { id: "C", text: "Basophil" },
+          { id: "D", text: "Lymphocyte" },
+          { id: "E", text: "Monocyte" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q17_17",
+        category: "biology",
+        text: "Which hormone is primarily responsible for the regulation of calcium reabsorption in the distal convoluted tubule?",
+        options: [
+          { id: "A", text: "Parathyroid hormone" },
+          { id: "B", text: "Calcitonin" },
+          { id: "C", text: "1,25-dihydroxyvitamin D" },
+          { id: "D", text: "Aldosterone" },
+          { id: "E", text: "Antidiuretic hormone" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q18_17",
+        category: "biology",
+        text: "Which cellular process is responsible for the transfer of genetic material between bacteria through direct cell-to-cell contact?",
+        options: [
+          { id: "A", text: "Transformation" },
+          { id: "B", text: "Transduction" },
+          { id: "C", text: "Conjugation" },
+          { id: "D", text: "Transfection" },
+          { id: "E", text: "Transposition" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q19_17",
+        category: "biology",
+        text: "Which enzyme is responsible for the conversion of glucose-6-phosphate to fructose-6-phosphate in glycolysis?",
+        options: [
+          { id: "A", text: "Hexokinase" },
+          { id: "B", text: "Phosphoglucose isomerase" },
+          { id: "C", text: "Phosphofructokinase" },
+          { id: "D", text: "Aldolase" },
+          { id: "E", text: "Triose phosphate isomerase" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q20_17",
+        category: "biology",
+        text: "Which cellular structure is responsible for the synthesis and modification of proteins destined for secretion?",
+        options: [
+          { id: "A", text: "Rough endoplasmic reticulum" },
+          { id: "B", text: "Smooth endoplasmic reticulum" },
+          { id: "C", text: "Golgi apparatus" },
+          { id: "D", text: "Lysosome" },
+          { id: "E", text: "Peroxisome" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q21_17",
+        category: "biology",
+        text: "Which hormone is produced by the alpha cells of the pancreatic islets of Langerhans?",
+        options: [
+          { id: "A", text: "Insulin" },
+          { id: "B", text: "Glucagon" },
+          { id: "C", text: "Somatostatin" },
+          { id: "D", text: "Pancreatic polypeptide" },
+          { id: "E", text: "Amylin" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q22_17",
+        category: "biology",
+        text: "Which type of cell junction allows direct communication between adjacent cells through small channels?",
+        options: [
+          { id: "A", text: "Tight junctions" },
+          { id: "B", text: "Adherens junctions" },
+          { id: "C", text: "Gap junctions" },
+          { id: "D", text: "Desmosomes" },
+          { id: "E", text: "Hemidesmosomes" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q23_17",
+        category: "biology",
+        text: "During cellular respiration, which process occurs in the cytoplasm?",
+        options: [
+          { id: "A", text: "Krebs cycle" },
+          { id: "B", text: "Electron transport chain" },
+          { id: "C", text: "Glycolysis" },
+          { id: "D", text: "Oxidative phosphorylation" },
+          { id: "E", text: "Beta-oxidation" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q24_17",
+        category: "biology",
+        text: "Which vitamin is essential for the gamma-carboxylation of clotting factors II, VII, IX, and X?",
+        options: [
+          { id: "A", text: "Vitamin A" },
+          { id: "B", text: "Vitamin C" },
+          { id: "C", text: "Vitamin D" },
+          { id: "D", text: "Vitamin K" },
+          { id: "E", text: "Vitamin B12" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q25_17",
+        category: "biology",
+        text: "Which hormone is primarily responsible for the regulation of calcium absorption in the small intestine?",
+        options: [
+          { id: "A", text: "Parathyroid hormone" },
+          { id: "B", text: "Calcitonin" },
+          { id: "C", text: "1,25-dihydroxyvitamin D" },
+          { id: "D", text: "Estrogen" },
+          { id: "E", text: "Growth hormone" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q26_17",
+        category: "biology",
+        text: "Which type of RNA carries amino acids to the ribosome during protein synthesis?",
+        options: [
+          { id: "A", text: "mRNA" },
+          { id: "B", text: "tRNA" },
+          { id: "C", text: "rRNA" },
+          { id: "D", text: "snRNA" },
+          { id: "E", text: "miRNA" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q27_17",
+        category: "biology",
+        text: "During the process of transcription, which enzyme is responsible for synthesizing RNA from a DNA template?",
+        options: [
+          { id: "A", text: "DNA polymerase" },
+          { id: "B", text: "RNA polymerase" },
+          { id: "C", text: "Reverse transcriptase" },
+          { id: "D", text: "DNA ligase" },
+          { id: "E", text: "Helicase" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q28_17",
+        category: "biology",
+        text: "Which type of immunity is characterized by the production of antibodies by B lymphocytes?",
+        options: [
+          { id: "A", text: "Innate immunity" },
+          { id: "B", text: "Humoral immunity" },
+          { id: "C", text: "Cell-mediated immunity" },
+          { id: "D", text: "Natural killer cell immunity" },
+          { id: "E", text: "Complement-mediated immunity" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q29_17",
+        category: "biology",
+        text: "Which organelle is primarily responsible for modifying, sorting and packaging proteins received from the rough endoplasmic reticulum?",
+        options: [
+          { id: "A", text: "Lysosome" },
+          { id: "B", text: "Nucleus" },
+          { id: "C", text: "Golgi apparatus" },
+          { id: "D", text: "Peroxisome" },
+          { id: "E", text: "Mitochondrion" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q30_17",
+        category: "biology",
+        text: "Which type of leukocyte is chiefly responsible for antibody production?",
+        options: [
+          { id: "A", text: "T helper cell" },
+          { id: "B", text: "Neutrophil" },
+          { id: "C", text: "Macrophage" },
+          { id: "D", text: "B lymphocyte" },
+          { id: "E", text: "Eosinophil" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q31_17",
+        category: "biology",
+        text: "In humans, how many pairs of autosomes are present in a typical somatic cell?",
+        options: [
+          { id: "A", text: "21" },
+          { id: "B", text: "22" },
+          { id: "C", text: "23" },
+          { id: "D", text: "24" },
+          { id: "E", text: "25" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q32_17",
+        category: "biology",
+        text: "The directed movement of leukocytes toward higher concentrations of certain chemicals is called:",
+        options: [
+          { id: "A", text: "Diapedesis" },
+          { id: "B", text: "Chemotaxis" },
+          { id: "C", text: "Phagocytosis" },
+          { id: "D", text: "Pinocytosis" },
+          { id: "E", text: "Opsonisation" }
+        ],
+        correctOption: "B"
+      },
+
+      // Chemistry (15 questions)
+      {
+        id: "q33_17",
+        category: "chemistry",
+        text: "Which element has the highest electronegativity on the Pauling scale?",
+        options: [
+          { id: "A", text: "Oxygen" },
+          { id: "B", text: "Nitrogen" },
+          { id: "C", text: "Fluorine" },
+          { id: "D", text: "Chlorine" },
+          { id: "E", text: "Neon" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q34_17",
+        category: "chemistry",
+        text: "What is the molecular geometry of methane (CH₄)?",
+        options: [
+          { id: "A", text: "Trigonal planar" },
+          { id: "B", text: "Bent" },
+          { id: "C", text: "Linear" },
+          { id: "D", text: "Tetrahedral" },
+          { id: "E", text: "Trigonal bipyramidal" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q35_17",
+        category: "chemistry",
+        text: "According to Boyle's law, if the volume of a gas is halved while temperature remains constant, the pressure will:",
+        options: [
+          { id: "A", text: "Double" },
+          { id: "B", text: "Halve" },
+          { id: "C", text: "Remain the same" },
+          { id: "D", text: "Quadruple" },
+          { id: "E", text: "Decrease by one-fourth" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q36_17",
+        category: "chemistry",
+        text: "What is the pH of a 0.01 M solution of acetic acid (Ka = 1.8 × 10⁻⁵)?",
+        options: [
+          { id: "A", text: "2.37" },
+          { id: "B", text: "3.37" },
+          { id: "C", text: "4.37" },
+          { id: "D", text: "5.37" },
+          { id: "E", text: "6.37" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q37_17",
+        category: "chemistry",
+        text: "Which of the following molecules has a trigonal planar electron-pair geometry and molecular geometry?",
+        options: [
+          { id: "A", text: "CO2" },
+          { id: "B", text: "BF3" },
+          { id: "C", text: "NH3" },
+          { id: "D", text: "H2O" },
+          { id: "E", text: "PCl3" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q38_17",
+        category: "chemistry",
+        text: "What is the oxidation state of carbon in methane (CH₄)?",
+        options: [
+          { id: "A", text: "-4" },
+          { id: "B", text: "-2" },
+          { id: "C", text: "0" },
+          { id: "D", text: "+2" },
+          { id: "E", text: "+4" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q39_17",
+        category: "chemistry",
+        text: "Which of the following is a strong acid?",
+        options: [
+          { id: "A", text: "Acetic acid" },
+          { id: "B", text: "Hydrochloric acid" },
+          { id: "C", text: "Carbonic acid" },
+          { id: "D", text: "Phosphoric acid" },
+          { id: "E", text: "Citric acid" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q40_17",
+        category: "chemistry",
+        text: "What is the hybridization state of the central atom in ammonia (NH₃)?",
+        options: [
+          { id: "A", text: "sp" },
+          { id: "B", text: "sp²" },
+          { id: "C", text: "sp³" },
+          { id: "D", text: "sp³d" },
+          { id: "E", text: "sp³d²" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q41_17",
+        category: "chemistry",
+        text: "Which of the following gases deviates most from ideal gas behavior at standard temperature and pressure?",
+        options: [
+          { id: "A", text: "Helium" },
+          { id: "B", text: "Neon" },
+          { id: "C", text: "Nitrogen" },
+          { id: "D", text: "Carbon dioxide" },
+          { id: "E", text: "Ammonia" }
+        ],
+        correctOption: "E"
+      },
+      {
+        id: "q42_17",
+        category: "chemistry",
+        text: "What is the molecular formula for glucose?",
+        options: [
+          { id: "A", text: "C₆H₁₂O₅" },
+          { id: "B", text: "C₆H₁₂O₆" },
+          { id: "C", text: "C₆H₁₀O₆" },
+          { id: "D", text: "C₆H₁₄O₆" },
+          { id: "E", text: "C₆H₁₂O₇" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q43_17",
+        category: "chemistry",
+        text: "Which of the following is a reducing sugar?",
+        options: [
+          { id: "A", text: "Sucrose" },
+          { id: "B", text: "Lactose" },
+          { id: "C", text: "Maltose" },
+          { id: "D", text: "Cellobiose" },
+          { id: "E", text: "All of the above" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q44_17",
+        category: "chemistry",
+        text: "What is the half-life of a first-order reaction with rate constant k = 0.1 min⁻¹?",
+        options: [
+          { id: "A", text: "0.1 min" },
+          { id: "B", text: "0.693 min" },
+          { id: "C", text: "6.93 min" },
+          { id: "D", text: "10 min" },
+          { id: "E", text: "69.3 min" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q45_17",
+        category: "chemistry",
+        text: "Which of the following compounds is most soluble in water?",
+        options: [
+          { id: "A", text: "Ethanol" },
+          { id: "B", text: "Hexane" },
+          { id: "C", text: "Benzene" },
+          { id: "D", text: "Toluene" },
+          { id: "E", text: "Chloroform" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q46_17",
+        category: "chemistry",
+        text: "What is the oxidation state of nitrogen in nitric acid (HNO₃)?",
+        options: [
+          { id: "A", text: "+1" },
+          { id: "B", text: "+3" },
+          { id: "C", text: "+5" },
+          { id: "D", text: "+7" },
+          { id: "E", text: "-1" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q47_17",
+        category: "chemistry",
+        text: "Which of the following is a buffer solution?",
+        options: [
+          { id: "A", text: "0.1 M HCl and 0.1 M NaCl" },
+          { id: "B", text: "0.1 M CH₃COOH and 0.1 M CH₃COONa" },
+          { id: "C", text: "0.1 M NaOH and 0.1 M NaCl" },
+          { id: "D", text: "0.1 M HNO₃ and 0.1 M NaNO₃" },
+          { id: "E", text: "0.1 M H₂SO₄ and 0.1 M Na₂SO₄" }
+        ],
+        correctOption: "B"
+      },
+
+      // Physics & Mathematics (13 questions)
+      {
+        id: "q48_17",
+        category: "physics_math",
+        text: "A 2-kg block slides down a 30° frictionless incline of length 5 m. What is its speed at the bottom? (g = 9.8 m s⁻²)",
+        options: [
+          { id: "A", text: "5.4 m/s" },
+          { id: "B", text: "7.7 m/s" },
+          { id: "C", text: "9.9 m/s" },
+          { id: "D", text: "12.1 m/s" },
+          { id: "E", text: "14.0 m/s" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q49_17",
+        category: "physics_math",
+        text: "What is the derivative of f(x) = x³ + 2x² - 5x + 3?",
+        options: [
+          { id: "A", text: "3x² + 4x - 5" },
+          { id: "B", text: "3x² + 2x - 5" },
+          { id: "C", text: "3x² + 4x + 3" },
+          { id: "D", text: "x² + 4x - 5" },
+          { id: "E", text: "3x² + 4x" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q50_17",
+        category: "physics_math",
+        text: "A wave has frequency 500 Hz and wavelength 0.68 m. What is the speed of the wave?",
+        options: [
+          { id: "A", text: "340 m/s" },
+          { id: "B", text: "350 m/s" },
+          { id: "C", text: "360 m/s" },
+          { id: "D", text: "370 m/s" },
+          { id: "E", text: "380 m/s" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q51_17",
+        category: "physics_math",
+        text: "What is the value of the definite integral ∫₀^2 (2x + 1) dx?",
+        options: [
+          { id: "A", text: "4" },
+          { id: "B", text: "5" },
+          { id: "C", text: "6" },
+          { id: "D", text: "7" },
+          { id: "E", text: "8" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q52_17",
+        category: "physics_math",
+        text: "A particle moves with constant acceleration. If its initial velocity is 5 m/s and after 3 seconds its velocity is 20 m/s, what is its acceleration?",
+        options: [
+          { id: "A", text: "3 m/s²" },
+          { id: "B", text: "5 m/s²" },
+          { id: "C", text: "7 m/s²" },
+          { id: "D", text: "10 m/s²" },
+          { id: "E", text: "15 m/s²" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q53_17",
+        category: "physics_math",
+        text: "What is the limit as x approaches 0 of sin(x)/x?",
+        options: [
+          { id: "A", text: "0" },
+          { id: "B", text: "1" },
+          { id: "C", text: "∞" },
+          { id: "D", text: "Undefined" },
+          { id: "E", text: "-1" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q54_17",
+        category: "physics_math",
+        text: "A capacitor has capacitance 2 μF and is charged to 10 V. What is the energy stored in the capacitor?",
+        options: [
+          { id: "A", text: "10 μJ" },
+          { id: "B", text: "50 μJ" },
+          { id: "C", text: "100 μJ" },
+          { id: "D", text: "200 μJ" },
+          { id: "E", text: "500 μJ" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q55_17",
+        category: "physics_math",
+        text: "What is the sum of the infinite geometric series 1 + 1/2 + 1/4 + 1/8 + ...?",
+        options: [
+          { id: "A", text: "1" },
+          { id: "B", text: "1.5" },
+          { id: "C", text: "2" },
+          { id: "D", text: "2.5" },
+          { id: "E", text: "∞" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q56_17",
+        category: "physics_math",
+        text: "A force of 10 N acts on a 2-kg object for 3 seconds. What is the change in momentum of the object?",
+        options: [
+          { id: "A", text: "10 kg⋅m/s" },
+          { id: "B", text: "20 kg⋅m/s" },
+          { id: "C", text: "30 kg⋅m/s" },
+          { id: "D", text: "40 kg⋅m/s" },
+          { id: "E", text: "60 kg⋅m/s" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q57_17",
+        category: "physics_math",
+        text: "What is the derivative of f(x) = e^x sin(x)?",
+        options: [
+          { id: "A", text: "e^x cos(x)" },
+          { id: "B", text: "e^x (sin(x) + cos(x))" },
+          { id: "C", text: "e^x (sin(x) - cos(x))" },
+          { id: "D", text: "e^x sin(x) + e^x cos(x)" },
+          { id: "E", text: "e^x sin(x) - e^x cos(x)" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q58_17",
+        category: "physics_math",
+        text: "A gas expands isothermally from volume V₁ to V₂. If the initial pressure is P₁, what is the final pressure P₂?",
+        options: [
+          { id: "A", text: "P₁V₁/V₂" },
+          { id: "B", text: "P₁V₂/V₁" },
+          { id: "C", text: "P₁(V₁/V₂)²" },
+          { id: "D", text: "P₁(V₂/V₁)²" },
+          { id: "E", text: "P₁" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q59_17",
+        category: "physics_math",
+        text: "What is the value of the definite integral ∫₀^π sin(x) dx?",
+        options: [
+          { id: "A", text: "0" },
+          { id: "B", text: "1" },
+          { id: "C", text: "2" },
+          { id: "D", text: "π" },
+          { id: "E", text: "2π" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q60_17",
+        category: "physics_math",
+        text: "A particle moves in a circle of radius 2 m with constant speed 4 m/s. What is its centripetal acceleration?",
+        options: [
+          { id: "A", text: "2 m/s²" },
+          { id: "B", text: "4 m/s²" },
+          { id: "C", text: "6 m/s²" },
+          { id: "D", text: "8 m/s²" },
+          { id: "E", text: "16 m/s²" }
+        ],
+        correctOption: "D"
       }
     ]
   }
