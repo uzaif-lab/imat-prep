@@ -7364,5 +7364,198 @@ export const additionalMockTests = {
         correctOption: "D"
       }
     ]
+  },
+  "18": {
+    id: "18",
+    title: "IMAT Practice Test 7",
+    description:
+      "Mid-level difficulty practice test with 60 original IMAT-syllabus questions across all sections.",
+    timeLimit: 100,
+    questions: [
+      { id: "q1_18", category: "reading", text: "Read the passage and answer the question below:\n\nAntibiotic stewardship programs aim to optimize antimicrobial use by ensuring the right drug, dose, and duration for each infection. These programs reduce resistance, adverse events, and costs while maintaining clinical outcomes. Interventions include prospective audit-and-feedback, formulary restriction, and development of local treatment guidelines based on susceptibility data.\n\nAccording to the passage, which intervention directly involves reviewing prescriptions and advising prescribers on modifications?", options: [
+        { id: "A", text: "Formulary restriction" },
+        { id: "B", text: "Prospective audit-and-feedback" },
+        { id: "C", text: "Automatic therapeutic substitution" },
+        { id: "D", text: "Antibiotic cycling" },
+        { id: "E", text: "Antibiotic lock therapy" }
+      ], correctOption: "B" },
+      { id: "q2_18", category: "reading", text: "Read the passage and answer the question below:\n\nVaccination campaigns rely on herd immunity, whereby high population-level immunity reduces transmission. For pathogens with higher basic reproduction numbers (R0), a larger fraction of the population must be immune to interrupt spread. The herd immunity threshold (HIT) can be estimated as 1 − 1/R0, assuming homogeneous mixing and sterilising immunity.\n\nIf R0 = 5, what fraction of the population must be immune to reach the HIT under these assumptions?", options: [
+        { id: "A", text: "0.20" }, { id: "B", text: "0.40" }, { id: "C", text: "0.60" }, { id: "D", text: "0.80" }, { id: "E", text: "0.90" }
+      ], correctOption: "D" },
+      { id: "q3_18", category: "reading", text: "Which major international initiative coordinates disease surveillance and public health emergency responses across member states?", options: [
+        { id: "A", text: "UNESCO Education 2030" }, { id: "B", text: "WHO International Health Regulations" }, { id: "C", text: "FAO Codex Alimentarius" }, { id: "D", text: "WTO Trade Facilitation Agreement" }, { id: "E", text: "World Bank Pandemic Shield" }
+      ], correctOption: "B" },
+      { id: "q4_18", category: "reading", text: "Which discovery directly enabled rapid amplification of specific DNA fragments in vitro?", options: [
+        { id: "A", text: "Structure of tRNA" }, { id: "B", text: "Taq DNA polymerase" }, { id: "C", text: "Discovery of microRNAs" }, { id: "D", text: "Invention of Sanger sequencing" }, { id: "E", text: "Identification of ribozymes" }
+      ], correctOption: "B" },
+      { id: "q5_18", category: "logical_reasoning", text: "Complete the sequence: 4, 9, 19, 39, 79, ?", options: [
+        { id: "A", text: "119" }, { id: "B", text: "159" }, { id: "C", text: "169" }, { id: "D", text: "199" }, { id: "E", text: "239" }
+      ], correctOption: "B" },
+      { id: "q6_18", category: "logical_reasoning", text: "In a study, 55% like tea, 45% like coffee, and 20% like both. What percentage like neither?", options: [
+        { id: "A", text: "0%" }, { id: "B", text: "10%" }, { id: "C", text: "20%" }, { id: "D", text: "30%" }, { id: "E", text: "35%" }
+      ], correctOption: "C" },
+      { id: "q7_18", category: "logical_reasoning", text: "A clinic has 180 patients. 40% have condition A, 35% have condition B, and 15% have both. How many have neither?", options: [
+        { id: "A", text: "54" }, { id: "B", text: "63" }, { id: "C", text: "72" }, { id: "D", text: "81" }, { id: "E", text: "90" }
+      ], correctOption: "C" },
+      { id: "q8_18", category: "logical_reasoning", text: "A drug has half-life 6 h. If 160 mg given, how much remains after 18 h?", options: [
+        { id: "A", text: "20 mg" }, { id: "B", text: "40 mg" }, { id: "C", text: "60 mg" }, { id: "D", text: "80 mg" }, { id: "E", text: "100 mg" }
+      ], correctOption: "A" },
+      { id: "q9_18", category: "logical_reasoning", text: "All biochemists are scientists. Some scientists are teachers. Some teachers are musicians. Which must be true?", options: [
+        { id: "A", text: "Some scientists are musicians" }, { id: "B", text: "Some biochemists are teachers" }, { id: "C", text: "Some biochemists are musicians" }, { id: "D", text: "All teachers are scientists" }, { id: "E", text: "No biochemists are musicians" }
+      ], correctOption: "A" },
+      { id: "q10_18", category: "biology", text: "Which process enables cells to internalize LDL via receptor-mediated uptake?", options: [
+        { id: "A", text: "Pinocytosis" }, { id: "B", text: "Clathrin-mediated endocytosis" }, { id: "C", text: "Phagocytosis" }, { id: "D", text: "Caveolin-independent endocytosis" }, { id: "E", text: "Autophagy" }
+      ], correctOption: "B" },
+      { id: "q11_18", category: "biology", text: "Which organelle generates acetyl-CoA from pyruvate for the Krebs cycle?", options: [
+        { id: "A", text: "Cytosol" }, { id: "B", text: "Mitochondrial matrix" }, { id: "C", text: "Rough endoplasmic reticulum" }, { id: "D", text: "Peroxisome" }, { id: "E", text: "Golgi apparatus" }
+      ], correctOption: "B" },
+      { id: "q12_18", category: "biology", text: "Which enzyme unwinds the DNA double helix ahead of the replication fork?", options: [
+        { id: "A", text: "DNA ligase" }, { id: "B", text: "Helicase" }, { id: "C", text: "Topoisomerase I" }, { id: "D", text: "Primase" }, { id: "E", text: "RNA polymerase" }
+      ], correctOption: "B" },
+      { id: "q13_18", category: "biology", text: "Which hormone increases water reabsorption by inserting aquaporin-2 channels in the collecting duct?", options: [
+        { id: "A", text: "Aldosterone" }, { id: "B", text: "Antidiuretic hormone" }, { id: "C", text: "Atrial natriuretic peptide" }, { id: "D", text: "Angiotensin II" }, { id: "E", text: "Cortisol" }
+      ], correctOption: "B" },
+      { id: "q14_18", category: "biology", text: "Which immune cells present antigen to T helper cells via MHC class II?", options: [
+        { id: "A", text: "Hepatocytes" }, { id: "B", text: "Dendritic cells" }, { id: "C", text: "Erythrocytes" }, { id: "D", text: "Endothelial cells" }, { id: "E", text: "Neurons" }
+      ], correctOption: "B" },
+      { id: "q15_18", category: "biology", text: "Which enzyme converts fructose-6-phosphate to fructose-1,6-bisphosphate in glycolysis?", options: [
+        { id: "A", text: "Hexokinase" }, { id: "B", text: "Phosphofructokinase-1" }, { id: "C", text: "Aldolase" }, { id: "D", text: "Triose phosphate isomerase" }, { id: "E", text: "Phosphoglucose isomerase" }
+      ], correctOption: "B" },
+      { id: "q16_18", category: "biology", text: "During muscle contraction, calcium binds to which protein to permit actin–myosin interaction?", options: [
+        { id: "A", text: "Tropomyosin" }, { id: "B", text: "Troponin C" }, { id: "C", text: "Myosin light chain" }, { id: "D", text: "Actin" }, { id: "E", text: "Nebulin" }
+      ], correctOption: "B" },
+      { id: "q17_18", category: "biology", text: "Which hormone primarily raises blood glucose by stimulating hepatic glycogenolysis?", options: [
+        { id: "A", text: "Insulin" }, { id: "B", text: "Glucagon" }, { id: "C", text: "Cortisol" }, { id: "D", text: "Epinephrine" }, { id: "E", text: "Somatostatin" }
+      ], correctOption: "B" },
+      { id: "q18_18", category: "biology", text: "Which hormone from the posterior pituitary facilitates uterine contraction and milk ejection?", options: [
+        { id: "A", text: "Prolactin" }, { id: "B", text: "Oxytocin" }, { id: "C", text: "FSH" }, { id: "D", text: "LH" }, { id: "E", text: "TSH" }
+      ], correctOption: "B" },
+      { id: "q19_18", category: "biology", text: "Which leukocytes are most associated with parasitic infections and allergic reactions?", options: [
+        { id: "A", text: "Neutrophils" }, { id: "B", text: "Eosinophils" }, { id: "C", text: "Basophils" }, { id: "D", text: "Monocytes" }, { id: "E", text: "NK cells" }
+      ], correctOption: "B" },
+      { id: "q20_18", category: "biology", text: "Which DNA repair pathway fixes thymine dimers induced by UV light?", options: [
+        { id: "A", text: "Base excision repair" }, { id: "B", text: "Nucleotide excision repair" }, { id: "C", text: "Mismatch repair" }, { id: "D", text: "Homologous recombination" }, { id: "E", text: "Non-homologous end-joining" }
+      ], correctOption: "B" },
+      { id: "q21_18", category: "biology", text: "Which neurotransmitter is primarily inhibitory in the adult CNS?", options: [
+        { id: "A", text: "Glutamate" }, { id: "B", text: "GABA" }, { id: "C", text: "Aspartate" }, { id: "D", text: "Acetylcholine" }, { id: "E", text: "Dopamine" }
+      ], correctOption: "B" },
+      { id: "q22_18", category: "biology", text: "Which structure of the nephron is primarily responsible for glucose reabsorption?", options: [
+        { id: "A", text: "Proximal convoluted tubule" }, { id: "B", text: "Loop of Henle" }, { id: "C", text: "Distal convoluted tubule" }, { id: "D", text: "Collecting duct" }, { id: "E", text: "Glomerulus" }
+      ], correctOption: "A" },
+      { id: "q23_18", category: "biology", text: "Which organelle is the primary site of β-oxidation of long-chain fatty acids?", options: [
+        { id: "A", text: "Mitochondrion" }, { id: "B", text: "Peroxisome" }, { id: "C", text: "Cytosol" }, { id: "D", text: "Endoplasmic reticulum" }, { id: "E", text: "Lysosome" }
+      ], correctOption: "A" },
+      { id: "q24_18", category: "biology", text: "Which genetic principle explains why alleles of different genes assort independently during gamete formation?", options: [
+        { id: "A", text: "Law of Segregation" }, { id: "B", text: "Law of Independent Assortment" }, { id: "C", text: "Hardy–Weinberg equilibrium" }, { id: "D", text: "Gene linkage" }, { id: "E", text: "X-inactivation" }
+      ], correctOption: "B" },
+      { id: "q25_18", category: "biology", text: "Which component of the cytoskeleton is primarily responsible for intracellular transport via motor proteins kinesin and dynein?", options: [
+        { id: "A", text: "Microfilaments" }, { id: "B", text: "Intermediate filaments" }, { id: "C", text: "Microtubules" }, { id: "D", text: "Actin bundles" }, { id: "E", text: "Septins" }
+      ], correctOption: "C" },
+      { id: "q26_18", category: "biology", text: "Which type of immunity is mediated by antibodies secreted by plasma cells?", options: [
+        { id: "A", text: "Innate immunity" }, { id: "B", text: "Humoral immunity" }, { id: "C", text: "Cell-mediated immunity" }, { id: "D", text: "Passive cellular immunity" }, { id: "E", text: "Tolerance" }
+      ], correctOption: "B" },
+      { id: "q27_18", category: "biology", text: "Which hormone from the adrenal cortex primarily increases sodium reabsorption in the distal nephron?", options: [
+        { id: "A", text: "Aldosterone" }, { id: "B", text: "Cortisol" }, { id: "C", text: "Epinephrine" }, { id: "D", text: "Norepinephrine" }, { id: "E", text: "Androgens" }
+      ], correctOption: "A" },
+      { id: "q28_18", category: "biology", text: "Which phase of the cell cycle includes DNA replication?", options: [
+        { id: "A", text: "G1 phase" }, { id: "B", text: "S phase" }, { id: "C", text: "G2 phase" }, { id: "D", text: "M phase" }, { id: "E", text: "G0 phase" }
+      ], correctOption: "B" },
+      { id: "q29_18", category: "biology", text: "Which molecule directly binds oxygen in skeletal muscle to facilitate storage?", options: [
+        { id: "A", text: "Hemoglobin" }, { id: "B", text: "Myoglobin" }, { id: "C", text: "Ferritin" }, { id: "D", text: "Transferrin" }, { id: "E", text: "Cytochrome c" }
+      ], correctOption: "B" },
+      { id: "q30_18", category: "biology", text: "Which hormone increases blood calcium by stimulating osteoclast activity?", options: [
+        { id: "A", text: "Calcitonin" }, { id: "B", text: "Parathyroid hormone" }, { id: "C", text: "Aldosterone" }, { id: "D", text: "Thyroxine" }, { id: "E", text: "Somatostatin" }
+      ], correctOption: "B" },
+      { id: "q31_18", category: "biology", text: "Which cells secrete intrinsic factor required for vitamin B12 absorption?", options: [
+        { id: "A", text: "Chief cells of stomach" }, { id: "B", text: "Parietal cells of stomach" }, { id: "C", text: "Acinar cells of pancreas" }, { id: "D", text: "Enterocytes of jejunum" }, { id: "E", text: "Hepatocytes" }
+      ], correctOption: "B" },
+      { id: "q32_18", category: "biology", text: "During which meiotic stage do homologous chromosomes separate, reducing ploidy?", options: [
+        { id: "A", text: "Prophase I" }, { id: "B", text: "Metaphase I" }, { id: "C", text: "Anaphase I" }, { id: "D", text: "Anaphase II" }, { id: "E", text: "Telophase II" }
+      ], correctOption: "C" },
+      { id: "q33_18", category: "chemistry", text: "What is the electron-domain and molecular geometry of CO2?", options: [
+        { id: "A", text: "Linear; Linear" }, { id: "B", text: "Trigonal planar; Linear" }, { id: "C", text: "Linear; Bent" }, { id: "D", text: "Tetrahedral; Linear" }, { id: "E", text: "Trigonal planar; Bent" }
+      ], correctOption: "A" },
+      { id: "q34_18", category: "chemistry", text: "Which of the following is a strong base in aqueous solution?", options: [
+        { id: "A", text: "NH3" }, { id: "B", text: "NaOH" }, { id: "C", text: "CH3COO−" }, { id: "D", text: "HCO3−" }, { id: "E", text: "NH4+" }
+      ], correctOption: "B" },
+      { id: "q35_18", category: "chemistry", text: "What is the pH of a 1.0 × 10⁻³ M HCl solution?", options: [
+        { id: "A", text: "1.0" }, { id: "B", text: "2.0" }, { id: "C", text: "3.0" }, { id: "D", text: "4.0" }, { id: "E", text: "11.0" }
+      ], correctOption: "C" },
+      { id: "q36_18", category: "chemistry", text: "Which statement best describes Boyle’s law?", options: [
+        { id: "A", text: "P ∝ V at constant T" }, { id: "B", text: "P ∝ 1/V at constant T" }, { id: "C", text: "V ∝ T at constant P" }, { id: "D", text: "V ∝ n at constant P and T" }, { id: "E", text: "P ∝ T at constant V" }
+      ], correctOption: "B" },
+      { id: "q37_18", category: "chemistry", text: "Which of the following has sp² hybridization at the central atom?", options: [
+        { id: "A", text: "BF3" }, { id: "B", text: "CH4" }, { id: "C", text: "NH3" }, { id: "D", text: "H2O" }, { id: "E", text: "CH2Cl2 (C)" }
+      ], correctOption: "A" },
+      { id: "q38_18", category: "chemistry", text: "Which pair forms a buffer when mixed in equimolar amounts?", options: [
+        { id: "A", text: "HCl and NaCl" }, { id: "B", text: "CH3COOH and CH3COONa" }, { id: "C", text: "NaOH and NaCl" }, { id: "D", text: "NH3 and NH4Cl" }, { id: "E", text: "B and D" }
+      ], correctOption: "E" },
+      { id: "q39_18", category: "chemistry", text: "What is the oxidation number of sulfur in sulfate (SO4²⁻)?", options: [
+        { id: "A", text: "+2" }, { id: "B", text: "+4" }, { id: "C", text: "+6" }, { id: "D", text: "+8" }, { id: "E", text: "0" }
+      ], correctOption: "C" },
+      { id: "q40_18", category: "chemistry", text: "Which gas deviates most from ideal behavior at STP due to strong intermolecular forces?", options: [
+        { id: "A", text: "He" }, { id: "B", text: "Ne" }, { id: "C", text: "N2" }, { id: "D", text: "CO2" }, { id: "E", text: "NH3" }
+      ], correctOption: "E" },
+      { id: "q41_18", category: "chemistry", text: "Which compound is most soluble in water?", options: [
+        { id: "A", text: "Ethanol" }, { id: "B", text: "Hexane" }, { id: "C", text: "Benzene" }, { id: "D", text: "Toluene" }, { id: "E", text: "Chloroform" }
+      ], correctOption: "A" },
+      { id: "q42_18", category: "chemistry", text: "The rate constant k for a first-order reaction is 0.23 min⁻¹. What is the half-life?", options: [
+        { id: "A", text: "0.23 min" }, { id: "B", text: "2.3 min" }, { id: "C", text: "3.0 min" }, { id: "D", text: "3.01 min" }, { id: "E", text: "≈3.01 min" }
+      ], correctOption: "E" },
+      { id: "q43_18", category: "chemistry", text: "Which carbohydrate is a reducing sugar?", options: [
+        { id: "A", text: "Sucrose" }, { id: "B", text: "Lactose" }, { id: "C", text: "Maltose" }, { id: "D", text: "Cellulose" }, { id: "E", text: "B and C" }
+      ], correctOption: "E" },
+      { id: "q44_18", category: "chemistry", text: "What is the molar mass of CaCO3? (Ca=40.1, C=12.0, O=16.0)", options: [
+        { id: "A", text: "84.1 g/mol" }, { id: "B", text: "88.1 g/mol" }, { id: "C", text: "100.1 g/mol" }, { id: "D", text: "116.1 g/mol" }, { id: "E", text: "128.1 g/mol" }
+      ], correctOption: "C" },
+      { id: "q45_18", category: "chemistry", text: "Which statement about Le Châtelier’s principle is correct?", options: [
+        { id: "A", text: "Adding a catalyst shifts equilibrium to products" }, { id: "B", text: "Increasing pressure favors fewer moles of gas" }, { id: "C", text: "Decreasing temperature always favors products" }, { id: "D", text: "Equilibrium constants change with concentration" }, { id: "E", text: "Removing a product shifts equilibrium to reactants" }
+      ], correctOption: "B" },
+      { id: "q46_18", category: "chemistry", text: "Which pair will NOT form a precipitate when mixed?", options: [
+        { id: "A", text: "AgNO3 + NaCl" }, { id: "B", text: "BaCl2 + Na2SO4" }, { id: "C", text: "Na2CO3 + CaCl2" }, { id: "D", text: "KNO3 + NaCl" }, { id: "E", text: "Pb(NO3)2 + KI" }
+      ], correctOption: "D" },
+      { id: "q47_18", category: "chemistry", text: "Which species is the conjugate base of H2PO4−?", options: [
+        { id: "A", text: "H3PO4" }, { id: "B", text: "HPO4²−" }, { id: "C", text: "PO4³−" }, { id: "D", text: "H2PO3−" }, { id: "E", text: "H2PO4− is neutral" }
+      ], correctOption: "B" },
+      { id: "q48_18", category: "physics_math", text: "A 1.5-kg mass is dropped from rest from height 5 m. Neglecting air resistance, what is its speed on impact? (g = 9.8 m s⁻²)", options: [
+        { id: "A", text: "7.0 m/s" }, { id: "B", text: "9.9 m/s" }, { id: "C", text: "11.2 m/s" }, { id: "D", text: "14.0 m/s" }, { id: "E", text: "22.1 m/s" }
+      ], correctOption: "B" },
+      { id: "q49_18", category: "physics_math", text: "What is the derivative of f(x) = x^4 − 3x^2 + 2x − 7?", options: [
+        { id: "A", text: "4x^3 − 6x + 2" }, { id: "B", text: "4x^3 − 6x − 7" }, { id: "C", text: "4x^3 − 6x^2 + 2" }, { id: "D", text: "x^3 − 6x + 2" }, { id: "E", text: "4x^3 − 3x + 2" }
+      ], correctOption: "A" },
+      { id: "q50_18", category: "physics_math", text: "A wave has frequency 440 Hz and wavelength 0.78 m. What is its speed?", options: [
+        { id: "A", text: "330 m/s" }, { id: "B", text: "343 m/s" }, { id: "C", text: "360 m/s" }, { id: "D", text: "370 m/s" }, { id: "E", text: "400 m/s" }
+      ], correctOption: "B" },
+      { id: "q51_18", category: "physics_math", text: "Evaluate the definite integral ∫₀^1 (3x^2 − 2x + 1) dx", options: [
+        { id: "A", text: "1" }, { id: "B", text: "1.5" }, { id: "C", text: "1.833..." }, { id: "D", text: "2" }, { id: "E", text: "2.5" }
+      ], correctOption: "A" },
+      { id: "q52_18", category: "physics_math", text: "A car accelerates uniformly from 10 m/s to 25 m/s in 5 s. What is the acceleration?", options: [
+        { id: "A", text: "2 m/s²" }, { id: "B", text: "3 m/s²" }, { id: "C", text: "3.5 m/s²" }, { id: "D", text: "4 m/s²" }, { id: "E", text: "5 m/s²" }
+      ], correctOption: "B" },
+      { id: "q53_18", category: "physics_math", text: "What is lim_{x→0} (1 − cos x)/x^2?", options: [
+        { id: "A", text: "0" }, { id: "B", text: "1/2" }, { id: "C", text: "1" }, { id: "D", text: "−1/2" }, { id: "E", text: "DNE" }
+      ], correctOption: "B" },
+      { id: "q54_18", category: "physics_math", text: "A 4 μF capacitor is charged to 12 V. What energy is stored?", options: [
+        { id: "A", text: "24 μJ" }, { id: "B", text: "48 μJ" }, { id: "C", text: "96 μJ" }, { id: "D", text: "144 μJ" }, { id: "E", text: "288 μJ" }
+      ], correctOption: "E" },
+      { id: "q55_18", category: "physics_math", text: "Sum the geometric series 2 + 1 + 1/2 + 1/4 + ...", options: [
+        { id: "A", text: "2" }, { id: "B", text: "3" }, { id: "C", text: "4" }, { id: "D", text: "∞" }, { id: "E", text: "2.5" }
+      ], correctOption: "C" },
+      { id: "q56_18", category: "physics_math", text: "A constant force of 8 N acts on a 4-kg object for 2 s. What is the change in momentum?", options: [
+        { id: "A", text: "8 kg⋅m/s" }, { id: "B", text: "12 kg⋅m/s" }, { id: "C", text: "16 kg⋅m/s" }, { id: "D", text: "20 kg⋅m/s" }, { id: "E", text: "32 kg⋅m/s" }
+      ], correctOption: "C" },
+      { id: "q57_18", category: "physics_math", text: "Derivative of f(x) = e^x cos x?", options: [
+        { id: "A", text: "e^x (cos x − sin x)" }, { id: "B", text: "e^x (cos x + sin x)" }, { id: "C", text: "e^x (−sin x)" }, { id: "D", text: "e^x (cos x)" }, { id: "E", text: "e^x (sin x − cos x)" }
+      ], correctOption: "B" },
+      { id: "q58_18", category: "physics_math", text: "An isothermal expansion doubles volume from V to 2V. Initial pressure is P. What is final pressure?", options: [
+        { id: "A", text: "P/2" }, { id: "B", text: "P" }, { id: "C", text: "2P" }, { id: "D", text: "P/4" }, { id: "E", text: "√2 P" }
+      ], correctOption: "A" },
+      { id: "q59_18", category: "physics_math", text: "Evaluate ∫₀^π (sin x) dx", options: [
+        { id: "A", text: "0" }, { id: "B", text: "1" }, { id: "C", text: "2" }, { id: "D", text: "π" }, { id: "E", text: "2π" }
+      ], correctOption: "C" },
+      { id: "q60_18", category: "physics_math", text: "A particle moves in a circle of radius 3 m with speed 6 m/s. What is the centripetal acceleration?", options: [
+        { id: "A", text: "6 m/s²" }, { id: "B", text: "9 m/s²" }, { id: "C", text: "12 m/s²" }, { id: "D", text: "18 m/s²" }, { id: "E", text: "24 m/s²" }
+      ], correctOption: "C" }
+    ]
   }
-} 
+}

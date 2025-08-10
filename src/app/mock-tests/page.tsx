@@ -140,11 +140,21 @@ const mockTests = [
   {
     id: "17",
     title: "IMAT Practice Test 6",
-    description:
-      "new paper .",
+    description: "new paper .",
     questionCount: 60,
     timeLimit: 100,
     createdAt: "2024-10-05",
+    isComplete: true,
+    isPremium: true,
+  },
+  {
+    id: "18",
+    title: "IMAT Practice Test 7",
+    description:
+      "Mid-level difficulty practice test with 60 original IMAT-syllabus questions across all sections.",
+    questionCount: 60,
+    timeLimit: 100,
+    createdAt: "2024-10-12",
     isComplete: true,
     isPremium: true,
   },
