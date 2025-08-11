@@ -7557,5 +7557,293 @@ export const additionalMockTests = {
         { id: "A", text: "6 m/s²" }, { id: "B", text: "9 m/s²" }, { id: "C", text: "12 m/s²" }, { id: "D", text: "18 m/s²" }, { id: "E", text: "24 m/s²" }
       ], correctOption: "C" }
     ]
+  },
+  "19": {
+    id: "19",
+    title: "IMAT Practice Test 8",
+    description:
+      "Mid-level difficulty practice test with 60 original IMAT-syllabus questions across all sections.",
+    timeLimit: 100,
+    questions: [
+      // Reading Comprehension & General Knowledge (4)
+      {
+        id: "q1_19",
+        category: "reading",
+        text: `Read the passage and answer the question below:\n\nRandomised controlled trials (RCTs) are used to compare interventions by allocating participants to groups using randomisation. This process aims to distribute both known and unknown confounders evenly between groups, so observed differences in outcomes can be attributed to the intervention with reduced bias.\n\nAccording to the passage, which feature of RCTs primarily controls for confounding?`,
+        options: [
+          { id: "A", text: "Blinding of participants" },
+          { id: "B", text: "Random allocation to groups" },
+          { id: "C", text: "Use of large sample sizes" },
+          { id: "D", text: "Intention-to-treat analysis" },
+          { id: "E", text: "Use of placebo controls" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q2_19",
+        category: "reading",
+        text: `Read the passage and answer the question below:\n\nScreening tests are evaluated by sensitivity, specificity, and predictive values. While sensitivity and specificity are intrinsic to the test, the positive predictive value (PPV) depends on disease prevalence in the screened population. As prevalence rises, PPV tends to increase, assuming constant sensitivity and specificity.\n\nWhich change would most directly increase the PPV of a screening program, holding test characteristics constant?`,
+        options: [
+          { id: "A", text: "Improving blinding of assessors" },
+          { id: "B", text: "Lowering the test's cut-off" },
+          { id: "C", text: "Screening a higher-prevalence population" },
+          { id: "D", text: "Increasing sample size" },
+          { id: "E", text: "Using an intention-to-screen approach" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q3_19",
+        category: "reading",
+        text: "Which treaty is widely credited with formally establishing the European Union?",
+        options: [
+          { id: "A", text: "Treaty of Rome" },
+          { id: "B", text: "Treaty of Lisbon" },
+          { id: "C", text: "Treaty of Maastricht" },
+          { id: "D", text: "Treaty of Paris" },
+          { id: "E", text: "Schengen Agreement" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q4_19",
+        category: "reading",
+        text: "The Nobel Prize in Physiology or Medicine is awarded by which institution?",
+        options: [
+          { id: "A", text: "Royal Swedish Academy of Sciences" },
+          { id: "B", text: "The Nobel Assembly at the Karolinska Institutet" },
+          { id: "C", text: "Swedish Parliament" },
+          { id: "D", text: "World Health Organization" },
+          { id: "E", text: "European Research Council" }
+        ],
+        correctOption: "B"
+      },
+
+      // Logical Reasoning (5)
+      {
+        id: "q5_19",
+        category: "logical_reasoning",
+        text: "Complete the sequence: 2, 6, 12, 20, 30, ?",
+        options: [
+          { id: "A", text: "38" },
+          { id: "B", text: "40" },
+          { id: "C", text: "42" },
+          { id: "D", text: "44" },
+          { id: "E", text: "46" }
+        ],
+        correctOption: "C" // +4, +6, +8, +10, next +12
+      },
+      {
+        id: "q6_19",
+        category: "logical_reasoning",
+        text: "In a group, 70% like tea, 50% like coffee, and 30% like both. What percentage like neither?",
+        options: [
+          { id: "A", text: "0%" },
+          { id: "B", text: "10%" },
+          { id: "C", text: "20%" },
+          { id: "D", text: "30%" },
+          { id: "E", text: "40%" }
+        ],
+        correctOption: "B" // 70+50-30 = 90 have at least one → 10 neither
+      },
+      {
+        id: "q7_19",
+        category: "logical_reasoning",
+        text: "All mammals are warm-blooded. All whales are mammals. Which conclusion must be true?",
+        options: [
+          { id: "A", text: "All warm-blooded animals are whales" },
+          { id: "B", text: "Some whales are not mammals" },
+          { id: "C", text: "All whales are warm-blooded" },
+          { id: "D", text: "Some mammals are not warm-blooded" },
+          { id: "E", text: "No warm-blooded animals are whales" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q8_19",
+        category: "logical_reasoning",
+        text: "Two independent diagnostic tests each have a 70% chance of correctly detecting a disease when it is present. What is the probability that at least one detects the disease in an affected patient?",
+        options: [
+          { id: "A", text: "0.49" },
+          { id: "B", text: "0.70" },
+          { id: "C", text: "0.84" },
+          { id: "D", text: "0.91" },
+          { id: "E", text: "0.97" }
+        ],
+        correctOption: "D" // 1 - 0.3*0.3 = 0.91
+      },
+      {
+        id: "q9_19",
+        category: "logical_reasoning",
+        text: "Worker A can finish a task in 6 hours; worker B in 8 hours. How long will they take together, assuming constant rates?",
+        options: [
+          { id: "A", text: "3 h" },
+          { id: "B", text: "3 h 26 min" },
+          { id: "C", text: "3 h 40 min" },
+          { id: "D", text: "4 h" },
+          { id: "E", text: "7 h" }
+        ],
+        correctOption: "B" // 24/7 h ≈ 3.4286 h
+      },
+
+      // Biology (23)
+      { id: "q10_19", category: "biology", text: "Which enzyme seals nicks in the sugar–phosphate backbone during DNA replication?", options: [
+        { id: "A", text: "DNA helicase" }, { id: "B", text: "DNA polymerase" }, { id: "C", text: "DNA ligase" }, { id: "D", text: "Topoisomerase II" }, { id: "E", text: "Primase" }
+      ], correctOption: "C" },
+      { id: "q11_19", category: "biology", text: "Which nephron segment is impermeable to water but reabsorbs Na+, K+, and Cl− via the NKCC2 transporter?", options: [
+        { id: "A", text: "Proximal convoluted tubule" }, { id: "B", text: "Thin descending limb" }, { id: "C", text: "Thick ascending limb of Henle" }, { id: "D", text: "Distal convoluted tubule" }, { id: "E", text: "Collecting duct" }
+      ], correctOption: "C" },
+      { id: "q12_19", category: "biology", text: "The rate-limiting enzyme in cholesterol synthesis is:", options: [
+        { id: "A", text: "HMG-CoA reductase" }, { id: "B", text: "Acetyl-CoA carboxylase" }, { id: "C", text: "Citrate synthase" }, { id: "D", text: "Pyruvate dehydrogenase" }, { id: "E", text: "Malate dehydrogenase" }
+      ], correctOption: "A" },
+      { id: "q13_19", category: "biology", text: "Which molecules are displayed on nearly all nucleated cells for CD8+ T-cell recognition?", options: [
+        { id: "A", text: "MHC class I" }, { id: "B", text: "MHC class II" }, { id: "C", text: "CD4" }, { id: "D", text: "BCR" }, { id: "E", text: "TCR" }
+      ], correctOption: "A" },
+      { id: "q14_19", category: "biology", text: "Which change shifts the adult oxyhaemoglobin dissociation curve to the right?", options: [
+        { id: "A", text: "Decreased temperature" }, { id: "B", text: "Decreased 2,3-BPG" }, { id: "C", text: "Increased 2,3-BPG" }, { id: "D", text: "Increased pH" }, { id: "E", text: "Decreased CO2" }
+      ], correctOption: "C" },
+      { id: "q15_19", category: "biology", text: "Where does the Calvin cycle occur in plant cells?", options: [
+        { id: "A", text: "Thylakoid lumen" }, { id: "B", text: "Thylakoid membrane" }, { id: "C", text: "Stroma" }, { id: "D", text: "Matrix" }, { id: "E", text: "Cytosol" }
+      ], correctOption: "C" },
+      { id: "q16_19", category: "biology", text: "During translation, the anticodon is found on:", options: [
+        { id: "A", text: "mRNA" }, { id: "B", text: "tRNA" }, { id: "C", text: "rRNA" }, { id: "D", text: "DNA" }, { id: "E", text: "snRNA" }
+      ], correctOption: "B" },
+      { id: "q17_19", category: "biology", text: "In which mitotic phase do chromosomes align at the cell's equatorial plane?", options: [
+        { id: "A", text: "Prophase" }, { id: "B", text: "Metaphase" }, { id: "C", text: "Anaphase" }, { id: "D", text: "Telophase" }, { id: "E", text: "Cytokinesis" }
+      ], correctOption: "B" },
+      { id: "q18_19", category: "biology", text: "Which immunoglobulin class crosses the placenta to provide passive immunity to the fetus?", options: [
+        { id: "A", text: "IgA" }, { id: "B", text: "IgE" }, { id: "C", text: "IgG" }, { id: "D", text: "IgM" }, { id: "E", text: "IgD" }
+      ], correctOption: "C" },
+      { id: "q19_19", category: "biology", text: "Competitive inhibition typically causes which kinetic change?", options: [
+        { id: "A", text: "Decrease Vmax, decrease Km" }, { id: "B", text: "Decrease Vmax, increase Km" }, { id: "C", text: "No change Vmax, increase Km" }, { id: "D", text: "Increase Vmax, decrease Km" }, { id: "E", text: "No change Km, increase Vmax" }
+      ], correctOption: "C" },
+      { id: "q20_19", category: "biology", text: "A cell placed in a hypotonic solution will:", options: [
+        { id: "A", text: "Shrink" }, { id: "B", text: "Lyse or swell" }, { id: "C", text: "Remain unchanged" }, { id: "D", text: "Lose ions but not water" }, { id: "E", text: "Increase intracellular osmolarity" }
+      ], correctOption: "B" },
+      { id: "q21_19", category: "biology", text: "In a dihybrid cross of two heterozygotes (AaBb × AaBb) with independent assortment, the expected phenotypic ratio is:", options: [
+        { id: "A", text: "3:1" }, { id: "B", text: "9:3:3:1" }, { id: "C", text: "1:2:1" }, { id: "D", text: "1:1:1:1" }, { id: "E", text: "27:9:9:1" }
+      ], correctOption: "B" },
+      { id: "q22_19", category: "biology", text: "Pulmonary surfactant reduces alveolar surface tension and is produced by:", options: [
+        { id: "A", text: "Type I pneumocytes" }, { id: "B", text: "Type II pneumocytes" }, { id: "C", text: "Alveolar macrophages" }, { id: "D", text: "Endothelial cells" }, { id: "E", text: "Club cells" }
+      ], correctOption: "B" },
+      { id: "q23_19", category: "biology", text: "Activation of a Gs-coupled receptor most directly increases activity of:", options: [
+        { id: "A", text: "Phospholipase C" }, { id: "B", text: "Adenylate cyclase" }, { id: "C", text: "Guanylate cyclase" }, { id: "D", text: "Tyrosine kinase" }, { id: "E", text: "MAP kinase" }
+      ], correctOption: "B" },
+      { id: "q24_19", category: "biology", text: "The Na+/K+ ATPase transports ions in which stoichiometry per ATP hydrolysed?", options: [
+        { id: "A", text: "2 Na+ out, 3 K+ in" }, { id: "B", text: "3 Na+ out, 2 K+ in" }, { id: "C", text: "3 Na+ in, 2 K+ out" }, { id: "D", text: "2 Na+ in, 3 K+ out" }, { id: "E", text: "1 Na+ out, 1 K+ in" }
+      ], correctOption: "B" },
+      { id: "q25_19", category: "biology", text: "ATP synthase in oxidative phosphorylation utilises a proton gradient across which membrane?", options: [
+        { id: "A", text: "Outer mitochondrial membrane" }, { id: "B", text: "Inner mitochondrial membrane" }, { id: "C", text: "Nuclear envelope" }, { id: "D", text: "Endoplasmic reticulum" }, { id: "E", text: "Plasma membrane" }
+      ], correctOption: "B" },
+      { id: "q26_19", category: "biology", text: "Which hormone primarily promotes gluconeogenesis and protein catabolism during stress?", options: [
+        { id: "A", text: "Insulin" }, { id: "B", text: "Cortisol" }, { id: "C", text: "Glucagon" }, { id: "D", text: "Thyroxine (T4)" }, { id: "E", text: "Growth hormone" }
+      ], correctOption: "B" },
+      { id: "q27_19", category: "biology", text: "The genetic code is described as 'degenerate' because:", options: [
+        { id: "A", text: "It contains introns" }, { id: "B", text: "Multiple codons can encode the same amino acid" }, { id: "C", text: "It is read in overlapping frames" }, { id: "D", text: "It changes between tissues" }, { id: "E", text: "Each codon encodes multiple amino acids" }
+      ], correctOption: "B" },
+      { id: "q28_19", category: "biology", text: "Where do the light-dependent reactions of photosynthesis occur?", options: [
+        { id: "A", text: "Stroma" }, { id: "B", text: "Thylakoid membrane" }, { id: "C", text: "Cytosol" }, { id: "D", text: "Mitochondrial matrix" }, { id: "E", text: "Nuclear membrane" }
+      ], correctOption: "B" },
+      { id: "q29_19", category: "biology", text: "In prokaryotes, removal of RNA primers during DNA replication is primarily performed by:", options: [
+        { id: "A", text: "DNA polymerase I" }, { id: "B", text: "DNA polymerase III" }, { id: "C", text: "RNA polymerase" }, { id: "D", text: "DNA ligase" }, { id: "E", text: "Exonuclease V" }
+      ], correctOption: "A" },
+      { id: "q30_19", category: "biology", text: "Countercurrent multiplication crucial for urine concentration primarily involves which nephron segment?", options: [
+        { id: "A", text: "Proximal straight tubule" }, { id: "B", text: "Thin descending limb" }, { id: "C", text: "Thick ascending limb" }, { id: "D", text: "Early distal tubule" }, { id: "E", text: "Collecting duct" }
+      ], correctOption: "C" },
+      { id: "q31_19", category: "biology", text: "Which neurotransmitter is released at the neuromuscular junction to trigger skeletal muscle contraction?", options: [
+        { id: "A", text: "GABA" }, { id: "B", text: "Dopamine" }, { id: "C", text: "Acetylcholine" }, { id: "D", text: "Glycine" }, { id: "E", text: "Serotonin" }
+      ], correctOption: "C" },
+      { id: "q32_19", category: "biology", text: "Which anterior pituitary hormone surges to trigger ovulation?", options: [
+        { id: "A", text: "FSH" }, { id: "B", text: "LH" }, { id: "C", text: "Prolactin" }, { id: "D", text: "TSH" }, { id: "E", text: "ACTH" }
+      ], correctOption: "B" },
+
+      // Chemistry (15)
+      { id: "q33_19", category: "chemistry", text: "What is the molecular geometry of SO2?", options: [
+        { id: "A", text: "Linear" }, { id: "B", text: "Bent (V-shaped)" }, { id: "C", text: "Trigonal planar" }, { id: "D", text: "Tetrahedral" }, { id: "E", text: "Trigonal pyramidal" }
+      ], correctOption: "B" },
+      { id: "q34_19", category: "chemistry", text: "The carbon atom in a carbonyl group (C=O) is typically:", options: [
+        { id: "A", text: "sp" }, { id: "B", text: "sp2" }, { id: "C", text: "sp3" }, { id: "D", text: "sp3d" }, { id: "E", text: "sp3d2" }
+      ], correctOption: "B" },
+      { id: "q35_19", category: "chemistry", text: "Approximate pH of 0.010 M acetic acid (Ka = 1.8 × 10⁻⁵)?", options: [
+        { id: "A", text: "2.00" }, { id: "B", text: "2.87" }, { id: "C", text: "3.00" }, { id: "D", text: "3.37" }, { id: "E", text: "4.00" }
+      ], correctOption: "D" },
+      { id: "q36_19", category: "chemistry", text: "A buffer with acetic acid (pKa 4.76) has [base]:[acid] = 1:10. What is its pH?", options: [
+        { id: "A", text: "3.76" }, { id: "B", text: "4.76" }, { id: "C", text: "5.00" }, { id: "D", text: "5.76" }, { id: "E", text: "6.76" }
+      ], correctOption: "A" },
+      { id: "q37_19", category: "chemistry", text: "How many moles of H2O form from 4 mol H2 and 2 mol O2? (2 H2 + O2 → 2 H2O)", options: [
+        { id: "A", text: "2 mol" }, { id: "B", text: "3 mol" }, { id: "C", text: "4 mol" }, { id: "D", text: "6 mol" }, { id: "E", text: "8 mol" }
+      ], correctOption: "C" },
+      { id: "q38_19", category: "chemistry", text: "Approximate density of CO2 at STP? (M = 44 g/mol)", options: [
+        { id: "A", text: "0.44 g/L" }, { id: "B", text: "1.29 g/L" }, { id: "C", text: "1.96 g/L" }, { id: "D", text: "22.4 g/L" }, { id: "E", text: "44 g/L" }
+      ], correctOption: "C" },
+      { id: "q39_19", category: "chemistry", text: "In a galvanic cell, which statement is true?", options: [
+        { id: "A", text: "Reduction occurs at the anode" }, { id: "B", text: "Oxidation occurs at the anode" }, { id: "C", text: "Electrons flow from cathode to anode" }, { id: "D", text: "Anions migrate toward the anode through the salt bridge" }, { id: "E", text: "Cations migrate toward the anode through the salt bridge" }
+      ], correctOption: "B" },
+      { id: "q40_19", category: "chemistry", text: "Which substance exhibits the strongest hydrogen bonding?", options: [
+        { id: "A", text: "HCl" }, { id: "B", text: "HF" }, { id: "C", text: "HBr" }, { id: "D", text: "HI" }, { id: "E", text: "CH4" }
+      ], correctOption: "B" },
+      { id: "q41_19", category: "chemistry", text: "Which solution has the highest boiling point? (ideal behaviour)", options: [
+        { id: "A", text: "1.0 m glucose" }, { id: "B", text: "1.0 m NaCl" }, { id: "C", text: "0.50 m MgCl2" }, { id: "D", text: "0.75 m urea" }, { id: "E", text: "0.75 m NaCl" }
+      ], correctOption: "B" },
+      { id: "q42_19", category: "chemistry", text: "Given Ksp(AgCl) = 1.8 × 10⁻¹⁰ at 25 °C, what is the molar solubility in pure water?", options: [
+        { id: "A", text: "1.3 × 10⁻⁵ M" }, { id: "B", text: "1.8 × 10⁻¹⁰ M" }, { id: "C", text: "4.2 × 10⁻⁶ M" }, { id: "D", text: "1.3 × 10⁻¹⁰ M" }, { id: "E", text: "1.3 × 10⁻⁴ M" }
+      ], correctOption: "A" },
+      { id: "q43_19", category: "chemistry", text: "Oxidation number of nitrogen in NO3− is:", options: [
+        { id: "A", text: "+3" }, { id: "B", text: "+4" }, { id: "C", text: "+5" }, { id: "D", text: "+6" }, { id: "E", text: "−3" }
+      ], correctOption: "C" },
+      { id: "q44_19", category: "chemistry", text: "For an exothermic reaction at constant pressure, which is true?", options: [
+        { id: "A", text: "ΔH > 0" }, { id: "B", text: "ΔH < 0" }, { id: "C", text: "ΔG < 0 always" }, { id: "D", text: "Entropy must decrease" }, { id: "E", text: "Heat is absorbed from surroundings" }
+      ], correctOption: "B" },
+      { id: "q45_19", category: "chemistry", text: "Major product of adding HBr to propene (no peroxides):", options: [
+        { id: "A", text: "1-bromopropane" }, { id: "B", text: "2-bromopropane" }, { id: "C", text: "1,2-dibromopropane" }, { id: "D", text: "2,2-dibromopropane" }, { id: "E", text: "Bromobenzene" }
+      ], correctOption: "B" },
+      { id: "q46_19", category: "chemistry", text: "Which compound exhibits cis–trans isomerism?", options: [
+        { id: "A", text: "2-butene" }, { id: "B", text: "Propane" }, { id: "C", text: "2-methylpropane" }, { id: "D", text: "Ethane" }, { id: "E", text: "Methanol" }
+      ], correctOption: "A" },
+      { id: "q47_19", category: "chemistry", text: "Which of the following is polar overall?", options: [
+        { id: "A", text: "CO2" }, { id: "B", text: "BF3" }, { id: "C", text: "CHCl3" }, { id: "D", text: "CCl4" }, { id: "E", text: "N2" }
+      ], correctOption: "C" },
+
+      // Physics & Mathematics (13)
+      { id: "q48_19", category: "physics_math", text: "A car accelerates from rest at 2 m/s² for 5 s. How far does it travel in that time?", options: [
+        { id: "A", text: "10 m" }, { id: "B", text: "20 m" }, { id: "C", text: "25 m" }, { id: "D", text: "50 m" }, { id: "E", text: "100 m" }
+      ], correctOption: "C" },
+      { id: "q49_19", category: "physics_math", text: "A projectile is launched at 20 m/s at 30°. What is the maximum height? (g = 9.8 m s⁻²)", options: [
+        { id: "A", text: "2.5 m" }, { id: "B", text: "5.1 m" }, { id: "C", text: "10.2 m" }, { id: "D", text: "15.3 m" }, { id: "E", text: "20.4 m" }
+      ], correctOption: "B" },
+      { id: "q50_19", category: "physics_math", text: "A constant force of 5 N acts for 4 s on a 1-kg cart. What is the impulse delivered?", options: [
+        { id: "A", text: "1 N·s" }, { id: "B", text: "5 N·s" }, { id: "C", text: "10 N·s" }, { id: "D", text: "20 N·s" }, { id: "E", text: "40 N·s" }
+      ], correctOption: "D" },
+      { id: "q51_19", category: "physics_math", text: "Two resistors 2 Ω and 3 Ω are in series with a 10 V battery. What is the current?", options: [
+        { id: "A", text: "0.5 A" }, { id: "B", text: "1.0 A" }, { id: "C", text: "1.5 A" }, { id: "D", text: "2.0 A" }, { id: "E", text: "5.0 A" }
+      ], correctOption: "D" },
+      { id: "q52_19", category: "physics_math", text: "Two capacitors 2 μF and 3 μF in parallel are charged to 12 V. Total energy stored is:", options: [
+        { id: "A", text: "72 μJ" }, { id: "B", text: "120 μJ" }, { id: "C", text: "180 μJ" }, { id: "D", text: "288 μJ" }, { id: "E", text: "360 μJ" }
+      ], correctOption: "E" },
+      { id: "q53_19", category: "physics_math", text: "A 0.25 kg mass on a spring with k = 100 N/m oscillates. What is the period?", options: [
+        { id: "A", text: "0.157 s" }, { id: "B", text: "0.314 s" }, { id: "C", text: "0.500 s" }, { id: "D", text: "0.628 s" }, { id: "E", text: "1.000 s" }
+      ], correctOption: "B" },
+      { id: "q54_19", category: "physics_math", text: "An object is 30 cm in front of a converging lens with f = 15 cm. Where is the image formed?", options: [
+        { id: "A", text: "15 cm on same side" }, { id: "B", text: "20 cm on opposite side" }, { id: "C", text: "30 cm on opposite side" }, { id: "D", text: "60 cm on opposite side" }, { id: "E", text: "At infinity" }
+      ], correctOption: "C" },
+      { id: "q55_19", category: "physics_math", text: "Evaluate ∫₀^{π/2} cos x dx", options: [
+        { id: "A", text: "0" }, { id: "B", text: "1" }, { id: "C", text: "√2/2" }, { id: "D", text: "π/2" }, { id: "E", text: "2" }
+      ], correctOption: "B" },
+      { id: "q56_19", category: "physics_math", text: "What is the probability of exactly two heads in three fair coin tosses?", options: [
+        { id: "A", text: "1/8" }, { id: "B", text: "3/8" }, { id: "C", text: "1/2" }, { id: "D", text: "5/8" }, { id: "E", text: "3/4" }
+      ], correctOption: "B" },
+      { id: "q57_19", category: "physics_math", text: "How many combinations to choose 2 items from 7?", options: [
+        { id: "A", text: "7" }, { id: "B", text: "14" }, { id: "C", text: "21" }, { id: "D", text: "28" }, { id: "E", text: "35" }
+      ], correctOption: "C" },
+      { id: "q58_19", category: "physics_math", text: "A right triangle has legs 6 and 8. What is its area?", options: [
+        { id: "A", text: "12" }, { id: "B", text: "18" }, { id: "C", text: "24" }, { id: "D", text: "30" }, { id: "E", text: "48" }
+      ], correctOption: "C" },
+      { id: "q59_19", category: "physics_math", text: "Compute log₁₀(1000)", options: [
+        { id: "A", text: "1" }, { id: "B", text: "2" }, { id: "C", text: "3" }, { id: "D", text: "e" }, { id: "E", text: "10" }
+      ], correctOption: "C" },
+      { id: "q60_19", category: "physics_math", text: "How much work is done lifting a 5 kg mass vertically by 2 m? (g = 9.8 m s⁻²)", options: [
+        { id: "A", text: "9.8 J" }, { id: "B", text: "19.6 J" }, { id: "C", text: "49 J" }, { id: "D", text: "98 J" }, { id: "E", text: "196 J" }
+      ], correctOption: "D" }
+    ]
   }
 }

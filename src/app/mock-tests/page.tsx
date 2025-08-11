@@ -159,6 +159,17 @@ const mockTests = [
     isPremium: true,
   },
   {
+    id: "19",
+    title: "IMAT Practice Test 8",
+    description:
+      "Mid-level difficulty practice test with 60 original IMAT-syllabus questions across all sections.",
+    questionCount: 60,
+    timeLimit: 100,
+    createdAt: "2024-10-20",
+    isComplete: true,
+    isPremium: true,
+  },
+  {
     id: "4",
     title: "Advanced Biology Test",
     description:
