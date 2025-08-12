@@ -138,7 +138,7 @@ const mockTests = [
     isPremium: true,
   },
   {
-    id: "17",Comprehensive
+    id: "17",
     title: "IMAT Practice Test 6",
     description: "new paper .",
     questionCount: 60,
@@ -173,7 +173,7 @@ const mockTests = [
     id: "20",
     title: "IMAT Practice Test 9",
     description:
-      "tolc med 2024",
+      "Comprehensive practice test with 60 IMAT-syllabus questions covering all sections.",
     questionCount: 60,
     timeLimit: 100,
     createdAt: "2024-10-25",
