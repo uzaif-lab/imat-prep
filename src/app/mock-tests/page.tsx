@@ -170,6 +170,17 @@ const mockTests = [
     isPremium: true,
   },
   {
+    id: "20",
+    title: "IMAT Practice Test 9",
+    description:
+      "Comprehensive practice test with 60 IMAT-syllabus questions covering all sections.",
+    questionCount: 60,
+    timeLimit: 100,
+    createdAt: "2024-10-25",
+    isComplete: true,
+    isPremium: true,
+  },
+  {
     id: "4",
     title: "Advanced Biology Test",
     description:

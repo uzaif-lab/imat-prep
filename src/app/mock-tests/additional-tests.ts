@@ -7845,5 +7845,794 @@ export const additionalMockTests = {
         { id: "A", text: "9.8 J" }, { id: "B", text: "19.6 J" }, { id: "C", text: "49 J" }, { id: "D", text: "98 J" }, { id: "E", text: "196 J" }
       ], correctOption: "D" }
     ]
+  },
+  "20": {
+    id: "20",
+    title: "IMAT Practice Test 9",
+    description:
+      "Comprehensive practice test with 60 IMAT-syllabus questions covering all sections.",
+    timeLimit: 100,
+    questions: [
+      {
+        id: "q1_20",
+        category: "reading",
+        text: "The phrase \"Don Abbondio was not born with the heart of a lion\" is:",
+        options: [
+          { id: "A", text: "a litotes" },
+          { id: "B", text: "an antiphrasis" },
+          { id: "C", text: "a metaphor" },
+          { id: "D", text: "a metonymy" },
+          { id: "E", text: "an oxymoron" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q2_20",
+        category: "reading",
+        text: "Which of the following statements is not deducible from the text?",
+        options: [
+          { id: "A", text: "The presence of vitamins is the cause of some deficiency diseases." },
+          { id: "B", text: "Vitamins are organic substances." },
+          { id: "C", text: "Humans can synthesize vitamins." },
+          { id: "D", text: "Some vitamins have different chemical structures from each other." },
+          { id: "E", text: "Not all vitamins have a chemical structure similar to that of sugars." }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q3_20",
+        category: "reading",
+        text: "To which of the following terms does the above definition refer?",
+        options: [
+          { id: "A", text: "inflation" },
+          { id: "B", text: "deflation" },
+          { id: "C", text: "stagnation" },
+          { id: "D", text: "recession" },
+          { id: "E", text: "none of the other proposals is correct" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q4_20",
+        category: "reading",
+        text: "Which of the following deductions derived from reading the text is correct?",
+        options: [
+          { id: "A", text: "The men and women recognized as capable of prophecy believe that the only salvation is the Way that leads to the good of humanity." },
+          { id: "B", text: "The men and women recognized as capable of prophecy are exclusively people outside the ecclesial community." },
+          { id: "C", text: "The men and women recognized as capable of prophecy consider the words of hope of the Scriptures to be \"sacred\"." },
+          { id: "D", text: "The men and women recognized as capable of prophecy appeal solely to the Christian experience." },
+          { id: "E", text: "The men and women recognized as capable of prophecy accompany others to the fullness of themselves." }
+        ],
+        correctOption: "E"
+      },
+      {
+        id: "q5_20",
+        category: "logical_reasoning",
+        text: "Let A, B, and C be three statements. The proposition ((A ∧ B) ∧ ¬C) is true if:",
+        options: [
+          { id: "A", text: "A is true, and B and C are false" },
+          { id: "B", text: "A, B, and C are true" },
+          { id: "C", text: "A and B are true, and C is false" },
+          { id: "D", text: "A and C are true, and B is false" },
+          { id: "E", text: "A is false, and B and C are true" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q6_20",
+        category: "logical_reasoning",
+        text: "All lovers are happy—those who are happy smile. Roberto is happy. If the previous statements are true, which of the following deductions is certainly not correct?",
+        options: [
+          { id: "A", text: "Those who are happy are in love." },
+          { id: "B", text: "Roberto smiles." },
+          { id: "C", text: "Those who are in love smile." },
+          { id: "D", text: "It is not said that Roberto is in love." },
+          { id: "E", text: "Roberto is happy." }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q7_20",
+        category: "logical_reasoning",
+        text: "Andrea's house exceeds by 42 square meters the half of the total area of Benedetto's and Cesare's houses. Indicating with A, B, and C the area in square meters of Andrea's, Benedetto's, and Cesare's houses respectively, which of the following equations is correct?",
+        options: [
+          { id: "A", text: "A = (42 + B + C)/2" },
+          { id: "B", text: "A + 42 = (B + C)/2" },
+          { id: "C", text: "A = 42 + 2(B + C)" },
+          { id: "D", text: "A − 42 = (B + C)/2" },
+          { id: "E", text: "A + 42 = 2(B + C)" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q8_20",
+        category: "logical_reasoning",
+        text: "After school, Andrea is always very hungry and stops at a bakery. When he buys two filled focaccias and a pastry, he spends €8, when he buys one filled focaccia and two pastries, he spends €7. Today he bought only one filled focaccia and one pastry, how much did he spend?",
+        options: [
+          { id: "A", text: "€5.50" },
+          { id: "B", text: "€6" },
+          { id: "C", text: "€4" },
+          { id: "D", text: "€4.50" },
+          { id: "E", text: "€5" }
+        ],
+        correctOption: "E"
+      },
+      {
+        id: "q9_20",
+        category: "logical_reasoning",
+        text: "A commuter takes the train northbound to work. In the morning, he sits facing the same direction as the train's movement with the window directly to his left. In the evening, he sits facing the opposite direction of the train's movement with the window directly to his right. Which of the following statements is correct?",
+        options: [
+          { id: "A", text: "In the evening, the commuter sits next to a window facing east." },
+          { id: "B", text: "The windows next to which the commuter sits always face the same cardinal point both on the outward and return journeys." },
+          { id: "C", text: "On the outward and return journeys, the commuter faces different cardinal points." },
+          { id: "D", text: "In the morning, the commuter sits next to a window facing east." },
+          { id: "E", text: "In the evening, the commuter sits facing south." }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q10_20",
+        category: "biology",
+        text: "An organism that is heterozygous for a given trait:",
+        options: [
+          { id: "A", text: "is a gamete carrying the Y chromosome" },
+          { id: "B", text: "has different alleles for a given gene on homologous chromosomes" },
+          { id: "C", text: "has identical alleles for a given gene on homologous chromosomes" },
+          { id: "D", text: "is the male zygote" },
+          { id: "E", text: "has multiple forms of the same zygote" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q11_20",
+        category: "biology",
+        text: "Which of the following statements about the electron transport chain in mitochondria is NOT correct?",
+        options: [
+          { id: "A", text: "Electrons increase their free energy at each step of the transport chain." },
+          { id: "B", text: "The final electron acceptor is oxygen." },
+          { id: "C", text: "The electron carriers alternate between a reduced and oxidized state as they accept and donate electrons." },
+          { id: "D", text: "The electron carriers are associated with the inner mitochondrial membrane." },
+          { id: "E", text: "The electrons transported along the chain come from NADH and FADH₂ molecules." }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q12_20",
+        category: "biology",
+        text: "To which class do the enzymes responsible for linking two molecules belong?",
+        options: [
+          { id: "A", text: "Lyases" },
+          { id: "B", text: "Hydrolases" },
+          { id: "C", text: "Transferases" },
+          { id: "D", text: "Oxidoreductases" },
+          { id: "E", text: "Ligases" }
+        ],
+        correctOption: "E"
+      },
+      {
+        id: "q13_20",
+        category: "biology",
+        text: "The secretion of glucagon is regulated by:",
+        options: [
+          { id: "A", text: "Blood glucose levels" },
+          { id: "B", text: "Hypothalamus" },
+          { id: "C", text: "Thyroid" },
+          { id: "D", text: "Variations in blood pH" },
+          { id: "E", text: "Adrenaline levels" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q14_20",
+        category: "biology",
+        text: "Lactose is:",
+        options: [
+          { id: "A", text: "A disaccharide whose hydrolysis produces galactose and glucose" },
+          { id: "B", text: "A monosaccharide" },
+          { id: "C", text: "A disaccharide whose hydrolysis produces fructose and glucose" },
+          { id: "D", text: "A polysaccharide" },
+          { id: "E", text: "A glycoprotein" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q15_20",
+        category: "biology",
+        text: "What is cholesterol?",
+        options: [
+          { id: "A", text: "A triglyceride" },
+          { id: "B", text: "A glycolipid with a linear structure" },
+          { id: "C", text: "A lipid with a tetracyclic structure" },
+          { id: "D", text: "A saturated fatty acid" },
+          { id: "E", text: "A lipoprotein" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q16_20",
+        category: "biology",
+        text: "An anomaly where there is an extra or missing chromosome compared to normal is called:",
+        options: [
+          { id: "A", text: "Aneuploidy" },
+          { id: "B", text: "Trisomy" },
+          { id: "C", text: "Monosomy" },
+          { id: "D", text: "Karyotype" },
+          { id: "E", text: "Translocation" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q17_20",
+        category: "biology",
+        text: "What is the process called whereby molecules flow from an area of higher concentration to an area of lower concentration?",
+        options: [
+          { id: "A", text: "Dialysis" },
+          { id: "B", text: "Transfusion" },
+          { id: "C", text: "Respiration" },
+          { id: "D", text: "Diffusion" },
+          { id: "E", text: "Primary active transport" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q18_20",
+        category: "biology",
+        text: "The part of the metaphase chromosome that holds the sister chromatids together is:",
+        options: [
+          { id: "A", text: "The sarcomere" },
+          { id: "B", text: "The centromere" },
+          { id: "C", text: "The chiasma" },
+          { id: "D", text: "The centriole" },
+          { id: "E", text: "The telomere" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q19_20",
+        category: "biology",
+        text: "Which of the following statements about the inactivation of one X chromosome in female mammalian cells is correct?",
+        options: [
+          { id: "A", text: "Generally, for X-linked genes, in female tissues, 1/2 of the cells express the paternal alleles and 1/2 the maternal ones." },
+          { id: "B", text: "Female cells express double the amount of X-linked gene products as male cells." },
+          { id: "C", text: "The Barr body present in interphase nuclei represents the inactive X chromosome and is present in both male and female somatic cells." },
+          { id: "D", text: "The number of Barr bodies present in female somatic cells is equal to the number of X chromosomes in the cell." },
+          { id: "E", text: "Female somatic cells have only one X chromosome per cell." }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q20_20",
+        category: "biology",
+        text: "What are the coronary arteries?",
+        options: [
+          { id: "A", text: "Cells that surround the axons of motor neurons" },
+          { id: "B", text: "Arteries that carry oxygenated blood to the brain" },
+          { id: "C", text: "Arteries that supply and nourish the heart" },
+          { id: "D", text: "Nervous system cells that provide support and protection to neurons" },
+          { id: "E", text: "Fibers of the heart's conduction system" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q21_20",
+        category: "biology",
+        text: "What is bradycardia?",
+        options: [
+          { id: "A", text: "A heart rate below normal" },
+          { id: "B", text: "An alteration of the myocardium that makes it smaller than normal" },
+          { id: "C", text: "A diastolic blood pressure value below 60 mmHg" },
+          { id: "D", text: "An anomaly of the atrioventricular valves" },
+          { id: "E", text: "A cardiac output below 5L/min" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q22_20",
+        category: "biology",
+        text: "The production of which substance can be compromised by a pathology affecting the endocrine pancreas?",
+        options: [
+          { id: "A", text: "Insulin" },
+          { id: "B", text: "Gastrin" },
+          { id: "C", text: "Histamine" },
+          { id: "D", text: "Adrenaline" },
+          { id: "E", text: "Oxytocin" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q23_20",
+        category: "biology",
+        text: "In which tissue are the cellular elements called chondrocytes found?",
+        options: [
+          { id: "A", text: "Cardiac muscle" },
+          { id: "B", text: "Dense connective" },
+          { id: "C", text: "Cartilaginous" },
+          { id: "D", text: "Spongy bone" },
+          { id: "E", text: "Glandular epithelial" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q24_20",
+        category: "biology",
+        text: "What is meant by the \"secondary structure\" of a protein?",
+        options: [
+          { id: "A", text: "The conformation of the polypeptide chain in regions as alpha-helix or beta-sheet" },
+          { id: "B", text: "The shape it assumes immediately after synthesis" },
+          { id: "C", text: "Its nucleotide sequence" },
+          { id: "D", text: "Its amino acid sequence" },
+          { id: "E", text: "The number of subunits of which the active protein is composed" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q25_20",
+        category: "biology",
+        text: "The genetic code:",
+        options: [
+          { id: "A", text: "Consists of 64 codons coding for amino acids" },
+          { id: "B", text: "Consists of 64 codons, three of which are STOP codons" },
+          { id: "C", text: "Consists of 64 codons, each coding for a different amino acid" },
+          { id: "D", text: "Is different from one organism to another" },
+          { id: "E", text: "In eukaryotes consists of DNA, while in viruses it consists of RNA" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q26_20",
+        category: "biology",
+        text: "The promoter:",
+        options: [
+          { id: "A", text: "Is an RNA sequence necessary to activate translation" },
+          { id: "B", text: "Is an RNA sequence necessary to activate the transcription of a gene" },
+          { id: "C", text: "Is a DNA sequence necessary to regulate the transcription of a gene" },
+          { id: "D", text: "Is the site of the beginning of transcription of a gene" },
+          { id: "E", text: "Is a protein factor necessary to activate the transcription of a gene" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q27_20",
+        category: "biology",
+        text: "Viruses:",
+        options: [
+          { id: "A", text: "Can have DNA or RNA genomes" },
+          { id: "B", text: "Can replicate outside host cells" },
+          { id: "C", text: "Are the smallest living organisms" },
+          { id: "D", text: "Do not infect plant cells" },
+          { id: "E", text: "Always kill the cells they infect" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q28_20",
+        category: "biology",
+        text: "Which of the following statements is NOT correct?",
+        options: [
+          { id: "A", text: "Glycolipids are the main constituents of cell membranes" },
+          { id: "B", text: "Glycerol is an organic compound containing three hydroxyl groups" },
+          { id: "C", text: "Glycogen is a polysaccharide with an energy storage function" },
+          { id: "D", text: "Glyceraldehyde is a three-carbon carbohydrate" },
+          { id: "E", text: "Glyphosate is a substance with herbicidal action" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q29_20",
+        category: "biology",
+        text: "Which of the following molecules is NOT a polymer?",
+        options: [
+          { id: "A", text: "insulin" },
+          { id: "B", text: "tRNA" },
+          { id: "C", text: "Deoxyribose" },
+          { id: "D", text: "Starch" },
+          { id: "E", text: "Chitin" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q30_20",
+        category: "biology",
+        text: "Which of the following statements about amino acids is correct?",
+        options: [
+          { id: "A", text: "The amino acids cysteine and methionine contain a sulfur atom" },
+          { id: "B", text: "The essential amino acids for humans are 20" },
+          { id: "C", text: "The amino acid with which protein synthesis always starts is arginine" },
+          { id: "D", text: "All amino acids have polar side chains" },
+          { id: "E", text: "All amino acids have an asymmetric carbon atom" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q31_20",
+        category: "biology",
+        text: "Which of the following statements about carbohydrates is correct?",
+        options: [
+          { id: "A", text: "All carbohydrates contain carbon, oxygen, hydrogen, and nitrogen" },
+          { id: "B", text: "Glyceraldehyde is a monosaccharide containing three carbon atoms" },
+          { id: "C", text: "The carbohydrates present in plant organisms have only a structural function" },
+          { id: "D", text: "Ribose and deoxyribose are six-carbon sugars" },
+          { id: "E", text: "Galactose is a disaccharide formed by the union of one molecule of glucose and one of lactose" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q32_20",
+        category: "biology",
+        text: "What is collagen, the most abundant molecule in the extracellular matrix of most animal cells?",
+        options: [
+          { id: "A", text: "A protein" },
+          { id: "B", text: "A steroid" },
+          { id: "C", text: "A triglyceride" },
+          { id: "D", text: "A polysaccharide" },
+          { id: "E", text: "A glycolipid" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q33_20",
+        category: "chemistry",
+        text: "Which of the following sequences correctly orders the cited organic compounds by increasing oxidation state?",
+        options: [
+          { id: "A", text: "Aldehyde, carboxylic acid, alcohol" },
+          { id: "B", text: "Alcohol, carboxylic acid, aldehyde" },
+          { id: "C", text: "Aldehyde, alcohol, carboxylic acid" },
+          { id: "D", text: "Alcohol, aldehyde, carboxylic acid" },
+          { id: "E", text: "Carboxylic acid, alcohol, aldehyde" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q34_20",
+        category: "chemistry",
+        text: "What is the molecular formula of an alkane with n carbon atoms?",
+        options: [
+          { id: "A", text: "CnH₂n+2" },
+          { id: "B", text: "CnH₂n" },
+          { id: "C", text: "CnH₂n-2" },
+          { id: "D", text: "CnHn+2" },
+          { id: "E", text: "CnHn" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q35_20",
+        category: "chemistry",
+        text: "Benzene is:",
+        options: [
+          { id: "A", text: "An aromatic hydrocarbon with 5 carbon atoms" },
+          { id: "B", text: "A saturated hydrocarbon with 6 carbon atoms" },
+          { id: "C", text: "An aromatic hydrocarbon with 6 carbon atoms" },
+          { id: "D", text: "A non-aromatic hydrocarbon with 6 carbon atoms" },
+          { id: "E", text: "An aromatic compound that is not a hydrocarbon with 6 carbon atoms" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q36_20",
+        category: "chemistry",
+        text: "According to Lewis theory, a base is a substance that can:",
+        options: [
+          { id: "A", text: "Donate a lone pair of electrons" },
+          { id: "B", text: "Accept a lone pair of electrons" },
+          { id: "C", text: "Donate an electron" },
+          { id: "D", text: "Accept an electron" },
+          { id: "E", text: "Form an ionic bond" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q37_20",
+        category: "chemistry",
+        text: "The triple point of a substance is a particular thermodynamic state determined by values of pressure and temperature at which:",
+        options: [
+          { id: "A", text: "Sublimation occurs" },
+          { id: "B", text: "The solid, liquid, and vapor phases coexist in equilibrium" },
+          { id: "C", text: "It is impossible to liquefy the gaseous state by simple compression" },
+          { id: "D", text: "In the presence of vapor, the solid floats on the liquid" },
+          { id: "E", text: "The substance has maximum density" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q38_20",
+        category: "chemistry",
+        text: "Which of the following chemical elements is an alkaline earth metal?",
+        options: [
+          { id: "A", text: "Barium" },
+          { id: "B", text: "Boron" },
+          { id: "C", text: "Potassium" },
+          { id: "D", text: "Lithium" },
+          { id: "E", text: "Sulfur" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q39_20",
+        category: "chemistry",
+        text: "A strong acid dissolved in water:",
+        options: [
+          { id: "A", text: "Dissociates completely" },
+          { id: "B", text: "Dissociates only partially" },
+          { id: "C", text: "Is completely undissociated" },
+          { id: "D", text: "Has a very small acid dissociation constant (Ka)" },
+          { id: "E", text: "Produces a solution with pH > 7" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q40_20",
+        category: "chemistry",
+        text: "CH₃-CH₂-NH-CH₂-CH₃",
+        options: [
+          { id: "A", text: "Is a primary amine" },
+          { id: "B", text: "Is a secondary amine" },
+          { id: "C", text: "Is a tertiary amine" },
+          { id: "D", text: "Is an amide" },
+          { id: "E", text: "Is an azide" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q41_20",
+        category: "chemistry",
+        text: "Phenol:",
+        options: [
+          { id: "A", text: "Is a weak acid" },
+          { id: "B", text: "Is a weak base" },
+          { id: "C", text: "Is an aromatic hydrocarbon and therefore neutral" },
+          { id: "D", text: "Is an aromatic hydrocarbon with 5 carbon atoms" },
+          { id: "E", text: "Is an aromatic hydrocarbon that contains an aldehyde group" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q42_20",
+        category: "chemistry",
+        text: "Balance the following reaction: SiO₂ + HF => H₂O + SiF₄",
+        options: [
+          { id: "A", text: "1, 4, 2, 1" },
+          { id: "B", text: "2, 4, 2, 1" },
+          { id: "C", text: "1, 8, 4, 2" },
+          { id: "D", text: "2, 4, 2, 4" },
+          { id: "E", text: "None of the other answers is correct" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q43_20",
+        category: "chemistry",
+        text: "ZnO in aqueous solution:",
+        options: [
+          { id: "A", text: "Acts as a base in acidic pH and as an acid in basic pH" },
+          { id: "B", text: "Acts as an acid in acidic pH and as a base in basic pH" },
+          { id: "C", text: "Acts as a base in both acidic and basic pH" },
+          { id: "D", text: "Acts as an acid in both acidic and basic pH" },
+          { id: "E", text: "Does not undergo acid-base reactions" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q44_20",
+        category: "chemistry",
+        text: "An example of an acid is:",
+        options: [
+          { id: "A", text: "NaCl" },
+          { id: "B", text: "KOH" },
+          { id: "C", text: "HClO" },
+          { id: "D", text: "NaOH" },
+          { id: "E", text: "Ca(OH)₂" }
+        ],
+        correctOption: "C"
+      },
+      {
+        id: "q45_20",
+        category: "chemistry",
+        text: "How many structural isomers of the molecule C₄H₉Br exist?",
+        options: [
+          { id: "A", text: "6" },
+          { id: "B", text: "2" },
+          { id: "C", text: "3" },
+          { id: "D", text: "5" },
+          { id: "E", text: "4" }
+        ],
+        correctOption: "E"
+      },
+      {
+        id: "q46_20",
+        category: "chemistry",
+        text: "If an aqueous solution of H₂SO₄ has a molarity of 2 M, what is its normality?",
+        options: [
+          { id: "A", text: "4 N" },
+          { id: "B", text: "2 N" },
+          { id: "C", text: "1 N" },
+          { id: "D", text: "3 N" },
+          { id: "E", text: "6 N" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q47_20",
+        category: "chemistry",
+        text: "Which of the following compounds is traditionally named chloric anhydride?",
+        options: [
+          { id: "A", text: "Cl₂O₅" },
+          { id: "B", text: "Cl₂O₇" },
+          { id: "C", text: "Cl₂O" },
+          { id: "D", text: "Cl₂O₃" },
+          { id: "E", text: "ClO₃" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q48_20",
+        category: "physics_math",
+        text: "The solutions of the inequality are the real numbers x such that:",
+        options: [
+          { id: "A", text: "x > 1" },
+          { id: "B", text: "1 < x ≤ 3" },
+          { id: "C", text: "x ≥ 3" },
+          { id: "D", text: "x ≤ −2 or 2 < x ≤ 3" },
+          { id: "E", text: "None of the other answers is correct" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q49_20",
+        category: "physics_math",
+        text: "The equation has among its solutions:",
+        options: [
+          { id: "A", text: "−3" },
+          { id: "B", text: "−1" },
+          { id: "C", text: "1" },
+          { id: "D", text: "3" },
+          { id: "E", text: "None of the other answers is correct" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q50_20",
+        category: "physics_math",
+        text: "The number (2)^(3/4) is equal to:",
+        options: [
+          { id: "A", text: "⁴√(2³)" },
+          { id: "B", text: "³√(2⁴)" },
+          { id: "C", text: "16³" },
+          { id: "D", text: "2 · ³√2" },
+          { id: "E", text: "8³" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q51_20",
+        category: "physics_math",
+        text: "The conic of the equation is:",
+        options: [
+          { id: "A", text: "A parabola" },
+          { id: "B", text: "A circle" },
+          { id: "C", text: "An ellipse, which is not a circle" },
+          { id: "D", text: "A hyperbola" },
+          { id: "E", text: "A pair of lines" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q52_20",
+        category: "physics_math",
+        text: "The repeating decimal number 2,\\overline{95} is equal to:",
+        options: [
+          { id: "A", text: "295/99" },
+          { id: "B", text: "293/99" },
+          { id: "C", text: "293/90" },
+          { id: "D", text: "295/90" },
+          { id: "E", text: "293/9" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q53_20",
+        category: "physics_math",
+        text: "Rolling a six-sided die twice, what is the probability of getting a 5 or a 6 at least once?",
+        options: [
+          { id: "A", text: "22/36" },
+          { id: "B", text: "24/36" },
+          { id: "C", text: "20/36" },
+          { id: "D", text: "11/36" },
+          { id: "E", text: "12/36" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q54_20",
+        category: "physics_math",
+        text: "What is the term for the direct transition of a substance from solid to gas?",
+        options: [
+          { id: "A", text: "Fusion" },
+          { id: "B", text: "Evaporation" },
+          { id: "C", text: "Condensation" },
+          { id: "D", text: "Sublimation" },
+          { id: "E", text: "Deposition" }
+        ],
+        correctOption: "D"
+      },
+      {
+        id: "q55_20",
+        category: "physics_math",
+        text: "Which of the following is NOT a characteristic of an ideal gas?",
+        options: [
+          { id: "A", text: "It consists of distinguishable molecules from one another" },
+          { id: "B", text: "It consists of point-like molecules, i.e., of negligible volume" },
+          { id: "C", text: "Collisions between gas molecules and container walls are elastic" },
+          { id: "D", text: "There are no interaction forces at a distance between gas molecules" },
+          { id: "E", text: "The motion of molecules is disordered, and their velocities are randomly distributed in all directions" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q56_20",
+        category: "physics_math",
+        text: "Given a current-carrying copper wire, what happens to a magnetic needle placed near it?",
+        options: [
+          { id: "A", text: "It aligns along the wire" },
+          { id: "B", text: "It aligns perpendicular to the magnetic field generated by the wire" },
+          { id: "C", text: "It remains stationary" },
+          { id: "D", text: "It aligns in the direction of the Earth's magnetic field" },
+          { id: "E", text: "It aligns in the direction of the magnetic field generated by the wire" }
+        ],
+        correctOption: "E"
+      },
+      {
+        id: "q57_20",
+        category: "physics_math",
+        text: "Which physical law is the principle of voltage transformers based on?",
+        options: [
+          { id: "A", text: "Faraday's Law" },
+          { id: "B", text: "Gauss's Theorem" },
+          { id: "C", text: "Coulomb's Law" },
+          { id: "D", text: "Kirchhoff's Laws" },
+          { id: "E", text: "Ohm's Laws" }
+        ],
+        correctOption: "A"
+      },
+      {
+        id: "q58_20",
+        category: "physics_math",
+        text: "The trajectory of a material point is defined as:",
+        options: [
+          { id: "A", text: "The law that provides the position of the material point as a function of time" },
+          { id: "B", text: "The locus of points occupied by the material point during its motion" },
+          { id: "C", text: "The segment joining the initial and final positions of the material point" },
+          { id: "D", text: "The curve describing the velocity over time" },
+          { id: "E", text: "The slope of the time graph" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q59_20",
+        category: "physics_math",
+        text: "What is the average acceleration of a Ferrari SF90 that accelerates from 0 to 100 km/h in 2.5 seconds?",
+        options: [
+          { id: "A", text: "Approximately 40 m/s²" },
+          { id: "B", text: "Approximately 11 m/s²" },
+          { id: "C", text: "Approximately 16 m/s²" },
+          { id: "D", text: "Approximately 9.8 m/s²" },
+          { id: "E", text: "Approximately −40 m/s²" }
+        ],
+        correctOption: "B"
+      },
+      {
+        id: "q60_20",
+        category: "physics_math",
+        text: "A body of volume V is immersed in a liquid. If the body sinks, which of the following relationships between the specific weight of the body (Pc) and the specific weight of the liquid (PL) is correct?",
+        options: [
+          { id: "A", text: "PL > Pc" },
+          { id: "B", text: "PL < Pc" },
+          { id: "C", text: "PL = Pc" },
+          { id: "D", text: "9.81 • PL = Pc" },
+          { id: "E", text: "V • PL = Pc" }
+        ],
+        correctOption: "B"
+      }
+    ]
   }
 }
